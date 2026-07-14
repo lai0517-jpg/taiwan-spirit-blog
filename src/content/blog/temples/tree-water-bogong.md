@@ -2,6 +2,7 @@
 title: "樹頭伯公／水頭伯公"
 category: "地景型土地守護分支"
 date: 2026-07-14
+image: "/taiwan-spirit-blog/assets/images/temples/tree-water-bogong.png"
 regions: ["西北丘陵・客庄古道靈格區"]
 cities: []
 tags: ["樹根土地靈","水源守護","樹洞福澤"]

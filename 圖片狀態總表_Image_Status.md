@@ -5,8 +5,8 @@
 ## 統計摘要｜Summary
 
 - 文章總數｜Total posts：307
-- 有圖片｜With image：25
-- 沒圖片｜Without image：282
+- 有圖片｜With image：30
+- 沒圖片｜Without image：277
 - 類別總數｜Categories：83
 
 ## 依類別總表｜By Category
@@ -21,11 +21,11 @@
 | 占卜問事系 | 2 | 4 | 筊杯<br><small>/taiwan-spirit-blog/assets/images/talismans/筊杯_jiaobei.jpg</small><br>籤詩／籤筒<br><small>/taiwan-spirit-blog/assets/images/talismans/籤詩-籤筒_fortune-sticks.jpg</small> | 乩筆／鸞筆<br>沙盤／扶鸞<br>米卦<br>藥籤 |
 | 命令法器系 | 1 | 3 | 令旗<br><small>/taiwan-spirit-blog/assets/images/talismans/令旗_command-flag.jpg</small> | 令尺<br>令牌／王令<br>朝笏 |
 | 器物請靈系 | 1 | 3 | 竹籃小靈<br><small>/taiwan-spirit-blog/assets/images/monsters/bamboo-basket-spirit.png</small> | 文字靈<br>木椅小靈<br>籤詩靈 |
-| 土地公系小型守護者 | 0 | 1 | — | 福澤 |
-| 土地守護／地氣管理 | 0 | 1 | — | 土地公／福德正神 |
-| 地景型使者／石靈 | 0 | 1 | — | 石爺公 |
-| 地景型土地守護分支 | 0 | 1 | — | 樹頭伯公／水頭伯公 |
-| 城市陰陽秩序／司法／陰司 | 0 | 1 | — | 城隍 |
+| 土地公系小型守護者 | 1 | 0 | 福澤<br><small>/taiwan-spirit-blog/assets/images/temples/fuzhe-guardian.png</small> | — |
+| 土地守護／地氣管理 | 1 | 0 | 土地公／福德正神<br><small>/taiwan-spirit-blog/assets/images/temples/tudigong.png</small> | — |
+| 地景型使者／石靈 | 1 | 0 | 石爺公<br><small>/taiwan-spirit-blog/assets/images/temples/stone-uncle.png</small> | — |
+| 地景型土地守護分支 | 1 | 0 | 樹頭伯公／水頭伯公<br><small>/taiwan-spirit-blog/assets/images/temples/tree-water-bogong.png</small> | — |
+| 城市陰陽秩序／司法／陰司 | 1 | 0 | 城隍<br><small>/taiwan-spirit-blog/assets/images/temples/chenghuang.png</small> | — |
 | 大樹信仰／土地守護 | 0 | 1 | — | 樹公與土地公合一 |
 | 天師法印系 | 2 | 3 | 法印<br><small>/taiwan-spirit-blog/assets/images/talismans/法印_dharma-seal.png</small><br>道經師寶印<br><small>/taiwan-spirit-blog/assets/images/talismans/道經師寶印_dao-jing-shi-bao-yin.png</small> | 天師印<br>法印印泥盒<br>玉清印／三清印／老君印 |
 | 女性冤魂與植物地景系 | 0 | 5 | — | 林投姐<br>椅仔姑<br>籃仔姑<br>金魅<br>陳守娘 |

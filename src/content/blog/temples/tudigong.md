@@ -2,6 +2,7 @@
 title: "土地公／福德正神"
 category: "土地守護／地氣管理"
 date: 2026-07-14
+image: "/taiwan-spirit-blog/assets/images/temples/tudigong.png"
 regions: ["北部盆地・河口靈格區","西北丘陵・客庄古道靈格區","中部河階・陶土靈格區","南部平原・地下祖靈城靈格區","東部縱谷・玉石祖靈靈格區","山林內陸・霧石靈格區"]
 cities: []
 tags: ["土地管理者","福澤上層系統","石體守護","樹根地靈"]

@@ -2,6 +2,7 @@
 title: "石爺公"
 category: "地景型使者／石靈"
 date: 2026-07-14
+image: "/taiwan-spirit-blog/assets/images/temples/stone-uncle.png"
 regions: ["西北丘陵・客庄古道靈格區"]
 cities: []
 tags: ["流血之石","石伯公","山腰守護石"]

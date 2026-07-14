@@ -2,6 +2,7 @@
 title: "城隍"
 category: "城市陰陽秩序／司法／陰司"
 date: 2026-07-14
+image: "/taiwan-spirit-blog/assets/images/temples/chenghuang.png"
 regions: ["北部盆地・河口靈格區","南部平原・地下祖靈城靈格區"]
 cities: []
 tags: ["城市判官","聖旨結界","簿冊管理者","亡魂引路系統"]

@@ -2,6 +2,7 @@
 title: "福澤"
 category: "土地公系小型守護者"
 date: 2026-07-14
+image: "/taiwan-spirit-blog/assets/images/temples/fuzhe-guardian.png"
 regions: ["北部盆地・河口靈格區","西北丘陵・客庄古道靈格區","中部河階・陶土靈格區","南部平原・地下祖靈城靈格區","東部縱谷・玉石祖靈靈格區","山林內陸・霧石靈格區"]
 cities: []
 tags: ["土地小使者","地氣調和者","福澤蛙系統"]

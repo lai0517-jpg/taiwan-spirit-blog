@@ -3,6 +3,7 @@ title: "竹籃小靈"
 subtitle: "別稱：籃仔姑轉化項"
 category: "器物請靈系"
 date: 2026-07-14
+image: "/taiwan-spirit-blog/assets/images/monsters/bamboo-basket-spirit.png"
 regions: ["南部平原・地下祖靈城","北部盆地・河口"]
 cities: ["家屋","女性請靈場域。是否台灣特有：創作轉化項。"]
 tags: ["竹籃小靈","提籃問事者","花粉籃靈"]

@@ -1,0 +1,244 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const { title, subtitle, category, image, date, regions } = post.data;
+const formattedDate = new Date(date).toLocaleDateString('zh-TW', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+
+// 提取內文摘要並移除 markdown 特殊語法與 frontmatter
+const summary = post.body
+  .replace(/^---[\s\S]*?---/, '') // 移除 frontmatter
+  .replace(/#+\s+[^\n]+/g, '')   // 移除 markdown 標題
+  .replace(/\[.*?\]\(.*?\)/g, '') // 移除連結文字
+  .replace(/[\n\r#*`_-]/g, ' ')   // 移除格式符號與換行
+  .trim()
+  .substring(0, 60) + '...';
+---
+
+<article class="article-card">
+  <a href={`/taiwan-spirit-blog/posts/${post.slug}`}>
+    <div class="image-area">
+      {image ? (
+        <img src={image} alt={title} class="card-image" />
+      ) : (
+        <div class="card-placeholder">
+          <div class="ritual-pattern">
+            <div class="inner-circle"></div>
+            <div class="outer-decor"></div>
+          </div>
+          <div class="placeholder-text">{subtitle || 'TAIWAN SPIRIT'}</div>
+        </div>
+      )}
+    </div>
+    
+    <div class="info-area">
+      <div class="card-meta">
+        <span class="meta-tag">{category}</span>
+        <time class="meta-date">{formattedDate}</time>
+      </div>
+      <h3 class="card-title">{title}</h3>
+      {subtitle && <p class="card-subtitle">{subtitle}</p>}
+      
+      <!-- 內文摘要 -->
+      <p class="card-summary">{summary}</p>
+      
+      <!-- 靈格地域 Badge -->
+      {regions && regions.length > 0 && (
+        <div class="card-tags-area">
+          <div class="regions-list">
+            {regions.slice(0, 2).map((r: string) => {
+              const shortRegion = r.replace('・', ' · ').replace('靈格區', '');
+              return <span class="region-badge">📍 {shortRegion}</span>;
+            })}
+          </div>
+        </div>
+      )}
+    </div>
+  </a>
+</article>
+
+<style>
+  .article-card {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  .article-card a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .article-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--color-gold);
+    box-shadow: 0 10px 20px rgba(216, 182, 109, 0.1), 0 0 15px var(--color-glow);
+  }
+  .image-area {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1; /* 調整為 1:1 正方形，與 1:1 像素圖比例一致，實現 100% 完整無黑邊顯示 */
+    background: radial-gradient(circle, #15181c 0%, #080a0c 100%);
+    overflow: hidden;
+  }
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 比例 1:1 重合，無失真、無裁切、無黑邊完整填滿 */
+    image-rendering: pixelated; /* 像素銳利化 */
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .article-card:hover .card-image {
+    transform: scale(1.05);
+  }
+  
+  /* 古典無圖占位框設計 */
+  .card-placeholder {
+    width: 100%;
+    height: 100%;
+    border: 2px dashed rgba(216, 182, 109, 0.2);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: radial-gradient(circle, rgba(46, 37, 24, 0.3) 0%, rgba(13, 15, 18, 0.8) 100%);
+  }
+  .article-card:hover .card-placeholder {
+    border-color: rgba(216, 182, 109, 0.5);
+  }
+  .ritual-pattern {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(216, 182, 109, 0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 0.8rem;
+    animation: rotate-slow 20s linear infinite;
+  }
+  .inner-circle {
+    width: 40px;
+    height: 40px;
+    border: 1px dashed rgba(216, 182, 109, 0.4);
+    border-radius: 50%;
+  }
+  .outer-decor::before, .outer-decor::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(216, 182, 109, 0.2);
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .outer-decor::after {
+    transform: translate(-50%, -50%) rotate(22.5deg);
+  }
+  .placeholder-text {
+    font-family: var(--font-cinzel);
+    font-size: 0.75rem;
+    color: var(--color-gold);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.8;
+  }
+  
+  /* 資訊區 */
+  .info-area {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  .meta-tag {
+    font-size: 0.75rem;
+    color: var(--color-gold);
+    background-color: rgba(216, 182, 109, 0.1);
+    padding: 0.15rem 0.4rem;
+    border-radius: 2px;
+    border: 1px solid rgba(216, 182, 109, 0.15);
+  }
+  .meta-date {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+  .card-title {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    color: var(--color-text);
+    margin-bottom: 0.25rem;
+    transition: color 0.2s;
+  }
+  .article-card:hover .card-title {
+    color: var(--color-gold-bright);
+  }
+  .card-subtitle {
+    font-family: var(--font-cinzel);
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+    margin-bottom: 0.5rem;
+  }
+  .card-summary {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    line-height: 1.5;
+    margin: 0.4rem 0 0.8rem 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: justify;
+  }
+  .card-tags-area {
+    margin-top: auto; /* 將地域 Badge 推至最下方固定 */
+    border-top: 1px dashed rgba(216, 182, 109, 0.1);
+    padding-top: 0.6rem;
+  }
+  .regions-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+  .region-badge {
+    font-size: 0.7rem;
+    color: var(--color-gold);
+    opacity: 0.85;
+    background-color: rgba(216, 182, 109, 0.05);
+    padding: 0.1rem 0.35rem;
+    border-radius: 2px;
+    white-space: nowrap;
+    border: 1px solid rgba(216, 182, 109, 0.1);
+  }
+  
+  @keyframes rotate-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+</style>

@@ -6,6 +6,7 @@ regions: ["南部平原・地下祖靈城靈格區","山林內陸・霧石靈格
 cities: []
 tags: ["水界警告者","魚身浮臉","吃下亡魂"]
 draft: false
+image: "/assets/images/temples/human-face-fish.png"
 ---
 
 【快速提示】

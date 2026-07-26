@@ -6,6 +6,7 @@ regions: ["北部盆地・河口靈格區","南部平原・地下祖靈城靈格
 cities: []
 tags: ["接災女神","焦黑神衣","雲端撥災"]
 draft: false
+image: "/assets/images/temples/mazu-bomb.png"
 ---
 
 【故事提示】

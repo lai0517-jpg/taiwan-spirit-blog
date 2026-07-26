@@ -5,8 +5,8 @@
 ## 統計摘要｜Summary
 
 - 文章總數｜Total posts：307
-- 有圖片｜With image：35
-- 沒圖片｜Without image：272
+- 有圖片｜With image：45
+- 沒圖片｜Without image：262
 - 類別總數｜Categories：83
 
 ## 依類別總表｜By Category
@@ -29,18 +29,18 @@
 | 大樹信仰／土地守護 | 0 | 1 | — | 樹公與土地公合一 |
 | 天師法印系 | 2 | 3 | 法印<br><small>/taiwan-spirit-blog/assets/images/talismans/法印_dharma-seal.png</small><br>道經師寶印<br><small>/taiwan-spirit-blog/assets/images/talismans/道經師寶印_dao-jing-shi-bao-yin.png</small> | 天師印<br>法印印泥盒<br>玉清印／三清印／老君印 |
 | 女性冤魂與植物地景系 | 0 | 5 | — | 林投姐<br>椅仔姑<br>籃仔姑<br>金魅<br>陳守娘 |
-| 女性冤魂／府城鬼系 | 0 | 1 | — | 林投姐 |
+| 女性冤魂／府城鬼系 | 1 | 0 | 林投姐<br><small>/assets/images/temples/linto.png</small> | — |
 | 守土英靈／客庄記憶 | 0 | 1 | — | 義民爺 |
 | 客庄土地守護／地方記憶 | 1 | 0 | 伯公守庄<br><small>/taiwan-spirit-blog/assets/images/temples/bogong-protect.png</small> | — |
 | 山林祖靈／入山倫理 | 0 | 1 | — | 山神／祖靈 |
-| 山林精怪／迷路傳說 | 0 | 1 | — | 魔神仔牽人 |
-| 山林精怪／迷路系 | 0 | 1 | — | 魔神仔 |
+| 山林精怪／迷路傳說 | 1 | 0 | 魔神仔牽人<br><small>/assets/images/temples/moshina-lure.png</small> | — |
+| 山林精怪／迷路系 | 1 | 0 | 魔神仔<br><small>/assets/images/temples/moshina.png</small> | — |
 | 山林迷路系 | 0 | 9 | — | 山精水怪<br>甜霧果<br>竹林迷路<br>芒草山路<br>菇童<br>餌果靈／誘食系精怪<br>魔神仔洞<br>魔神仔／魔形<br>黃色小飛俠 |
 | 山王／移民聚落守護 | 0 | 1 | — | 三山國王 |
 | 巡境安境／神明出巡 | 0 | 1 | — | 王爺代天巡狩 |
 | 巡境／送疫／代天巡狩 | 0 | 1 | — | 王爺／千歲 |
 | 廟宇制衡系統 | 0 | 8 | — | 五營兵將<br>八家將／什家將<br>土地公／伯公<br>城隍<br>山神／祖靈<br>王爺／千歲<br>福澤<br>范謝將軍／七爺八爺 |
-| 戰爭記憶／神蹟傳說 | 0 | 1 | — | 媽祖接炸彈 |
+| 戰爭記憶／神蹟傳說 | 1 | 0 | 媽祖接炸彈<br><small>/assets/images/temples/mazu-bomb.png</small> | — |
 | 戰爭護城／地方信仰故事 | 0 | 1 | — | 淡水神明擋砲彈 |
 | 文書與執法部將 | 0 | 1 | — | 文判／武判 |
 | 書符材料・法術原料系 | 0 | 13 | — | 朱墨／墨<br>毛筆／符筆<br>硃砂<br>硃砂印泥<br>硃砂筆<br>硯台／水盂<br>符水<br>符灰<br>符紙／黃紙<br>紅紙／門符紙<br>雞血／公雞血<br>香灰<br>黑狗血 |
@@ -59,8 +59,8 @@
 | 水邊魚靈系 | 0 | 5 | — | 人面魚<br>抓交替<br>水鬼<br>水鬼變城隍<br>溪谷深潭禁忌 |
 | 法令擋災／地方傳說 | 1 | 0 | 城隍聖旨擋炸彈<br><small>/taiwan-spirit-blog/assets/images/temples/citygod-decree.png</small> | — |
 | 海岸濕地 | 0 | 11 | — | 林投樹<br>棋盤腳<br>欖仁<br>水筆仔<br>水黃皮<br>海檬果<br>海茄苳<br>草海桐<br>蘆葦<br>馬鞍藤<br>黃槿 |
-| 海路／港口／移民守護神 | 0 | 1 | — | 媽祖 |
-| 海難救助／引航傳說 | 0 | 1 | — | 媽祖救船避風浪 |
+| 海路／港口／移民守護神 | 1 | 0 | 媽祖<br><small>/assets/images/temples/mazu.png</small> | — |
+| 海難救助／引航傳說 | 1 | 0 | 媽祖救船避風浪<br><small>/assets/images/temples/mazu-sea.png</small> | — |
 | 犧牲者成神／客庄守護 | 0 | 1 | — | 義民守土成神 |
 | 獸精變形系 | 0 | 5 | — | 山獸化形<br>燈猴<br>石虎守護延伸<br>虎姑婆／虎婆<br>蛇郎君 |
 | 疏文文書系 | 0 | 4 | — | 文疏袋／疏文封<br>牒文／關文<br>疏文<br>表文／章奏 |
@@ -82,15 +82,15 @@
 | 赤蛙／溪流型 | 1 | 0 | 斯文豪氏赤蛙<br><small>/taiwan-spirit-blog/assets/images/fuzhe/swinhoe-frog.jpg</small> | — |
 | 送疫送煞／王船祭典 | 0 | 1 | — | 王船押送災厄 |
 | 遶境神轎・王船普渡系 | 1 | 9 | 神轎<br><small>/taiwan-spirit-blog/assets/images/talismans/神轎_palanquin.jpg</small> | 官將首／八家將刑具<br>招魂幡／引魂幡<br>普渡旗／孤魂旗<br>火籤／枷鎖<br>王船<br>王船龍骨／紙紮王船<br>神明傘／涼傘<br>頭旗／進香旗<br>香擔 |
-| 都市傳說／水邊靈異 | 0 | 1 | — | 人面魚 |
+| 都市傳說／水邊靈異 | 1 | 0 | 人面魚<br><small>/assets/images/temples/human-face-fish.png</small> | — |
 | 醫藥神／修復系統 | 1 | 0 | 保生大帝<br><small>/taiwan-spirit-blog/assets/images/temples/baosheng.png</small> | — |
 | 金紙圖像・陰司紙錢系 | 2 | 8 | 地府錢／將軍錢<br><small>/taiwan-spirit-blog/assets/images/talismans/地府錢-將軍錢_difu-money-jiangjun-money.png</small><br>太歲紙錢<br><small>/taiwan-spirit-blog/assets/images/talismans/太歲紙錢_taisui-joss-paper.png</small> | 七星錢<br>十二元神紙錢<br>天官錢<br>改厄錢<br>本命錢<br>牛馬將軍紙錢<br>童子錢<br>過關錢 |
 | 金紙火化系 | 0 | 10 | — | 三色金／四色金／五色金<br>刈金<br>壽金<br>天公金<br>庫錢<br>往生錢<br>甲馬<br>福金／土地公金<br>金紙<br>銀紙／冥紙 |
 | 針葉木／高山地景 | 0 | 1 | — | 台灣扁柏 |
-| 陣式驅邪／巡境執行 | 0 | 1 | — | 八家將步伐結界 |
+| 陣式驅邪／巡境執行 | 1 | 0 | 八家將步伐結界<br><small>/assets/images/temples/jiang-step.png</small> | — |
 | 陣頭執行者／巡境部將 | 1 | 0 | 八家將／什家將<br><small>/taiwan-spirit-blog/assets/images/temples/bajiajiang.png</small> | — |
-| 陰司執行者 | 0 | 1 | — | 范謝將軍／七爺八爺 |
-| 陰司／鎮邪開路部將 | 0 | 1 | — | 官將首 |
+| 陰司執行者 | 1 | 0 | 范謝將軍／七爺八爺<br><small>/assets/images/temples/fanxie.png</small> | — |
+| 陰司／鎮邪開路部將 | 1 | 0 | 官將首<br><small>/assets/images/temples/guanjian.png</small> | — |
 | 靈界交通工具／送疫載體 | 0 | 1 | — | 王船 |
 | 香火爐器・煙火光系 | 0 | 7 | — | 光明燈／長明燈<br>天公爐<br>燭台／神明燈<br>線香／環香<br>金爐／化金爐<br>香<br>香爐 |
 | 驅邪押煞法器系 | 3 | 4 | 八卦鏡<br><small>/taiwan-spirit-blog/assets/images/talismans/八卦鏡_bagua-mirror.jpg</small><br>桃木劍<br><small>/taiwan-spirit-blog/assets/images/talismans/桃木劍_peachwood-sword.jpg</small><br>法劍／七星劍<br><small>/taiwan-spirit-blog/assets/images/talismans/法劍-七星劍_seven-star-sword.jpg</small> | 拂塵<br>法索／法繩<br>法鞭<br>銅鏡 |

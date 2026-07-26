@@ -6,6 +6,7 @@ regions: ["北部盆地・河口靈格區","中部河階・陶土靈格區","南
 cities: []
 tags: ["海風守護者","霧中引航者","船路靈"]
 draft: false
+image: "/assets/images/temples/mazu-sea.png"
 ---
 
 【故事提示】

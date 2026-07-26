@@ -6,6 +6,7 @@ regions: ["北部盆地・河口靈格區","中部河階・陶土靈格區","南
 cities: []
 tags: ["海風女神","遠望耳目","雲端接災","港口結界"]
 draft: false
+image: "/assets/images/temples/mazu.png"
 ---
 
 【快速提示】

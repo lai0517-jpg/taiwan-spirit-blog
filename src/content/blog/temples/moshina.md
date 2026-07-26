@@ -6,6 +6,7 @@ regions: ["北部盆地・河口靈格區","西北丘陵・客庄古道靈格區
 cities: []
 tags: ["迷路靈","山界引路者","霧中小神"]
 draft: false
+image: "/assets/images/temples/moshina.png"
 ---
 
 【快速提示】

@@ -6,6 +6,7 @@ regions: ["南部平原・地下祖靈城靈格區"]
 cities: []
 tags: ["南方女鬼樹","林投樹下的冤魂"]
 draft: false
+image: "/assets/images/temples/linto.png"
 ---
 
 【快速提示】

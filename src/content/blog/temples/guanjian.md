@@ -6,6 +6,7 @@ regions: ["北部盆地・河口靈格區","南部平原・地下祖靈城靈格
 cities: []
 tags: ["陰司武將","開路將軍","鎮邪面具"]
 draft: false
+image: "/assets/images/temples/guanjian.png"
 ---
 
 【快速提示】

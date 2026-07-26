@@ -6,7 +6,7 @@ regions: ["南部平原・地下祖靈城靈格區"]
 cities: []
 tags: ["面具神將","地面法陣","步伐封街"]
 draft: false
-image: "/assets/images/temples/jiang-step.png"
+image: "/taiwan-spirit-blog/assets/images/temples/jiang-step.png"
 ---
 
 【故事提示】

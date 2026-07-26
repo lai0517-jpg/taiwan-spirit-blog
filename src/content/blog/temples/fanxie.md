@@ -6,7 +6,7 @@ regions: ["北部盆地・河口靈格區","南部平原・地下祖靈城靈格
 cities: []
 tags: ["黑白引路者","亡魂拘捕者","陰陽開路"]
 draft: false
-image: "/assets/images/temples/fanxie.png"
+image: "/taiwan-spirit-blog/assets/images/temples/fanxie.png"
 ---
 
 【快速提示】

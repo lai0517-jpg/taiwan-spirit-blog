@@ -1,0 +1,143 @@
+---
+interface Props {
+  variant?: 'sidebar' | 'bottom';
+}
+
+const { variant = 'bottom' } = Astro.props;
+const basePath = '/taiwan-spirit-blog';
+const currentPath = Astro.url.pathname.replace(/\/$/, '');
+
+const quickLinks = [
+  { label: '最新', href: `${basePath}/`, theme: '' },
+  { label: '福澤', href: `${basePath}/fuzhe`, theme: 'fuzhe' },
+  { label: '精怪', href: `${basePath}/monsters`, theme: 'monsters' },
+  { label: '廟宇', href: `${basePath}/temples`, theme: 'temples' },
+  { label: '植物', href: `${basePath}/plants`, theme: 'plants' },
+  { label: '符物', href: `${basePath}/talismans`, theme: 'talismans' },
+];
+
+function isActive(theme: string) {
+  if (!theme) {
+    return currentPath === basePath || currentPath === '';
+  }
+  return currentPath.startsWith(`${basePath}/${theme}`) || currentPath.startsWith(`${basePath}/posts/${theme}`);
+}
+---
+
+<nav class:list={['quick-nav', `quick-nav-${variant}`]} aria-label="快選目錄">
+  <div class="quick-nav-title">快選｜Quick</div>
+  <div class="quick-nav-list">
+    {quickLinks.map((link) => (
+      <a
+        href={link.href}
+        class:list={['quick-nav-link', { active: isActive(link.theme) }]}
+      >
+        {link.label}
+      </a>
+    ))}
+  </div>
+</nav>
+
+<style>
+  .quick-nav {
+    color: var(--color-text);
+  }
+  .quick-nav-title {
+    font-family: var(--font-cinzel);
+    font-size: 0.72rem;
+    color: var(--color-text-muted);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  .quick-nav-list {
+    display: flex;
+    gap: 0.45rem;
+  }
+  .quick-nav-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 34px;
+    border: 1px solid rgba(216, 182, 109, 0.16);
+    background-color: rgba(216, 182, 109, 0.05);
+    color: var(--color-text-muted);
+    border-radius: 4px;
+    font-size: 0.86rem;
+    line-height: 1;
+    white-space: nowrap;
+    transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+  }
+  .quick-nav-link:hover,
+  .quick-nav-link.active {
+    border-color: var(--color-gold);
+    background-color: rgba(216, 182, 109, 0.12);
+    color: var(--color-gold-bright);
+  }
+
+  .quick-nav-sidebar {
+    border-bottom: 1px dashed rgba(216, 182, 109, 0.14);
+    margin-bottom: 1.35rem;
+    padding-bottom: 1.15rem;
+  }
+  .quick-nav-sidebar .quick-nav-title {
+    margin-bottom: 0.65rem;
+  }
+  .quick-nav-sidebar .quick-nav-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .quick-nav-sidebar .quick-nav-link {
+    padding: 0 0.55rem;
+  }
+
+  .quick-nav-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 280px;
+    z-index: 990;
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    min-height: 64px;
+    border-top: 1px solid var(--color-border);
+    background-color: rgba(13, 15, 18, 0.94);
+    backdrop-filter: blur(10px);
+    padding: 0.7rem 1rem;
+    box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.24);
+  }
+  .quick-nav-bottom .quick-nav-title {
+    flex: 0 0 auto;
+  }
+  .quick-nav-bottom .quick-nav-list {
+    flex: 1;
+    min-width: 0;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    padding-bottom: 0.15rem;
+    scrollbar-width: thin;
+  }
+  .quick-nav-bottom .quick-nav-link {
+    min-width: 72px;
+    padding: 0 0.8rem;
+  }
+
+  @media (max-width: 768px) {
+    .quick-nav-bottom {
+      left: 0;
+      min-height: 58px;
+      gap: 0.65rem;
+      padding: 0.6rem 0.75rem;
+    }
+    .quick-nav-bottom .quick-nav-title {
+      font-size: 0.66rem;
+      letter-spacing: 1px;
+    }
+    .quick-nav-bottom .quick-nav-link {
+      min-width: 64px;
+      min-height: 32px;
+      padding: 0 0.65rem;
+      font-size: 0.82rem;
+    }
+  }
+</style>

@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import QuickNav from './QuickNav.astro';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 
@@ -38,6 +39,8 @@ const themes = Object.keys(navigationData).sort();
       <span class="brand-subtitle">TAIWAN SPIRIT LOG</span>
     </a>
   </div>
+
+  <QuickNav variant="sidebar" />
   
   <nav class="nav-tree">
     {themes.map((theme) => (

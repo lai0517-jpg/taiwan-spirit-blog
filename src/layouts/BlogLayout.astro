@@ -1,6 +1,7 @@
 ---
 import { ViewTransitions } from 'astro:transitions';
 import Sidebar from '../components/Sidebar.astro';
+import QuickNav from '../components/QuickNav.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -43,6 +44,8 @@ const { title } = Astro.props;
       </main>
     </div>
 
+    <QuickNav variant="bottom" />
+
     <script is:inline>
       function setupMobileMenu() {
         const menuToggle = document.getElementById('menu-toggle');
@@ -80,7 +83,7 @@ const { title } = Astro.props;
       }
       .main-content {
         flex: 1;
-        padding: 2rem;
+        padding: 2rem 2rem 6rem;
         background-color: var(--color-bg);
         overflow-y: auto;
         height: 100vh;
@@ -101,7 +104,7 @@ const { title } = Astro.props;
         .main-content {
           height: auto;
           min-height: calc(100vh - 60px);
-          padding: 1.5rem 1rem;
+          padding: 1.5rem 1rem 5.5rem;
         }
         
         /* 啟用行動端頂部導覽列 */

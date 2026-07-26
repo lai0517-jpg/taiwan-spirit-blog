@@ -51,8 +51,14 @@ const { title } = Astro.props;
         const menuToggle = document.getElementById('menu-toggle');
         const sidebar = document.querySelector('.sidebar');
         const backdrop = document.getElementById('sidebar-backdrop');
+        const sidebarScrollKey = 'taiwan-spirit-sidebar-scroll';
         
         if (!menuToggle || !sidebar || !backdrop) return;
+
+        const savedScroll = sessionStorage.getItem(sidebarScrollKey);
+        if (savedScroll !== null) {
+          sidebar.scrollTop = Number(savedScroll);
+        }
         
         function setMenuOpen(isOpen) {
           sidebar.classList.toggle('active', isOpen);
@@ -65,7 +71,10 @@ const { title } = Astro.props;
         menuToggle.onclick = () => setMenuOpen(!sidebar.classList.contains('active'));
         backdrop.onclick = () => setMenuOpen(false);
         sidebar.querySelectorAll('a').forEach((link) => {
-          link.addEventListener('click', () => setMenuOpen(false), { once: true });
+          link.addEventListener('click', () => {
+            sessionStorage.setItem(sidebarScrollKey, String(sidebar.scrollTop));
+            setMenuOpen(false);
+          }, { once: true });
         });
         
         // 換頁後自動重置選單狀態

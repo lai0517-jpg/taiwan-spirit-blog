@@ -5,8 +5,8 @@
 ## 統計摘要｜Summary
 
 - 文章總數｜Total posts：307
-- 有圖片｜With image：30
-- 沒圖片｜Without image：277
+- 有圖片｜With image：35
+- 沒圖片｜Without image：272
 - 類別總數｜Categories：83
 
 ## 依類別總表｜By Category
@@ -31,7 +31,7 @@
 | 女性冤魂與植物地景系 | 0 | 5 | — | 林投姐<br>椅仔姑<br>籃仔姑<br>金魅<br>陳守娘 |
 | 女性冤魂／府城鬼系 | 0 | 1 | — | 林投姐 |
 | 守土英靈／客庄記憶 | 0 | 1 | — | 義民爺 |
-| 客庄土地守護／地方記憶 | 0 | 1 | — | 伯公守庄 |
+| 客庄土地守護／地方記憶 | 1 | 0 | 伯公守庄<br><small>/taiwan-spirit-blog/assets/images/temples/bogong-protect.png</small> | — |
 | 山林祖靈／入山倫理 | 0 | 1 | — | 山神／祖靈 |
 | 山林精怪／迷路傳說 | 0 | 1 | — | 魔神仔牽人 |
 | 山林精怪／迷路系 | 0 | 1 | — | 魔神仔 |
@@ -57,7 +57,7 @@
 | 民俗淨化・界線材料系 | 0 | 5 | — | 掃帚／雞毛帚<br>水／午時水<br>米篩<br>米／鹽<br>紅線／紅布 |
 | 水域亡魂／抓交替 | 0 | 1 | — | 水鬼 |
 | 水邊魚靈系 | 0 | 5 | — | 人面魚<br>抓交替<br>水鬼<br>水鬼變城隍<br>溪谷深潭禁忌 |
-| 法令擋災／地方傳說 | 0 | 1 | — | 城隍聖旨擋炸彈 |
+| 法令擋災／地方傳說 | 1 | 0 | 城隍聖旨擋炸彈<br><small>/taiwan-spirit-blog/assets/images/temples/citygod-decree.png</small> | — |
 | 海岸濕地 | 0 | 11 | — | 林投樹<br>棋盤腳<br>欖仁<br>水筆仔<br>水黃皮<br>海檬果<br>海茄苳<br>草海桐<br>蘆葦<br>馬鞍藤<br>黃槿 |
 | 海路／港口／移民守護神 | 0 | 1 | — | 媽祖 |
 | 海難救助／引航傳說 | 0 | 1 | — | 媽祖救船避風浪 |
@@ -78,17 +78,17 @@
 | 蘭科稀有花草 | 0 | 8 | — | 玉山薄雪草<br>白及<br>綬草<br>臺灣一葉蘭<br>臺灣喜普鞋蘭<br>臺灣油點草<br>臺灣百合<br>金花石蒜 |
 | 蛙／田野水澤型 | 1 | 0 | 澤蛙<br><small>/taiwan-spirit-blog/assets/images/fuzhe/paddy-frog.jpg</small> | — |
 | 蟾蜍／全台普遍型 | 1 | 0 | 盤古蟾蜍<br><small>/taiwan-spirit-blog/assets/images/fuzhe/bankorensis-toad.jpg</small> | — |
-| 請靈儀式／女性靈體 | 0 | 1 | — | 椅仔姑 |
+| 請靈儀式／女性靈體 | 1 | 0 | 椅仔姑<br><small>/taiwan-spirit-blog/assets/images/temples/chair-spirit.png</small> | — |
 | 赤蛙／溪流型 | 1 | 0 | 斯文豪氏赤蛙<br><small>/taiwan-spirit-blog/assets/images/fuzhe/swinhoe-frog.jpg</small> | — |
 | 送疫送煞／王船祭典 | 0 | 1 | — | 王船押送災厄 |
 | 遶境神轎・王船普渡系 | 1 | 9 | 神轎<br><small>/taiwan-spirit-blog/assets/images/talismans/神轎_palanquin.jpg</small> | 官將首／八家將刑具<br>招魂幡／引魂幡<br>普渡旗／孤魂旗<br>火籤／枷鎖<br>王船<br>王船龍骨／紙紮王船<br>神明傘／涼傘<br>頭旗／進香旗<br>香擔 |
 | 都市傳說／水邊靈異 | 0 | 1 | — | 人面魚 |
-| 醫藥神／修復系統 | 0 | 1 | — | 保生大帝 |
+| 醫藥神／修復系統 | 1 | 0 | 保生大帝<br><small>/taiwan-spirit-blog/assets/images/temples/baosheng.png</small> | — |
 | 金紙圖像・陰司紙錢系 | 2 | 8 | 地府錢／將軍錢<br><small>/taiwan-spirit-blog/assets/images/talismans/地府錢-將軍錢_difu-money-jiangjun-money.png</small><br>太歲紙錢<br><small>/taiwan-spirit-blog/assets/images/talismans/太歲紙錢_taisui-joss-paper.png</small> | 七星錢<br>十二元神紙錢<br>天官錢<br>改厄錢<br>本命錢<br>牛馬將軍紙錢<br>童子錢<br>過關錢 |
 | 金紙火化系 | 0 | 10 | — | 三色金／四色金／五色金<br>刈金<br>壽金<br>天公金<br>庫錢<br>往生錢<br>甲馬<br>福金／土地公金<br>金紙<br>銀紙／冥紙 |
 | 針葉木／高山地景 | 0 | 1 | — | 台灣扁柏 |
 | 陣式驅邪／巡境執行 | 0 | 1 | — | 八家將步伐結界 |
-| 陣頭執行者／巡境部將 | 0 | 1 | — | 八家將／什家將 |
+| 陣頭執行者／巡境部將 | 1 | 0 | 八家將／什家將<br><small>/taiwan-spirit-blog/assets/images/temples/bajiajiang.png</small> | — |
 | 陰司執行者 | 0 | 1 | — | 范謝將軍／七爺八爺 |
 | 陰司／鎮邪開路部將 | 0 | 1 | — | 官將首 |
 | 靈界交通工具／送疫載體 | 0 | 1 | — | 王船 |

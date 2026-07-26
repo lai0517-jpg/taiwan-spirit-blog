@@ -2,6 +2,7 @@
 title: "保生大帝"
 category: "醫藥神／修復系統"
 date: 2026-07-14
+image: "/taiwan-spirit-blog/assets/images/temples/baosheng.png"
 regions: ["北部盆地・河口靈格區","南部平原・地下祖靈城靈格區"]
 cities: []
 tags: ["醫藥守護","修復神格","病厄淨化"]

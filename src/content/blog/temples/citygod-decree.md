@@ -2,6 +2,7 @@
 title: "城隍聖旨擋炸彈"
 category: "法令擋災／地方傳說"
 date: 2026-07-14
+image: "/taiwan-spirit-blog/assets/images/temples/citygod-decree.png"
 regions: ["北部盆地・河口靈格區"]
 cities: []
 tags: ["聖旨結界","城市判官","紙令承災"]

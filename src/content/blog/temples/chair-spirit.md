@@ -2,6 +2,7 @@
 title: "椅仔姑"
 category: "請靈儀式／女性靈體"
 date: 2026-07-14
+image: "/taiwan-spirit-blog/assets/images/temples/chair-spirit.png"
 regions: ["南部平原・地下祖靈城靈格區","北部盆地・河口靈格區"]
 cities: []
 tags: ["椅上之靈","無身之口","物件媒介靈"]

@@ -2,6 +2,7 @@
 title: "伯公守庄"
 category: "客庄土地守護／地方記憶"
 date: 2026-07-14
+image: "/taiwan-spirit-blog/assets/images/temples/bogong-protect.png"
 regions: ["西北丘陵・客庄古道靈格區"]
 cities: []
 tags: ["客庄守望者","水頭福澤","田頭地靈"]

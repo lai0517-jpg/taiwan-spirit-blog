@@ -2,6 +2,7 @@
 title: "八家將／什家將"
 category: "陣頭執行者／巡境部將"
 date: 2026-07-14
+image: "/taiwan-spirit-blog/assets/images/temples/bajiajiang.png"
 regions: ["南部平原・地下祖靈城靈格區"]
 cities: []
 tags: ["面具神將","地面法陣","巡境執行層"]

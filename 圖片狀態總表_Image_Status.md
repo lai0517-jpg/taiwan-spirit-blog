@@ -5,8 +5,8 @@
 ## 統計摘要｜Summary
 
 - 文章總數｜Total posts：307
-- 有圖片｜With image：117
-- 沒圖片｜Without image：190
+- 有圖片｜With image：122
+- 沒圖片｜Without image：185
 - 類別總數｜Categories：83
 
 ## 依類別總表｜By Category
@@ -18,8 +18,8 @@
 | 作物與飲食原料 | 0 | 15 | — | 愛玉<br>檳榔<br>麵粉<br>薏苡<br>小米<br>芥菜／福菜<br>柿子<br>樹豆<br>稻米<br>黃豆<br>甘蔗<br>地瓜<br>芋頭<br>茶<br>油桐 |
 | 供品祭品系 | 0 | 10 | — | 三牲／五牲<br>供花<br>水／午時水<br>湯圓／麻糬<br>米／平安米<br>紅龜粿／發粿<br>素果／水果<br>酒／茶<br>鹽／鹽米<br>麵線／壽麵 |
 | 動物型使者／廟下守護獸 | 1 | 0 | 虎爺<br><small>/taiwan-spirit-blog/assets/images/temples/tiger-god.png?v=20260727-complete-temples</small> | — |
-| 占卜問事系 | 2 | 4 | 筊杯<br><small>/taiwan-spirit-blog/assets/images/talismans/筊杯_jiaobei.jpg</small><br>籤詩／籤筒<br><small>/taiwan-spirit-blog/assets/images/talismans/籤詩-籤筒_fortune-sticks.jpg</small> | 乩筆／鸞筆<br>沙盤／扶鸞<br>米卦<br>藥籤 |
-| 命令法器系 | 2 | 2 | 令旗<br><small>/taiwan-spirit-blog/assets/images/talismans/令旗_command-flag.jpg</small><br>令牌／王令<br><small>/taiwan-spirit-blog/assets/images/talismans/command-token-real.png?v=20260728-talismans-real-01</small> | 令尺<br>朝笏 |
+| 占卜問事系 | 3 | 3 | 乩筆／鸞筆<br><small>/taiwan-spirit-blog/assets/images/talismans/spirit-writing-planchette-real.png?v=20260728-talismans-real-02</small><br>筊杯<br><small>/taiwan-spirit-blog/assets/images/talismans/jiaobei-real.png?v=20260728-talismans-real-02</small><br>籤詩／籤筒<br><small>/taiwan-spirit-blog/assets/images/talismans/籤詩-籤筒_fortune-sticks.jpg</small> | 沙盤／扶鸞<br>米卦<br>藥籤 |
+| 命令法器系 | 4 | 0 | 令旗<br><small>/taiwan-spirit-blog/assets/images/talismans/command-flag-real.png?v=20260728-talismans-real-02</small><br>令牌／王令<br><small>/taiwan-spirit-blog/assets/images/talismans/command-token-real.png?v=20260728-talismans-real-01</small><br>令尺<br><small>/taiwan-spirit-blog/assets/images/talismans/command-ruler-real.png?v=20260728-talismans-real-02</small><br>朝笏<br><small>/taiwan-spirit-blog/assets/images/talismans/court-tablet-real.png?v=20260728-talismans-real-02</small> | — |
 | 器物請靈系 | 4 | 0 | 竹籃小靈<br><small>/taiwan-spirit-blog/assets/images/monsters/bamboo-basket-spirit.png</small><br>籤詩靈<br><small>/taiwan-spirit-blog/assets/images/monsters/fortune-stick.png?v=20260728-monsters</small><br>木椅小靈<br><small>/taiwan-spirit-blog/assets/images/monsters/wood-chair.png?v=20260728-monsters</small><br>文字靈<br><small>/taiwan-spirit-blog/assets/images/monsters/word-spirit.png?v=20260728-monsters</small> | — |
 | 土地公系小型守護者 | 1 | 0 | 福澤<br><small>/taiwan-spirit-blog/assets/images/temples/fuzhe-guardian.png</small> | — |
 | 土地守護／地氣管理 | 1 | 0 | 土地公／福德正神<br><small>/taiwan-spirit-blog/assets/images/temples/tudigong.png</small> | — |
@@ -43,7 +43,7 @@
 | 戰爭記憶／神蹟傳說 | 1 | 0 | 媽祖接炸彈<br><small>/taiwan-spirit-blog/assets/images/temples/mazu-bomb.png</small> | — |
 | 戰爭護城／地方信仰故事 | 1 | 0 | 淡水神明擋砲彈<br><small>/taiwan-spirit-blog/assets/images/temples/tamsui-cannon.png?v=20260727-complete-temples</small> | — |
 | 文書與執法部將 | 1 | 0 | 文判／武判<br><small>/taiwan-spirit-blog/assets/images/temples/wenwu.png?v=20260727-complete-temples</small> | — |
-| 書符材料・法術原料系 | 2 | 11 | 毛筆／符筆<br><small>/taiwan-spirit-blog/assets/images/talismans/ritual-brush-real.png?v=20260728-talismans-real-01</small><br>硃砂<br><small>/taiwan-spirit-blog/assets/images/talismans/cinnabar-real.png?v=20260728-talismans-real-01</small> | 朱墨／墨<br>硃砂印泥<br>硃砂筆<br>硯台／水盂<br>符水<br>符灰<br>符紙／黃紙<br>紅紙／門符紙<br>雞血／公雞血<br>香灰<br>黑狗血 |
+| 書符材料・法術原料系 | 3 | 10 | 毛筆／符筆<br><small>/taiwan-spirit-blog/assets/images/talismans/ritual-brush-real.png?v=20260728-talismans-real-01</small><br>硃砂<br><small>/taiwan-spirit-blog/assets/images/talismans/cinnabar-real.png?v=20260728-talismans-real-01</small><br>朱墨／墨<br><small>/taiwan-spirit-blog/assets/images/talismans/red-black-ink-real.png?v=20260728-talismans-real-02</small> | 硃砂印泥<br>硃砂筆<br>硯台／水盂<br>符水<br>符灰<br>符紙／黃紙<br>紅紙／門符紙<br>雞血／公雞血<br>香灰<br>黑狗血 |
 | 材料與器物植物 | 0 | 6 | — | 竹<br>蘭嶼肉桂<br>蘭嶼羅漢松<br>山棕<br>構樹<br>黃藤 |
 | 樹蛙／丘陵溪流型 | 1 | 0 | 褐樹蛙<br><small>/taiwan-spirit-blog/assets/images/fuzhe/brown-tree-frog-real.png?v=20260728-fuzhe-real</small> | — |
 | 樹蛙／低地水域型 | 1 | 0 | 白頷樹蛙<br><small>/taiwan-spirit-blog/assets/images/fuzhe/white-lipped-tree-frog-real.png?v=20260728-fuzhe-real</small> | — |
@@ -63,7 +63,7 @@
 | 海難救助／引航傳說 | 1 | 0 | 媽祖救船避風浪<br><small>/taiwan-spirit-blog/assets/images/temples/mazu-sea.png</small> | — |
 | 犧牲者成神／客庄守護 | 1 | 0 | 義民守土成神<br><small>/taiwan-spirit-blog/assets/images/temples/yimin-hero.png?v=20260727-complete-temples</small> | — |
 | 獸精變形系 | 5 | 0 | 燈猴<br><small>/taiwan-spirit-blog/assets/images/monsters/lamp-monkey.png?v=20260728-monsters</small><br>石虎守護延伸<br><small>/taiwan-spirit-blog/assets/images/monsters/leopard-cat.png?v=20260728-monsters</small><br>山獸化形<br><small>/taiwan-spirit-blog/assets/images/monsters/mountain-beast.png?v=20260728-monsters</small><br>蛇郎君<br><small>/taiwan-spirit-blog/assets/images/monsters/snake-groom.png?v=20260728-monsters</small><br>虎姑婆／虎婆<br><small>/taiwan-spirit-blog/assets/images/monsters/tiger-granny.png?v=20260728-monsters</small> | — |
-| 疏文文書系 | 0 | 4 | — | 文疏袋／疏文封<br>牒文／關文<br>疏文<br>表文／章奏 |
+| 疏文文書系 | 1 | 3 | 文疏袋／疏文封<br><small>/taiwan-spirit-blog/assets/images/talismans/memorial-envelope-real.png?v=20260728-talismans-real-02</small> | 牒文／關文<br>疏文<br>表文／章奏 |
 | 石靈顯化／伯公傳說 | 1 | 0 | 石爺公流紅<br><small>/taiwan-spirit-blog/assets/images/temples/stone-red.png?v=20260727-complete-temples</small> | — |
 | 祖師信仰／示警型神明 | 1 | 0 | 清水祖師<br><small>/taiwan-spirit-blog/assets/images/temples/qingshui.png?v=20260727-complete-temples</small> | — |
 | 神像異變／預兆傳說 | 1 | 0 | 清水祖師落鼻示警<br><small>/taiwan-spirit-blog/assets/images/temples/qingshui-nose.png?v=20260727-complete-temples</small> | — |
@@ -93,7 +93,7 @@
 | 陰司／鎮邪開路部將 | 1 | 0 | 官將首<br><small>/taiwan-spirit-blog/assets/images/temples/guanjian.png</small> | — |
 | 靈界交通工具／送疫載體 | 1 | 0 | 王船<br><small>/taiwan-spirit-blog/assets/images/temples/wangchuan.png?v=20260727-complete-temples</small> | — |
 | 香火爐器・煙火光系 | 0 | 7 | — | 光明燈／長明燈<br>天公爐<br>燭台／神明燈<br>線香／環香<br>金爐／化金爐<br>香<br>香爐 |
-| 驅邪押煞法器系 | 4 | 3 | 八卦鏡<br><small>/taiwan-spirit-blog/assets/images/talismans/八卦鏡_bagua-mirror.jpg</small><br>拂塵<br><small>/taiwan-spirit-blog/assets/images/talismans/fly-whisk-real.png?v=20260728-talismans-real-01</small><br>桃木劍<br><small>/taiwan-spirit-blog/assets/images/talismans/桃木劍_peachwood-sword.jpg</small><br>法劍／七星劍<br><small>/taiwan-spirit-blog/assets/images/talismans/法劍-七星劍_seven-star-sword.jpg</small> | 法索／法繩<br>法鞭<br>銅鏡 |
+| 驅邪押煞法器系 | 4 | 3 | 八卦鏡<br><small>/taiwan-spirit-blog/assets/images/talismans/bagua-mirror-real.png?v=20260728-talismans-real-02</small><br>拂塵<br><small>/taiwan-spirit-blog/assets/images/talismans/fly-whisk-real.png?v=20260728-talismans-real-01</small><br>桃木劍<br><small>/taiwan-spirit-blog/assets/images/talismans/peachwood-sword-real.png?v=20260728-talismans-real-02</small><br>法劍／七星劍<br><small>/taiwan-spirit-blog/assets/images/talismans/seven-star-sword-real.png?v=20260728-talismans-real-02</small> | 法索／法繩<br>法鞭<br>銅鏡 |
 | 高山霧林 | 0 | 12 | — | 玉山箭竹<br>臺灣冷杉<br>臺灣鐵杉<br>臺灣扁柏<br>玉山圓柏<br>南湖杜鵑<br>高山櫟<br>臺灣華山松<br>紅檜<br>玉山杜鵑<br>臺灣雲杉<br>臺灣杉 |
 | 高山魔神仔型／登山傳聞 | 1 | 0 | 黃色小飛俠<br><small>/taiwan-spirit-blog/assets/images/temples/yellow.png?v=20260727-complete-temples</small> | — |
 

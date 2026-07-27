@@ -7,6 +7,7 @@ regions: ["北部盆地・河口","西北丘陵・客庄古道","中部河階・
 cities: ["全台六大靈格區。是否台灣特有：《台灣靈格》世界觀設定。"]
 tags: ["樹洞福澤","水頭福澤","山口福澤","溪澗福澤"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/fuzhe.png?v=20260728-monsters"
 ---
 
 【原始資料層】

@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/fortune-stick.png?v=20260728-monsters"
 title: "籤詩靈"
 subtitle: "別稱：籤語小靈"
 category: "器物請靈系"

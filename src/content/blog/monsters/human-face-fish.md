@@ -7,6 +7,7 @@ regions: ["南部平原・地下祖靈城","山林內陸・霧石","中部河階
 cities: ["全台流傳","常與溪邊","南部水域","釣魚","烤肉","吳郭魚等元素相連。是否台灣特有：台灣現代都市傳說。"]
 tags: ["水面記憶魚","溪邊警告靈","魚鱗面具","水界守門者"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/human-face-fish.png?v=20260728-monsters"
 ---
 
 【原始資料層】

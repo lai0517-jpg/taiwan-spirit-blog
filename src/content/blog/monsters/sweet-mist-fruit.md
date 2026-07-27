@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/sweet-mist-fruit.png?v=20260728-monsters"
 title: "甜霧果"
 subtitle: "別稱：霧中果、異界果實"
 category: "山林迷路系"

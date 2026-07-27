@@ -7,6 +7,7 @@ regions: ["北部盆地・河口","西北丘陵・客庄古道","中部河階・
 cities: ["全台","客庄與西北丘陵特別重要。是否台灣特有：台灣民間信仰核心。"]
 tags: ["土地管理者","福澤上層","伯公網絡"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/tudigong-bogong.png?v=20260728-monsters"
 ---
 
 【原始資料層】

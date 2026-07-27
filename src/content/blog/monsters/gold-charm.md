@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/gold-charm.png?v=20260728-monsters"
 title: "金魅"
 subtitle: "別稱：愛打掃的金魅"
 category: "女性冤魂與植物地景系"

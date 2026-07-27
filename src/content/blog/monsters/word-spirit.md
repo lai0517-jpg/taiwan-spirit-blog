@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/word-spirit.png?v=20260728-monsters"
 title: "文字靈"
 subtitle: "別稱：筆仙／文字媒介轉化"
 category: "器物請靈系"

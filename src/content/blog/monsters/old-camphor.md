@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/old-camphor.png?v=20260728-monsters"
 title: "老樟樹"
 subtitle: "別稱：樟樹公"
 category: "樹靈土地系"

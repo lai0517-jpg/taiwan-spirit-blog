@@ -7,6 +7,7 @@ regions: ["西北丘陵・客庄古道","中部河階・陶土","南部平原・
 cities: ["全台民間信仰與聚落廟境。是否台灣特有：台灣民間信仰防衛系統重要元素。"]
 tags: ["五方結界","境界兵陣","村庄防衛網"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/wuying.png?v=20260728-monsters"
 ---
 
 【原始資料層】

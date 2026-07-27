@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/tiger-granny.png?v=20260728-monsters"
 title: "虎姑婆／虎婆"
 subtitle: "別稱：虎婆、老虎精老婆婆"
 category: "獸精變形系"

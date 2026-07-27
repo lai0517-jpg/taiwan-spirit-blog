@@ -7,6 +7,7 @@ regions: ["中部河階・陶土","東部縱谷・玉石祖靈","山林內陸・
 cities: ["全台山區溪谷","深潭","瀑布","水圳。是否台灣特有：地景型禁忌分類。"]
 tags: ["深潭守門者","青苔水靈","溪石耳語者"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/deep-pool.png?v=20260728-monsters"
 ---
 
 【原始資料層】

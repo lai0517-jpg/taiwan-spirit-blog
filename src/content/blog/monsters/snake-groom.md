@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/snake-groom.png?v=20260728-monsters"
 title: "蛇郎君"
 subtitle: "別稱：蛇夫、蛇新郎"
 category: "獸精變形系"

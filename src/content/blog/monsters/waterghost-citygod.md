@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/waterghost-citygod.png?v=20260728-monsters"
 title: "水鬼變城隍"
 subtitle: "別稱：善惡報應型水鬼故事"
 category: "水邊魚靈系"

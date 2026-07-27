@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/waterhead-bogong.png?v=20260728-monsters"
 title: "水頭伯公"
 subtitle: "別稱：水源伯公、渡口伯公"
 category: "樹靈土地系"

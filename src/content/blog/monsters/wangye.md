@@ -7,6 +7,7 @@ regions: ["南部平原・地下祖靈城"]
 cities: ["台南","嘉義","高雄","屏東","澎湖等南部與海口地區。是否台灣特有：台灣南部信仰核心之一。"]
 tags: ["巡境神","送疫船隊","境界淨化系統"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/wangye.png?v=20260728-monsters"
 ---
 
 【原始資料層】

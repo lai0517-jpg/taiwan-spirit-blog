@@ -7,6 +7,7 @@ regions: ["東部縱谷・玉石祖靈","山林內陸・霧石"]
 cities: ["東部","山林內陸","原住民族傳統領域與高山溪谷。是否台灣特有：需尊重各族群差異","後續應逐族群","逐地區查證。"]
 tags: ["山口守護者","獵場門神","祖靈界線"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/mountain-ancestor.png?v=20260728-monsters"
 ---
 
 【原始資料層】

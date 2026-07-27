@@ -7,6 +7,7 @@ regions: ["南部平原・地下祖靈城","北部盆地・河口"]
 cities: ["鹿港","萬華等口述脈絡","全台民間請靈習俗可比較。是否台灣特有：台灣在地民間妖怪／請靈儀式。"]
 tags: ["木椅小靈","無身之口","物件媒介靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/chair-spirit.png?v=20260728-monsters"
 ---
 
 【原始資料層】

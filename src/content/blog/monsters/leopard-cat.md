@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/leopard-cat.png?v=20260728-monsters"
 title: "石虎守護延伸"
 subtitle: "別稱：淺山守護貓靈"
 category: "獸精變形系"

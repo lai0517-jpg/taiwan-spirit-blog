@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/mushroom-child.png?v=20260728-monsters"
 title: "菇童"
 subtitle: "別稱：蘑菇小靈"
 category: "山林迷路系"

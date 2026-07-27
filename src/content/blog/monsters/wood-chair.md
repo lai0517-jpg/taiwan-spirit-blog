@@ -7,6 +7,7 @@ regions: ["南部平原・地下祖靈城","北部盆地・河口"]
 cities: ["家屋","女性請靈場域。是否台灣特有：創作轉化項。"]
 tags: ["木椅小靈","敲桶回答者","家屋器物守護"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/wood-chair.png?v=20260728-monsters"
 ---
 
 【原始資料層】

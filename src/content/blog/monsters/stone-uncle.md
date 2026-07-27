@@ -7,6 +7,7 @@ regions: ["西北丘陵・客庄古道","中部河階・陶土","山林內陸・
 cities: ["桃竹苗","客庄山邊","全台石頭公信仰點。是否台灣特有：台灣民間物靈與土地信仰交會。"]
 tags: ["流血之石","石伯公","山腰守護石"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/stone-uncle.png?v=20260728-monsters"
 ---
 
 【原始資料層】

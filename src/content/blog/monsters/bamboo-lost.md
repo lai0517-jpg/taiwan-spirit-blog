@@ -7,6 +7,7 @@ regions: ["北部盆地・河口","西北丘陵・客庄古道","中部河階・
 cities: ["北部淺山","西北丘陵","客庄古道","中部山林。是否台灣特有：創作整理分類","需與魔神仔","採筍路","山路傳聞連結。"]
 tags: ["竹葉方向靈","竹節小嚮導","筍林守門者"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/bamboo-lost.png?v=20260728-monsters"
 ---
 
 【原始資料層】

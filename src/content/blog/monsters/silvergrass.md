@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/silvergrass.png?v=20260728-monsters"
 title: "芒草山路"
 subtitle: "別稱：草埔迷路、荒草鬼影"
 category: "山林迷路系"

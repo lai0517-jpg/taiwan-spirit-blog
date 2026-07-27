@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/old-bischofia-bogong.png?v=20260728-monsters"
 title: "老茄苳樹伯公"
 subtitle: "別稱：茄苳樹伯公、大樹伯公"
 category: "樹靈土地系"

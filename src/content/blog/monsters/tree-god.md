@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/tree-god.png?v=20260728-monsters"
 title: "樹公／大樹公"
 subtitle: "別稱：大樹公、樹神"
 category: "樹靈土地系"

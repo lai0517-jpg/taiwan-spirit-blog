@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/old-banyan.png?v=20260728-monsters"
 title: "老榕樹"
 subtitle: "別稱：榕樹公"
 category: "樹靈土地系"

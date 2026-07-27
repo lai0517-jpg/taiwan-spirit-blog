@@ -7,6 +7,7 @@ regions: ["南部平原・地下祖靈城","北部盆地・河口"]
 cities: ["民間請靈習俗","地區版本待補。是否台灣特有：台灣民俗請靈系統的一支。"]
 tags: ["竹籃小靈","籃身少女","花粉問事靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/basket-spirit.png?v=20260728-monsters"
 ---
 
 【原始資料層】

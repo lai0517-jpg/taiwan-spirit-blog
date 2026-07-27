@@ -7,6 +7,7 @@ regions: ["南部平原・地下祖靈城","北部盆地・河口","中部河階
 cities: ["南部廟會系統","亦見於全台。是否台灣特有：台灣廟會與巡境文化重要元素。"]
 tags: ["面具神將","地面法陣","步伐封街"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/jiang.png?v=20260728-monsters"
 ---
 
 【原始資料層】

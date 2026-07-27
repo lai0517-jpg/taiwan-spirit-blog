@@ -7,6 +7,7 @@ regions: ["山林內陸・霧石"]
 cities: ["玉山","排雲山莊","南峰叉路","高山步道","高山雲霧地帶。是否台灣特有：台灣山岳都市傳說。流傳廣","但來源混雜","版本多。"]
 tags: ["黃衣高山嚮導","錯向小靈","霧中警示者","高山界線守門者"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/yellow-guide.png?v=20260728-monsters"
 ---
 
 【原始資料層】

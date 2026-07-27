@@ -7,6 +7,7 @@ regions: ["南部平原・地下祖靈城"]
 cities: ["台南府城。是否台灣特有：台灣府城鬼故事代表之一。"]
 tags: ["守娘花影","府城冤魂守護者","夜路白影"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/chen-shouniang.png?v=20260728-monsters"
 ---
 
 【原始資料層】

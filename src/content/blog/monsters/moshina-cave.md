@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/moshina-cave.png?v=20260728-monsters"
 title: "魔神仔洞"
 subtitle: "別稱：山洞型魔神仔地景"
 category: "山林迷路系"

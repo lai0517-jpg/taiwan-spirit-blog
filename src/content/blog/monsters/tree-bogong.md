@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/tree-bogong.png?v=20260728-monsters"
 title: "樹頭伯公"
 subtitle: "別稱：樹下伯公"
 category: "樹靈土地系"

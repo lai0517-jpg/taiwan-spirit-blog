@@ -7,6 +7,7 @@ regions: ["北部盆地・河口","西北丘陵・客庄古道","中部河階・
 cities: ["山林","竹林","古道","溪谷","濕地。是否台灣特有：創作分類","不是既有固定妖怪名稱","需標示為《台灣靈格》轉化用資料。"]
 tags: ["餌果靈","菇童","甜霧果","貪食小靈","山林試煉者"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/bait-fruit.png?v=20260728-monsters"
 ---
 
 【原始資料層】

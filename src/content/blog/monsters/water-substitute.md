@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/water-substitute.png?v=20260728-monsters"
 title: "抓交替"
 subtitle: "別稱：找替身"
 category: "水邊魚靈系"

@@ -7,6 +7,7 @@ regions: ["北部盆地・河口","中部河階・陶土","南部平原・地下
 cities: ["全台溪流","深潭","海邊","河口","橋下。是否台灣特有：廣泛民俗母題","台灣各地有在地版本。"]
 tags: ["深潭守門者","溪谷亡魂","水界入口","水邊警告靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/water-ghost.png?v=20260728-monsters"
 ---
 
 【原始資料層】

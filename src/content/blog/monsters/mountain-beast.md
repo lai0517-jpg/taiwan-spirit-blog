@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/mountain-beast.png?v=20260728-monsters"
 title: "山獸化形"
 subtitle: "別稱：山中動物變人"
 category: "獸精變形系"

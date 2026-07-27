@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/lamp-monkey.png?v=20260728-monsters"
 title: "燈猴"
 subtitle: "別稱：燈火猴靈"
 category: "獸精變形系"

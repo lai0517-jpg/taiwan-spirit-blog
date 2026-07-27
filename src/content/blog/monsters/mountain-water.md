@@ -1,4 +1,5 @@
 ---
+image: "/taiwan-spirit-blog/assets/images/monsters/mountain-water.png?v=20260728-monsters"
 title: "山精水怪"
 subtitle: "別稱：山中精怪、水澤精怪"
 category: "山林迷路系"

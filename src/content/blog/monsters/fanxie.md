@@ -7,6 +7,7 @@ regions: ["北部盆地・河口","南部平原・地下祖靈城","中部河階
 cities: ["全台城隍廟","陰司系統廟宇。是否台灣特有：華人民間信仰在台灣廟宇中的重要形象。"]
 tags: ["亡魂引路者","黑白守門者","水鬼押解者"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/fanxie.png?v=20260728-monsters"
 ---
 
 【原始資料層】

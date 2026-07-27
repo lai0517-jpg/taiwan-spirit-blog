@@ -7,6 +7,7 @@ regions: ["北部盆地・河口","南部平原・地下祖靈城","中部河階
 cities: ["台北","新竹","嘉義","台南等古城與城市廟宇。是否台灣特有：華人民間信仰在台灣落地的重要系統。"]
 tags: ["城市判官","陰陽簿冊管理者","水鬼升格者"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/citygod.png?v=20260728-monsters"
 ---
 
 【原始資料層】

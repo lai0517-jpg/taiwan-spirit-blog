@@ -7,6 +7,7 @@ regions: ["南部平原・地下祖靈城"]
 cities: ["台南","嘉義","布袋","府城與南部海岸相關版本。是否台灣特有：台灣南部民間故事代表。"]
 tags: ["林投花守護者","南方女鬼樹","刺葉亡魂","海風記憶靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/monsters/linto-sister.png?v=20260728-monsters"
 ---
 
 【原始資料層】

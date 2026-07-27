@@ -6,6 +6,7 @@ regions: ["南部平原・地下祖靈城靈格區"]
 cities: []
 tags: ["巡境神系統","送疫船隊","境界淨化","移動結界"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/temples/wangye.png?v=20260727-complete-temples"
 ---
 
 【快速提示】

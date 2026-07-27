@@ -6,6 +6,7 @@ regions: ["西北丘陵・客庄古道靈格區"]
 cities: []
 tags: ["守土亡者","客庄防線","義民骨塚"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/temples/yimin-hero.png?v=20260727-complete-temples"
 ---
 
 【故事提示】

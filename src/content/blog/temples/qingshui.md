@@ -6,7 +6,7 @@ regions: ["北部盆地・河口靈格區"]
 cities: []
 tags: ["斷鼻警示器","烏面守護者","災變感應神像"]
 draft: false
-image: "/taiwan-spirit-blog/assets/images/temples/qingshui.png"
+image: "/taiwan-spirit-blog/assets/images/temples/qingshui.png?v=20260727-complete-temples"
 ---
 
 【快速提示】

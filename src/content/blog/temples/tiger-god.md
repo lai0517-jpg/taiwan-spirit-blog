@@ -6,6 +6,7 @@ regions: ["北部盆地・河口靈格區","西北丘陵・客庄古道靈格區
 cities: []
 tags: ["廟下獸","低伏守護獸","神明腳力","福澤護衛"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/temples/tiger-god.png?v=20260727-complete-temples"
 ---
 
 【快速提示】

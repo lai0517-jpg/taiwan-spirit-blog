@@ -6,6 +6,7 @@ regions: ["西北丘陵・客庄古道靈格區","中部河階・陶土靈格區
 cities: []
 tags: ["五方結界","境界兵陣","村庄防衛網"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/temples/wuying.png?v=20260727-complete-temples"
 ---
 
 【快速提示】

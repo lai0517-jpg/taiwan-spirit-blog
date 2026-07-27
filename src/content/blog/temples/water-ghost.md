@@ -6,6 +6,7 @@ regions: ["北部盆地・河口靈格區","中部河階・陶土靈格區","南
 cities: []
 tags: ["深潭手","溪谷亡魂","水界入口"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/temples/water-ghost.png?v=20260727-complete-temples"
 ---
 
 【快速提示】

@@ -6,7 +6,7 @@ regions: ["西北丘陵・客庄古道靈格區","南部平原・地下祖靈城
 cities: []
 tags: ["三座山的守護王","丘陵界線守護者","山王靈"]
 draft: false
-image: "/taiwan-spirit-blog/assets/images/temples/sanshan.png"
+image: "/taiwan-spirit-blog/assets/images/temples/sanshan.png?v=20260727-complete-temples"
 ---
 
 【快速提示】

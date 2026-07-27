@@ -6,6 +6,7 @@ regions: ["北部盆地・河口靈格區","南部平原・地下祖靈城靈格
 cities: []
 tags: ["簿冊管理者","法令結界","陰陽書記"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/temples/wenwu.png?v=20260727-complete-temples"
 ---
 
 【快速提示】

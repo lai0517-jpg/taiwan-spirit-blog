@@ -6,6 +6,7 @@ regions: ["北部盆地・河口靈格區","中部河階・陶土靈格區","南
 cities: []
 tags: ["巨耳使者","風聲靈","海上訊息接收者"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/temples/shunfenger.png?v=20260727-complete-temples"
 ---
 
 【快速提示】

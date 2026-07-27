@@ -6,6 +6,7 @@ regions: ["南部平原・地下祖靈城靈格區"]
 cities: []
 tags: ["載災之船","送疫船靈","移動結界"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/temples/wangchuan.png?v=20260727-complete-temples"
 ---
 
 【快速提示】

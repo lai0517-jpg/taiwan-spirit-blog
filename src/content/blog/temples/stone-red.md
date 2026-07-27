@@ -6,6 +6,7 @@ regions: ["西北丘陵・客庄古道靈格區"]
 cities: []
 tags: ["流血之石","石伯公","擋災石靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/temples/stone-red.png?v=20260727-complete-temples"
 ---
 
 【故事提示】

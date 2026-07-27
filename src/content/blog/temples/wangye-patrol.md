@@ -6,6 +6,7 @@ regions: ["南部平原・地下祖靈城靈格區"]
 cities: []
 tags: ["巡境神","境界管理者","移動結界"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/temples/wangye-patrol.png?v=20260727-complete-temples"
 ---
 
 【故事提示】

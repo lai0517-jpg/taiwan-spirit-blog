@@ -6,6 +6,7 @@ regions: ["北部盆地・河口靈格區"]
 cities: []
 tags: ["三神護城","河口防護結界","祖師佛袍擋災"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/temples/tamsui-cannon.png?v=20260727-complete-temples"
 ---
 
 【故事提示】

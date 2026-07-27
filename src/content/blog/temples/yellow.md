@@ -6,6 +6,7 @@ regions: ["山林內陸・霧石靈格區"]
 cities: []
 tags: ["錯向嚮導","高山引路靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/temples/yellow.png?v=20260727-complete-temples"
 ---
 
 【快速提示】

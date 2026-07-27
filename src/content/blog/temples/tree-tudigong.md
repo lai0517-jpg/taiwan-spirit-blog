@@ -6,6 +6,7 @@ regions: ["北部盆地・河口靈格區","西北丘陵・客庄古道靈格區
 cities: []
 tags: ["樹根土地靈","樹洞守護者","樹頭福澤"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/temples/tree-tudigong.png?v=20260727-complete-temples"
 ---
 
 【故事提示】

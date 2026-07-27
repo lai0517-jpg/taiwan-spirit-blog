@@ -6,7 +6,7 @@ regions: ["北部盆地・河口靈格區","中部河階・陶土靈格區","南
 cities: []
 tags: ["巨眼使者","遠望靈","災前偵查者"]
 draft: false
-image: "/taiwan-spirit-blog/assets/images/temples/qianliyan.png"
+image: "/taiwan-spirit-blog/assets/images/temples/qianliyan.png?v=20260727-complete-temples"
 ---
 
 【快速提示】

@@ -6,6 +6,7 @@ regions: ["東部縱谷・玉石祖靈靈格區","山林內陸・霧石靈格區
 cities: []
 tags: ["山口守護者","獵場門神","祖靈界線","霧石靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/temples/mountain-god.png"
 ---
 
 【快速提示】

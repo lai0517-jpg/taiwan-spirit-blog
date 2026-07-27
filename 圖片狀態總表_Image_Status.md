@@ -5,8 +5,8 @@
 ## 統計摘要｜Summary
 
 - 文章總數｜Total posts：307
-- 有圖片｜With image：45
-- 沒圖片｜Without image：262
+- 有圖片｜With image：50
+- 沒圖片｜Without image：257
 - 類別總數｜Categories：83
 
 ## 依類別總表｜By Category
@@ -32,11 +32,11 @@
 | 女性冤魂／府城鬼系 | 1 | 0 | 林投姐<br><small>/taiwan-spirit-blog/assets/images/temples/linto.png</small> | — |
 | 守土英靈／客庄記憶 | 0 | 1 | — | 義民爺 |
 | 客庄土地守護／地方記憶 | 1 | 0 | 伯公守庄<br><small>/taiwan-spirit-blog/assets/images/temples/bogong-protect.png</small> | — |
-| 山林祖靈／入山倫理 | 0 | 1 | — | 山神／祖靈 |
+| 山林祖靈／入山倫理 | 1 | 0 | 山神／祖靈<br><small>/taiwan-spirit-blog/assets/images/temples/mountain-god.png</small> | — |
 | 山林精怪／迷路傳說 | 1 | 0 | 魔神仔牽人<br><small>/taiwan-spirit-blog/assets/images/temples/moshina-lure.png</small> | — |
 | 山林精怪／迷路系 | 1 | 0 | 魔神仔<br><small>/taiwan-spirit-blog/assets/images/temples/moshina.png</small> | — |
 | 山林迷路系 | 0 | 9 | — | 山精水怪<br>甜霧果<br>竹林迷路<br>芒草山路<br>菇童<br>餌果靈／誘食系精怪<br>魔神仔洞<br>魔神仔／魔形<br>黃色小飛俠 |
-| 山王／移民聚落守護 | 0 | 1 | — | 三山國王 |
+| 山王／移民聚落守護 | 1 | 0 | 三山國王<br><small>/taiwan-spirit-blog/assets/images/temples/sanshan.png</small> | — |
 | 巡境安境／神明出巡 | 0 | 1 | — | 王爺代天巡狩 |
 | 巡境／送疫／代天巡狩 | 0 | 1 | — | 王爺／千歲 |
 | 廟宇制衡系統 | 0 | 8 | — | 五營兵將<br>八家將／什家將<br>土地公／伯公<br>城隍<br>山神／祖靈<br>王爺／千歲<br>福澤<br>范謝將軍／七爺八爺 |
@@ -65,12 +65,12 @@
 | 獸精變形系 | 0 | 5 | — | 山獸化形<br>燈猴<br>石虎守護延伸<br>虎姑婆／虎婆<br>蛇郎君 |
 | 疏文文書系 | 0 | 4 | — | 文疏袋／疏文封<br>牒文／關文<br>疏文<br>表文／章奏 |
 | 石靈顯化／伯公傳說 | 0 | 1 | — | 石爺公流紅 |
-| 祖師信仰／示警型神明 | 0 | 1 | — | 清水祖師 |
-| 神像異變／預兆傳說 | 0 | 1 | — | 清水祖師落鼻示警 |
+| 祖師信仰／示警型神明 | 1 | 0 | 清水祖師<br><small>/taiwan-spirit-blog/assets/images/temples/qingshui.png</small> | — |
+| 神像異變／預兆傳說 | 1 | 0 | 清水祖師落鼻示警<br><small>/taiwan-spirit-blog/assets/images/temples/qingshui-nose.png</small> | — |
 | 符咒護身鎮宅系 | 2 | 7 | 八卦五雷符<br><small>/taiwan-spirit-blog/assets/images/talismans/八卦五雷符_bagua-five-thunder-talisman.png</small><br>天師鎮宅符<br><small>/taiwan-spirit-blog/assets/images/talismans/天師鎮宅符_tianshi-town-house-talisman.png</small> | 五雷符<br>平安符／護身符<br>收驚符／淨符<br>符咒／符令<br>車符<br>門符／鎮宅符<br>香火袋 |
 | 紙紮糊紙・明器系 | 0 | 10 | — | 替身／草人<br>紙厝／靈厝<br>紙童／紙僕<br>紙紮人／紙人<br>紙衣／巾衣<br>紙車／紙家電<br>紙轎<br>紙食物<br>紙馬<br>金山銀山／搖錢樹 |
 | 紙蓮花・超度系 | 0 | 5 | — | 大士爺紙糊<br>寒林院／同歸所<br>水燈<br>紙蓮花／往生蓮花<br>蓮花塔 |
-| 耳目型使者 | 0 | 2 | — | 千里眼<br>順風耳 |
+| 耳目型使者 | 1 | 1 | 千里眼<br><small>/taiwan-spirit-blog/assets/images/temples/qianliyan.png</small> | 順風耳 |
 | 聚落老樹 | 0 | 9 | — | 楓香<br>榕樹<br>樟樹<br>無患子<br>相思樹<br>臺灣欒樹<br>臺灣肖楠<br>苦楝<br>茄苳 |
 | 聚落防衛／五方兵陣 | 0 | 1 | — | 五營兵將 |
 | 聲音召請法器系 | 0 | 6 | — | 木魚<br>法螺／牛角號<br>法鈴／帝鐘<br>磬<br>鐘鼓<br>鑼鼓鈸鐃 |

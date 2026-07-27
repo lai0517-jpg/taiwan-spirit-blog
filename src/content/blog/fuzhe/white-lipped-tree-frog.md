@@ -2,7 +2,7 @@
 title: "白頷樹蛙"
 category: "樹蛙／低地水域型"
 date: 2026-07-14
-image: "/taiwan-spirit-blog/assets/images/fuzhe/white-lipped-tree-frog.jpg"
+image: "/taiwan-spirit-blog/assets/images/fuzhe/white-lipped-tree-frog-real.png?v=20260728-fuzhe-real"
 regions: ["南部平原・地下祖靈城靈格區"]
 cities: ["南部低地","池塘水域","水田"]
 tags: ["平原水田福澤","池塘福澤","草澤福澤"]

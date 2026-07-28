@@ -5,8 +5,8 @@
 ## 統計摘要｜Summary
 
 - 文章總數｜Total posts：307
-- 有圖片｜With image：147
-- 沒圖片｜Without image：160
+- 有圖片｜With image：148
+- 沒圖片｜Without image：159
 - 類別總數｜Categories：83
 
 ## 依類別總表｜By Category
@@ -81,7 +81,7 @@
 | 請靈儀式／女性靈體 | 1 | 0 | 椅仔姑<br><small>/taiwan-spirit-blog/assets/images/temples/chair-spirit.png</small> | — |
 | 赤蛙／溪流型 | 1 | 0 | 斯文豪氏赤蛙<br><small>/taiwan-spirit-blog/assets/images/fuzhe/swinhoe-frog-real.png?v=20260728-fuzhe-real</small> | — |
 | 送疫送煞／王船祭典 | 1 | 0 | 王船押送災厄<br><small>/taiwan-spirit-blog/assets/images/temples/wangboat-disaster.png?v=20260727-complete-temples</small> | — |
-| 遶境神轎・王船普渡系 | 1 | 9 | 神轎<br><small>/taiwan-spirit-blog/assets/images/talismans/palanquin-real.png?v=20260728-talismans-real-03</small> | 官將首／八家將刑具<br>招魂幡／引魂幡<br>普渡旗／孤魂旗<br>火籤／枷鎖<br>王船<br>王船龍骨／紙紮王船<br>神明傘／涼傘<br>頭旗／進香旗<br>香擔 |
+| 遶境神轎・王船普渡系 | 2 | 8 | 神轎<br><small>/taiwan-spirit-blog/assets/images/talismans/palanquin-real.png?v=20260728-talismans-real-03</small><br>官將首／八家將刑具<br><small>/taiwan-spirit-blog/assets/images/talismans/jiang-ritual-restraints-real.png?v=20260728-jiang-facepaint</small> | 招魂幡／引魂幡<br>普渡旗／孤魂旗<br>火籤／枷鎖<br>王船<br>王船龍骨／紙紮王船<br>神明傘／涼傘<br>頭旗／進香旗<br>香擔 |
 | 都市傳說／水邊靈異 | 1 | 0 | 人面魚<br><small>/taiwan-spirit-blog/assets/images/temples/human-face-fish.png</small> | — |
 | 醫藥神／修復系統 | 1 | 0 | 保生大帝<br><small>/taiwan-spirit-blog/assets/images/temples/baosheng.png</small> | — |
 | 金紙圖像・陰司紙錢系 | 2 | 8 | 地府錢／將軍錢<br><small>/taiwan-spirit-blog/assets/images/talismans/地府錢-將軍錢_difu-money-jiangjun-money.png</small><br>太歲紙錢<br><small>/taiwan-spirit-blog/assets/images/talismans/太歲紙錢_taisui-joss-paper.png</small> | 七星錢<br>十二元神紙錢<br>天官錢<br>改厄錢<br>本命錢<br>牛馬將軍紙錢<br>童子錢<br>過關錢 |

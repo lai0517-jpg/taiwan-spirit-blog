@@ -5,8 +5,8 @@
 ## 統計摘要｜Summary
 
 - 文章總數｜Total posts：307
-- 有圖片｜With image：239
-- 沒圖片｜Without image：68
+- 有圖片｜With image：245
+- 沒圖片｜Without image：62
 - 類別總數｜Categories：83
 
 ## 依類別總表｜By Category
@@ -44,7 +44,7 @@
 | 戰爭護城／地方信仰故事 | 1 | 0 | 淡水神明擋砲彈<br><small>/taiwan-spirit-blog/assets/images/temples/tamsui-cannon.png?v=20260727-complete-temples</small> | — |
 | 文書與執法部將 | 1 | 0 | 文判／武判<br><small>/taiwan-spirit-blog/assets/images/temples/wenwu.png?v=20260727-complete-temples</small> | — |
 | 書符材料・法術原料系 | 13 | 0 | 朱墨／墨<br><small>/taiwan-spirit-blog/assets/images/talismans/red-black-ink-real.png?v=20260728-talismans-real-02</small><br>毛筆／符筆<br><small>/taiwan-spirit-blog/assets/images/talismans/ritual-brush-real.png?v=20260728-talismans-real-01</small><br>硃砂<br><small>/taiwan-spirit-blog/assets/images/talismans/cinnabar-real.png?v=20260728-talismans-real-01</small><br>硃砂印泥<br><small>/taiwan-spirit-blog/assets/images/talismans/cinnabar-seal-paste-real.png?v=20260728-talismans-real-04</small><br>硃砂筆<br><small>/taiwan-spirit-blog/assets/images/talismans/cinnabar-brush-real.png?v=20260728-talismans-real-04</small><br>硯台／水盂<br><small>/taiwan-spirit-blog/assets/images/talismans/inkstone-water-dropper-real.png?v=20260728-talismans-real-04</small><br>符水<br><small>/taiwan-spirit-blog/assets/images/talismans/talisman-water-real.png?v=20260728-talismans-real-05</small><br>符灰<br><small>/taiwan-spirit-blog/assets/images/talismans/talisman-ash-real.png?v=20260728-talismans-real-05</small><br>符紙／黃紙<br><small>/taiwan-spirit-blog/assets/images/talismans/blank-talisman-paper-real.png?v=20260728-talismans-real-05</small><br>紅紙／門符紙<br><small>/taiwan-spirit-blog/assets/images/talismans/red-door-talisman-paper-real.png?v=20260728-talismans-real-05</small><br>香灰<br><small>/taiwan-spirit-blog/assets/images/talismans/incense-ash-real.png?v=20260729-talismans-real-06</small><br>雞血／公雞血<br><small>/taiwan-spirit-blog/assets/images/talismans/rooster-blood-ritual-bowl-real.png?v=20260730-talismans-real-07</small><br>黑狗血<br><small>/taiwan-spirit-blog/assets/images/talismans/black-dog-blood-ritual-jar-real.png?v=20260730-talismans-real-07</small> | — |
-| 材料與器物植物 | 0 | 6 | — | 竹<br>蘭嶼肉桂<br>蘭嶼羅漢松<br>山棕<br>構樹<br>黃藤 |
+| 材料與器物植物 | 6 | 0 | 竹<br><small>/taiwan-spirit-blog/assets/images/plants/bamboo-craft-material-real.png?v=20260731-material-plants-01</small><br>蘭嶼肉桂<br><small>/taiwan-spirit-blog/assets/images/plants/lanyu-cinnamon-leaves-bark-real.png?v=20260731-material-plants-01</small><br>蘭嶼羅漢松<br><small>/taiwan-spirit-blog/assets/images/plants/lanyu-podocarpus-coastal-real.png?v=20260731-material-plants-01</small><br>山棕<br><small>/taiwan-spirit-blog/assets/images/plants/mountain-palm-fiber-real.png?v=20260731-material-plants-01</small><br>構樹<br><small>/taiwan-spirit-blog/assets/images/plants/paper-mulberry-fiber-real.png?v=20260731-material-plants-01</small><br>黃藤<br><small>/taiwan-spirit-blog/assets/images/plants/yellow-rattan-vine-craft-real.png?v=20260731-material-plants-01</small> | — |
 | 樹蛙／丘陵溪流型 | 1 | 0 | 褐樹蛙<br><small>/taiwan-spirit-blog/assets/images/fuzhe/brown-tree-frog-real.png?v=20260728-fuzhe-real</small> | — |
 | 樹蛙／低地水域型 | 1 | 0 | 白頷樹蛙<br><small>/taiwan-spirit-blog/assets/images/fuzhe/white-lipped-tree-frog-real.png?v=20260728-fuzhe-real</small> | — |
 | 樹蛙／全台山林型 | 1 | 0 | 莫氏樹蛙<br><small>/taiwan-spirit-blog/assets/images/fuzhe/moltrecht-tree-frog-real.png?v=20260728-fuzhe-real</small> | — |

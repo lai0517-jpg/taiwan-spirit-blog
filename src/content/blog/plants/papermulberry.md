@@ -1,6 +1,7 @@
 ---
 title: "構樹"
 category: "材料與器物植物"
+image: "/taiwan-spirit-blog/assets/images/plants/paper-mulberry-fiber-real.png?v=20260731-material-plants-01"
 date: 2026-07-14
 regions: ["北部盆地・河口","中部河階・陶土","南部平原・地下祖靈城","東部縱谷・玉石祖靈"]
 cities: ["原住民族總論","閩南／台灣漢人民俗"]

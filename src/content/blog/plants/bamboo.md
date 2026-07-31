@@ -1,6 +1,7 @@
 ---
 title: "竹"
 category: "材料與器物植物"
+image: "/taiwan-spirit-blog/assets/images/plants/bamboo-craft-material-real.png?v=20260731-material-plants-01"
 date: 2026-07-14
 regions: ["北部盆地・河口","西北丘陵・客庄古道","中部河階・陶土","南部平原・地下祖靈城","東部縱谷・玉石祖靈","山林內陸・霧石","島嶼／海域外篇"]
 cities: ["原住民族總論","泰雅族","達悟族","鄒族","客家","閩南／台灣漢人民俗"]

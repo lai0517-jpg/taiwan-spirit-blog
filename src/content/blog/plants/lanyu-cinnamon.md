@@ -1,6 +1,7 @@
 ---
 title: "蘭嶼肉桂"
 category: "材料與器物植物"
+image: "/taiwan-spirit-blog/assets/images/plants/lanyu-cinnamon-leaves-bark-real.png?v=20260731-material-plants-01"
 date: 2026-07-14
 regions: ["島嶼／海域外篇"]
 cities: ["達悟族"]

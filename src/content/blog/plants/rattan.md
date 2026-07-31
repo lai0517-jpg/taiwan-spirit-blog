@@ -1,6 +1,7 @@
 ---
 title: "黃藤"
 category: "材料與器物植物"
+image: "/taiwan-spirit-blog/assets/images/plants/yellow-rattan-vine-craft-real.png?v=20260731-material-plants-01"
 date: 2026-07-14
 regions: ["東部縱谷・玉石祖靈","南部平原・地下祖靈城","山林內陸・霧石"]
 cities: ["原住民族總論","泰雅族"]

@@ -6,6 +6,7 @@ regions: ["東部縱谷・玉石祖靈","南部平原・地下祖靈城","島嶼
 cities: ["原住民族總論","阿美族","達悟族","排灣族","卑南族"]
 tags: ["樹豆小靈","豆莢守護者","田邊豆火靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/plants/pigeonpea-pods-real.png?v=20260731-crops-01"
 ---
 
 【植物身分】

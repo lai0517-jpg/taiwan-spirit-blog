@@ -6,6 +6,7 @@ regions: ["西北丘陵・客庄古道","中部河階・陶土"]
 cities: ["客家"]
 tags: ["五月雪花靈","山城白花使","桐花風靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/plants/tung-blossom-hakka-trail-real.png?v=20260731-crops-01"
 ---
 
 【植物身分】

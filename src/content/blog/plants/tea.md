@@ -6,6 +6,7 @@ regions: ["北部盆地・河口","西北丘陵・客庄古道","中部河階・
 cities: ["客家","閩南／台灣漢人民俗","日本時代產業記憶","眷村／外省族群"]
 tags: ["茶霧小靈","焙火茶靈","山坡葉使"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/plants/tea-hills-leaves-real.png?v=20260731-crops-01"
 ---
 
 【植物身分】

@@ -6,6 +6,7 @@ regions: ["西北丘陵・客庄古道","中部河階・陶土","南部平原・
 cities: ["客家","閩南／台灣漢人民俗","眷村／外省族群"]
 tags: ["醃菜缸小靈","福菜酸香使","冬藏菜靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/plants/mustard-fucai-pickles-real.png?v=20260731-crops-01"
 ---
 
 【植物身分】

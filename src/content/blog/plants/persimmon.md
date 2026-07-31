@@ -6,6 +6,7 @@ regions: ["西北丘陵・客庄古道","中部河階・陶土"]
 cities: ["客家"]
 tags: ["柿餅太陽靈","秋日果使","曬柿風靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/plants/persimmon-drying-real.png?v=20260731-crops-01"
 ---
 
 【植物身分】

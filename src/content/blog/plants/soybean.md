@@ -6,6 +6,7 @@ regions: ["北部盆地・河口","中部河階・陶土","南部平原・地下
 cities: ["眷村／外省族群","新住民／當代台灣","閩南／台灣漢人民俗"]
 tags: ["豆漿晨霧靈","黃豆小使","早餐香氣獸"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/plants/soybean-tofu-soymilk-real.png?v=20260731-crops-01"
 ---
 
 【植物身分】

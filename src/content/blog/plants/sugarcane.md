@@ -6,6 +6,7 @@ regions: ["南部平原・地下祖靈城","中部河階・陶土"]
 cities: ["閩南／台灣漢人民俗","日本時代產業記憶"]
 tags: ["蔗田甜火靈","糖廠煙囪獸","甘蔗節靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/plants/sugarcane-field-real.png?v=20260731-crops-01"
 ---
 
 【植物身分】

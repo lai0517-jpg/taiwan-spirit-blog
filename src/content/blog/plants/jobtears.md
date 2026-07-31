@@ -6,6 +6,7 @@ regions: ["東部縱谷・玉石祖靈","南部平原・地下祖靈城","山林
 cities: ["原住民族總論"]
 tags: ["白珠草靈","薏苡珠使","穀珠護符"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/plants/jobs-tears-grain-beads-real.png?v=20260731-crops-01"
 ---
 
 【植物身分】

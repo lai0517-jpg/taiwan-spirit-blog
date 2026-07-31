@@ -6,6 +6,7 @@ regions: ["北部盆地・河口","中部河階・陶土","南部平原・地下
 cities: ["閩南／台灣漢人民俗","原住民族總論"]
 tags: ["地瓜土靈","地下甜根獸","旱田小守護"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/plants/sweet-potato-field-real.png?v=20260731-crops-01"
 ---
 
 【植物身分】

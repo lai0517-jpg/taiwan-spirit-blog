@@ -6,6 +6,7 @@ regions: ["東部縱谷・玉石祖靈","南部平原・地下祖靈城","島嶼
 cities: ["原住民族總論","達悟族","排灣族","魯凱族","卑南族"]
 tags: ["芋田守護靈","地下塊莖小靈","島嶼田靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/plants/taro-field-corm-real.png?v=20260731-crops-01"
 ---
 
 【植物身分】

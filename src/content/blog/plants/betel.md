@@ -6,6 +6,7 @@ regions: ["東部縱谷・玉石祖靈","南部平原・地下祖靈城","山林
 cities: ["原住民族總論","阿美族","排灣族","魯凱族","卑南族","達悟族","布農族"]
 tags: ["紅果信物","祖靈交換果","南島禮物靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/plants/betel-areca-nut-real.png?v=20260731-crops-01"
 ---
 
 【植物身分】

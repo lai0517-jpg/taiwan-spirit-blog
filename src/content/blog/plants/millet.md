@@ -6,6 +6,7 @@ regions: ["東部縱谷・玉石祖靈","南部平原・地下祖靈城","中部
 cities: ["原住民族總論","排灣族","魯凱族","布農族","卑南族","鄒族"]
 tags: ["小米穗靈","祖靈穀粒","山田金穗使"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/plants/millet-harvest-real.png?v=20260731-crops-01"
 ---
 
 【植物身分】

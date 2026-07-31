@@ -6,6 +6,7 @@ regions: ["北部盆地・河口","中部河階・陶土","南部平原・地下
 cities: ["閩南／台灣漢人民俗","客家","原住民族總論"]
 tags: ["米粒福靈","水田穀使","白米供靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/plants/rice-paddy-grains-real.png?v=20260731-crops-01"
 ---
 
 【植物身分】

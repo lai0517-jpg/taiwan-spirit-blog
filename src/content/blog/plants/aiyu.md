@@ -6,6 +6,7 @@ regions: ["西北丘陵・客庄古道","中部河階・陶土","南部平原・
 cities: ["客家","閩南／台灣漢人民俗"]
 tags: ["愛玉籽靈","山藤果凍使","夏日透明果靈"]
 draft: false
+image: "/taiwan-spirit-blog/assets/images/plants/aiyu-fruit-jelly-real.png?v=20260731-crops-01"
 ---
 
 【植物身分】

@@ -1,6 +1,7 @@
 ---
 title: "臺灣雲杉"
 category: "高山霧林"
+image: "/taiwan-spirit-blog/assets/images/plants/taiwan-spruce-cloud-forest-real.png?v=20260806-montane-forest-01"
 date: 2026-07-14
 regions: ["山林內陸・霧石"]
 cities: ["布農族"]

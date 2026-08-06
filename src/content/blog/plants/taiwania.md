@@ -1,6 +1,7 @@
 ---
 title: "臺灣杉"
 category: "高山霧林"
+image: "/taiwan-spirit-blog/assets/images/plants/taiwania-valley-giant-real.png?v=20260806-montane-forest-01"
 date: 2026-07-14
 regions: ["山林內陸・霧石","中部河階・陶土","東部縱谷・玉石祖靈"]
 cities: ["鄒族","日本時代產業記憶"]

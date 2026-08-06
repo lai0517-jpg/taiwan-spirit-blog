@@ -1,6 +1,7 @@
 ---
 title: "仙草"
 category: "民俗淨化"
+image: "/taiwan-spirit-blog/assets/images/plants/grass-jelly-herb-real.png?v=20260806-folk-cleansing-01"
 date: 2026-07-14
 regions: ["西北丘陵・客庄古道","中部河階・陶土","南部平原・地下祖靈城"]
 cities: ["客家","閩南／台灣漢人民俗"]

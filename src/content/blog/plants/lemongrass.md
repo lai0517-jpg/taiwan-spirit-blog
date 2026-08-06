@@ -1,6 +1,7 @@
 ---
 title: "香茅"
 category: "民俗淨化"
+image: "/taiwan-spirit-blog/assets/images/plants/lemongrass-garden-real.png?v=20260806-folk-cleansing-01"
 date: 2026-07-14
 regions: ["北部盆地・河口","中部河階・陶土","南部平原・地下祖靈城"]
 cities: ["新住民／當代台灣","閩南／台灣漢人民俗"]

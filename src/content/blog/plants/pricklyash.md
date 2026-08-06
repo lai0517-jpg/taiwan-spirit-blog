@@ -1,6 +1,7 @@
 ---
 title: "刺蔥"
 category: "民俗淨化"
+image: "/taiwan-spirit-blog/assets/images/plants/prickly-ash-mountain-spice-real.png?v=20260806-folk-cleansing-01"
 date: 2026-07-14
 regions: ["東部縱谷・玉石祖靈","中部河階・陶土","南部平原・地下祖靈城","山林內陸・霧石"]
 cities: ["阿美族","原住民族總論"]

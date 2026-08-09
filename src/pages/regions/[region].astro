@@ -1,0 +1,188 @@
+---
+import { getCollection } from 'astro:content';
+import BlogLayout from '../../layouts/BlogLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { findRegionBySlug, regionMatches, taiwanSpiritRegions } from '../../data/regions';
+
+export function getStaticPaths() {
+  return taiwanSpiritRegions.map((region) => ({
+    params: { region: region.slug },
+  }));
+}
+
+const { region: regionSlug } = Astro.params;
+const region = findRegionBySlug(regionSlug as string)!;
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const posts = allPosts
+  .filter((post) => post.data.regions?.some((postRegion) => regionMatches(region, postRegion)))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const themeNames: Record<string, string> = {
+  fuzhe: '福澤系統',
+  plants: '植物・作物',
+  monsters: '精怪・地景',
+  talismans: '符咒・法器',
+  temples: '廟宇神靈',
+};
+
+const groupedPosts = posts.reduce<Record<string, typeof posts>>((groups, post) => {
+  const theme = post.slug.split('/')[0] || 'other';
+  if (!groups[theme]) {
+    groups[theme] = [];
+  }
+  groups[theme].push(post);
+  return groups;
+}, {});
+
+const orderedThemes = Object.keys(groupedPosts).sort((a, b) => {
+  const order = ['temples', 'monsters', 'fuzhe', 'plants', 'talismans'];
+  return order.indexOf(a) - order.indexOf(b);
+});
+---
+
+<BlogLayout title={region.title}>
+  <header class="page-header">
+    <div class="breadcrumb">
+      <a href="/taiwan-spirit-blog/">首頁</a> /
+      <a href="/taiwan-spirit-blog/regions/">地區索引</a> /
+      <span>{region.shortTitle}</span>
+    </div>
+    <p class="region-area">{region.area}</p>
+    <h2 class="section-title">{region.title}</h2>
+    <p class="section-desc">{region.description}</p>
+    <div class="county-list">
+      {region.counties.map((county) => <span>{county}</span>)}
+    </div>
+  </header>
+
+  <nav class="theme-jump" aria-label="地區內類別快選">
+    {orderedThemes.map((theme) => (
+      <a href={`#${theme}`}>{themeNames[theme] ?? theme} {groupedPosts[theme].length}</a>
+    ))}
+  </nav>
+
+  {orderedThemes.map((theme) => (
+    <section class="theme-section" id={theme}>
+      <div class="theme-section-head">
+        <h3>{themeNames[theme] ?? theme}</h3>
+        <span>{groupedPosts[theme].length} 筆</span>
+      </div>
+      <div class="posts-grid">
+        {groupedPosts[theme].map((post) => (
+          <ArticleCard post={post} />
+        ))}
+      </div>
+    </section>
+  ))}
+
+  {posts.length === 0 && (
+    <div class="empty-state">
+      <p>此地區目前尚未串連文章。</p>
+    </div>
+  )}
+</BlogLayout>
+
+<style>
+  .page-header {
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 1.5rem;
+  }
+  .breadcrumb {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.7rem;
+  }
+  .breadcrumb a:hover {
+    color: var(--color-gold);
+  }
+  .region-area {
+    color: var(--color-gold);
+    font-size: 0.85rem;
+    margin-bottom: 0.2rem;
+  }
+  .section-title {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    color: var(--color-gold);
+    margin-bottom: 0.5rem;
+  }
+  .section-desc {
+    color: var(--color-text-muted);
+    max-width: 860px;
+  }
+  .county-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 1rem;
+  }
+  .county-list span {
+    border: 1px solid rgba(216, 182, 109, 0.14);
+    border-radius: 2px;
+    color: var(--color-text-muted);
+    background-color: rgba(216, 182, 109, 0.04);
+    padding: 0.12rem 0.45rem;
+    font-size: 0.78rem;
+  }
+  .theme-jump {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    display: flex;
+    gap: 0.45rem;
+    overflow-x: auto;
+    border-bottom: 1px solid var(--color-border);
+    background-color: rgba(13, 15, 18, 0.94);
+    backdrop-filter: blur(8px);
+    padding: 0.7rem 0 0.8rem;
+    margin-bottom: 1.6rem;
+  }
+  .theme-jump a {
+    flex: 0 0 auto;
+    border: 1px solid rgba(216, 182, 109, 0.16);
+    border-radius: 4px;
+    color: var(--color-text-muted);
+    background-color: rgba(216, 182, 109, 0.05);
+    padding: 0.35rem 0.65rem;
+    font-size: 0.84rem;
+  }
+  .theme-jump a:hover {
+    border-color: var(--color-gold);
+    color: var(--color-gold-bright);
+  }
+  .theme-section {
+    scroll-margin-top: 74px;
+    margin-bottom: 2.5rem;
+  }
+  .theme-section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px dashed rgba(216, 182, 109, 0.14);
+    padding-bottom: 0.55rem;
+  }
+  .theme-section-head h3 {
+    color: var(--color-gold);
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+  }
+  .theme-section-head span {
+    color: var(--color-text-muted);
+    font-size: 0.86rem;
+  }
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  .empty-state {
+    text-align: center;
+    padding: 4rem 2rem;
+    border: 1px dashed var(--color-border);
+    color: var(--color-text-muted);
+  }
+</style>

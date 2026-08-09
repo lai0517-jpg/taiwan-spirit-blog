@@ -1,0 +1,178 @@
+---
+import { getCollection } from 'astro:content';
+import BlogLayout from '../../layouts/BlogLayout.astro';
+import { taiwanSpiritRegions, regionMatches } from '../../data/regions';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+
+const regionCards = taiwanSpiritRegions.map((region) => {
+  const posts = allPosts.filter((post) =>
+    post.data.regions?.some((postRegion) => regionMatches(region, postRegion))
+  );
+
+  const themeCounts = posts.reduce<Record<string, number>>((counts, post) => {
+    const theme = post.slug.split('/')[0] || 'other';
+    counts[theme] = (counts[theme] ?? 0) + 1;
+    return counts;
+  }, {});
+
+  return {
+    ...region,
+    count: posts.length,
+    themeCounts,
+  };
+});
+
+const themeNames: Record<string, string> = {
+  fuzhe: '福澤',
+  plants: '植物',
+  monsters: '精怪',
+  talismans: '符物',
+  temples: '廟宇',
+};
+---
+
+<BlogLayout title="地區索引">
+  <header class="page-header">
+    <div class="breadcrumb">
+      <a href="/taiwan-spirit-blog/">首頁</a> / <span>地區索引</span>
+    </div>
+    <h2 class="section-title">地區索引｜Region Index</h2>
+    <p class="section-desc">先用地區串連現有資料；之後台灣地圖與分類篩選都可以接到這一層。</p>
+  </header>
+
+  <section class="region-grid" aria-label="台灣靈格地區">
+    {regionCards.map((region) => (
+      <a class="region-card" href={`/taiwan-spirit-blog/regions/${region.slug}`}>
+        <div class="region-card-head">
+          <div>
+            <p class="region-area">{region.area}</p>
+            <h3>{region.title}</h3>
+            <p class="region-english">{region.englishTitle}</p>
+          </div>
+          <span class="region-count">{region.count}</span>
+        </div>
+        <p class="region-description">{region.description}</p>
+        <div class="county-list">
+          {region.counties.slice(0, 6).map((county) => <span>{county}</span>)}
+        </div>
+        <div class="theme-list" aria-label="目前資料類型統計">
+          {Object.entries(region.themeCounts).map(([theme, count]) => (
+            <span>{themeNames[theme] ?? theme} {count}</span>
+          ))}
+        </div>
+      </a>
+    ))}
+  </section>
+</BlogLayout>
+
+<style>
+  .page-header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 1.5rem;
+  }
+  .breadcrumb {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.5rem;
+  }
+  .breadcrumb a:hover {
+    color: var(--color-gold);
+  }
+  .section-title {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    color: var(--color-gold);
+    margin-bottom: 0.5rem;
+  }
+  .section-desc {
+    color: var(--color-text-muted);
+  }
+  .region-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  .region-card {
+    display: flex;
+    min-height: 290px;
+    flex-direction: column;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    background-color: var(--color-surface);
+    padding: 1.15rem;
+    transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+  }
+  .region-card:hover {
+    border-color: var(--color-gold);
+    background-color: var(--color-surface-hover);
+    transform: translateY(-2px);
+  }
+  .region-card-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+  }
+  .region-area {
+    font-size: 0.78rem;
+    color: var(--color-gold);
+    margin-bottom: 0.2rem;
+  }
+  .region-card h3 {
+    font-family: var(--font-serif);
+    color: var(--color-text);
+    font-size: 1.15rem;
+    line-height: 1.35;
+  }
+  .region-english {
+    color: var(--color-text-muted);
+    font-size: 0.76rem;
+    margin-top: 0.15rem;
+  }
+  .region-count {
+    flex: 0 0 auto;
+    min-width: 42px;
+    min-height: 42px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(216, 182, 109, 0.24);
+    color: var(--color-gold-bright);
+    background-color: rgba(216, 182, 109, 0.08);
+    border-radius: 50%;
+    font-family: var(--font-cinzel);
+  }
+  .region-description {
+    color: var(--color-text-muted);
+    font-size: 0.88rem;
+    line-height: 1.65;
+  }
+  .county-list,
+  .theme-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+  .county-list {
+    margin-top: 1rem;
+  }
+  .theme-list {
+    margin-top: auto;
+    padding-top: 1rem;
+  }
+  .county-list span,
+  .theme-list span {
+    border: 1px solid rgba(216, 182, 109, 0.14);
+    border-radius: 2px;
+    color: var(--color-text-muted);
+    background-color: rgba(216, 182, 109, 0.04);
+    padding: 0.12rem 0.4rem;
+    font-size: 0.76rem;
+  }
+  .theme-list span {
+    color: var(--color-gold);
+  }
+</style>

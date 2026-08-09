@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import QuickNav from './QuickNav.astro';
+import { taiwanSpiritRegions, regionMatches } from '../data/regions';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 
@@ -30,6 +31,13 @@ allPosts.forEach((post) => {
 });
 
 const themes = Object.keys(navigationData).sort();
+
+const regionCounts = taiwanSpiritRegions.map((region) => ({
+  ...region,
+  count: allPosts.filter((post) =>
+    post.data.regions?.some((postRegion) => regionMatches(region, postRegion))
+  ).length,
+}));
 ---
 
 <aside class="sidebar" transition:persist>
@@ -41,6 +49,19 @@ const themes = Object.keys(navigationData).sort();
   </div>
 
   <QuickNav variant="sidebar" />
+
+  <nav class="region-nav" aria-label="地區快選">
+    <div class="region-nav-title">地區｜Regions</div>
+    <a href="/taiwan-spirit-blog/regions/" class="region-all-link">全部地區索引</a>
+    <div class="region-link-list">
+      {regionCounts.map((region) => (
+        <a href={`/taiwan-spirit-blog/regions/${region.slug}`} class="region-link">
+          <span>{region.shortTitle}</span>
+          <span class="region-link-count">{region.count}</span>
+        </a>
+      ))}
+    </div>
+  </nav>
   
   <nav class="nav-tree">
     {themes.map((theme) => (
@@ -104,6 +125,53 @@ const themes = Object.keys(navigationData).sort();
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+  }
+  .region-nav {
+    border-bottom: 1px dashed rgba(216, 182, 109, 0.14);
+    margin-bottom: 1.35rem;
+    padding-bottom: 1.15rem;
+  }
+  .region-nav-title {
+    font-family: var(--font-cinzel);
+    font-size: 0.72rem;
+    color: var(--color-text-muted);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 0.65rem;
+  }
+  .region-all-link {
+    display: block;
+    color: var(--color-gold);
+    font-size: 0.9rem;
+    margin-bottom: 0.55rem;
+  }
+  .region-link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .region-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    border: 1px solid rgba(216, 182, 109, 0.1);
+    border-radius: 3px;
+    color: var(--color-text-muted);
+    background-color: rgba(216, 182, 109, 0.035);
+    padding: 0.35rem 0.45rem;
+    font-size: 0.82rem;
+    line-height: 1.35;
+  }
+  .region-link:hover {
+    color: var(--color-gold-bright);
+    border-color: rgba(216, 182, 109, 0.32);
+  }
+  .region-link-count {
+    flex: 0 0 auto;
+    color: var(--color-gold);
+    font-family: var(--font-cinzel);
+    font-size: 0.78rem;
   }
   .theme-group {
     border-bottom: 1px dashed rgba(216, 182, 109, 0.1);

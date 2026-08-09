@@ -1,6 +1,7 @@
 ---
 title: "榕樹"
 category: "聚落老樹"
+image: "/taiwan-spirit-blog/assets/images/plants/banyan-village-aerial-roots-real.jpg?v=20260809-village-old-trees-01"
 date: 2026-07-14
 regions: ["北部盆地・河口","中部河階・陶土","南部平原・地下祖靈城","東部縱谷・玉石祖靈"]
 cities: ["閩南／台灣漢人民俗","客家"]

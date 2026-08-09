@@ -1,6 +1,7 @@
 ---
 title: "相思樹"
 category: "聚落老樹"
+image: "/taiwan-spirit-blog/assets/images/plants/acacia-confusa-charcoal-hill-real.jpg?v=20260809-village-old-trees-01"
 date: 2026-07-14
 regions: ["西北丘陵・客庄古道","中部河階・陶土","南部平原・地下祖靈城"]
 cities: ["客家","日本時代產業記憶"]

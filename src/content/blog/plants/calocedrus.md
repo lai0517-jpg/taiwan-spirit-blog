@@ -1,6 +1,7 @@
 ---
 title: "臺灣肖楠"
 category: "聚落老樹"
+image: "/taiwan-spirit-blog/assets/images/plants/taiwan-incense-cedar-scale-leaves-real.jpg?v=20260809-village-old-trees-01"
 date: 2026-07-14
 regions: ["中部河階・陶土","南部平原・地下祖靈城","山林內陸・霧石"]
 cities: ["日本時代產業記憶"]

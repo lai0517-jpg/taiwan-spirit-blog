@@ -1,6 +1,7 @@
 ---
 title: "樟樹"
 category: "聚落老樹"
+image: "/taiwan-spirit-blog/assets/images/plants/camphor-tree-village-real.jpg?v=20260809-village-old-trees-01"
 date: 2026-07-14
 regions: ["北部盆地・河口","西北丘陵・客庄古道","中部河階・陶土","南部平原・地下祖靈城","山林內陸・霧石"]
 cities: ["客家","日本時代產業記憶"]

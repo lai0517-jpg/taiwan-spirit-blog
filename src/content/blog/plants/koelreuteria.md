@@ -1,6 +1,7 @@
 ---
 title: "臺灣欒樹"
 category: "聚落老樹"
+image: "/taiwan-spirit-blog/assets/images/plants/taiwan-golden-rain-tree-real.jpg?v=20260809-village-old-trees-01"
 date: 2026-07-14
 regions: ["北部盆地・河口","中部河階・陶土","南部平原・地下祖靈城"]
 cities: ["客家","閩南／台灣漢人民俗"]

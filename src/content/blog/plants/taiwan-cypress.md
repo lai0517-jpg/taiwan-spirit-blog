@@ -2,6 +2,7 @@
 title: 台灣扁柏
 subtitle: Chamaecyparis obtusa var. formosana
 category: 針葉木／高山地景
+image: "/taiwan-spirit-blog/assets/images/plants/taiwan-cypress-mist-forest-standalone-real.jpg?v=20260809-village-old-trees-01"
 date: 2026-07-13
 regions: ["中央山脈・中高海拔"]
 cities: ["宜蘭", "台中"]

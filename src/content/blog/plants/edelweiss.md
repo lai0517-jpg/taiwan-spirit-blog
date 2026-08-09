@@ -1,6 +1,7 @@
 ---
 title: "玉山薄雪草"
 category: "蘭科稀有花草"
+image: "/taiwan-spirit-blog/assets/images/plants/yushan-edelweiss-alpine-real.jpg?v=20260810-rare-flowers-final-01"
 date: 2026-07-14
 regions: ["山林內陸・霧石"]
 cities: ["布農族"]

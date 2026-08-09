@@ -1,6 +1,7 @@
 ---
 title: "臺灣一葉蘭"
 category: "蘭科稀有花草"
+image: "/taiwan-spirit-blog/assets/images/plants/pleione-formosana-single-leaf-orchid-real.jpg?v=20260810-rare-flowers-final-01"
 date: 2026-07-14
 regions: ["山林內陸・霧石","中部河階・陶土"]
 cities: ["日本時代產業記憶"]

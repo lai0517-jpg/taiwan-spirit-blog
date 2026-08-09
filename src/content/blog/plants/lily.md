@@ -1,6 +1,7 @@
 ---
 title: "臺灣百合"
 category: "蘭科稀有花草"
+image: "/taiwan-spirit-blog/assets/images/plants/taiwan-lily-mountain-slope-real.jpg?v=20260810-rare-flowers-final-01"
 date: 2026-07-14
 regions: ["東部縱谷・玉石祖靈","南部平原・地下祖靈城","山林內陸・霧石","北部盆地・河口"]
 cities: ["排灣族","魯凱族","原住民族總論"]

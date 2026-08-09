@@ -1,6 +1,7 @@
 ---
 title: "金花石蒜"
 category: "蘭科稀有花草"
+image: "/taiwan-spirit-blog/assets/images/plants/golden-spider-lily-forest-real.jpg?v=20260810-rare-flowers-final-01"
 date: 2026-07-14
 regions: ["北部盆地・河口","中部河階・陶土","南部平原・地下祖靈城"]
 cities: ["閩南／台灣漢人民俗"]

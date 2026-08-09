@@ -5,8 +5,8 @@
 ## 統計摘要｜Summary
 
 - 文章總數｜Total posts：307
-- 有圖片｜With image：299
-- 沒圖片｜Without image：8
+- 有圖片｜With image：307
+- 沒圖片｜Without image：0
 - 類別總數｜Categories：83
 
 ## 依類別總表｜By Category
@@ -75,7 +75,7 @@
 | 聚落防衛／五方兵陣 | 1 | 0 | 五營兵將<br><small>/taiwan-spirit-blog/assets/images/temples/wuying.png?v=20260727-complete-temples</small> | — |
 | 聲音召請法器系 | 6 | 0 | 木魚<br><small>/taiwan-spirit-blog/assets/images/talismans/wooden-fish-real.png?v=20260728-talismans-real-03</small><br>法螺／牛角號<br><small>/taiwan-spirit-blog/assets/images/talismans/conch-ox-horn-real.png?v=20260728-talismans-real-04</small><br>法鈴／帝鐘<br><small>/taiwan-spirit-blog/assets/images/talismans/ritual-hand-bell-real.png?v=20260728-talismans-real-03</small><br>磬<br><small>/taiwan-spirit-blog/assets/images/talismans/qing-bowl-real.png?v=20260728-talismans-real-04</small><br>鐘鼓<br><small>/taiwan-spirit-blog/assets/images/talismans/temple-bell-drum-real.png?v=20260728-talismans-real-05</small><br>鑼鼓鈸鐃<br><small>/taiwan-spirit-blog/assets/images/talismans/gong-drum-cymbals-real.png?v=20260728-talismans-real-05</small> |  |
 | 蕨類雨林 | 8 | 0 | 鳥巢蕨<br><small>/taiwan-spirit-blog/assets/images/plants/birds-nest-fern-epiphyte-real.jpg?v=20260809-fern-rainforest-01</small><br>山蘇<br><small>/taiwan-spirit-blog/assets/images/plants/asplenium-antiquum-sori-real.jpg?v=20260809-fern-rainforest-01</small><br>金狗毛蕨<br><small>/taiwan-spirit-blog/assets/images/plants/golden-dog-fern-rhizome-real.jpg?v=20260809-fern-rainforest-01</small><br>臺灣桫欏<br><small>/taiwan-spirit-blog/assets/images/plants/taiwan-cyathea-frond-skirt-real.jpg?v=20260809-fern-rainforest-01</small><br>鐵線蕨<br><small>/taiwan-spirit-blog/assets/images/plants/maidenhair-fern-wet-cliff-real.jpg?v=20260809-fern-rainforest-01</small><br>臺灣觀音座蓮<br><small>/taiwan-spirit-blog/assets/images/plants/marattia-formosana-lotus-base-real.jpg?v=20260809-fern-rainforest-01</small><br>卷柏<br><small>/taiwan-spirit-blog/assets/images/plants/selaginella-resurrection-rock-real.jpg?v=20260809-fern-rainforest-01</small><br>筆筒樹<br><small>/taiwan-spirit-blog/assets/images/plants/taiwan-tree-fern-rainforest-real.jpg?v=20260809-fern-rainforest-01</small> | — |
-| 蘭科稀有花草 | 0 | 8 | — | 白及<br>玉山薄雪草<br>臺灣百合<br>金花石蒜<br>臺灣一葉蘭<br>臺灣喜普鞋蘭<br>綬草<br>臺灣油點草 |
+| 蘭科稀有花草 | 8 | 0 | 白及<br><small>/taiwan-spirit-blog/assets/images/plants/bletilla-terrestrial-orchid-real.jpg?v=20260810-rare-flowers-final-01</small><br>玉山薄雪草<br><small>/taiwan-spirit-blog/assets/images/plants/yushan-edelweiss-alpine-real.jpg?v=20260810-rare-flowers-final-01</small><br>臺灣百合<br><small>/taiwan-spirit-blog/assets/images/plants/taiwan-lily-mountain-slope-real.jpg?v=20260810-rare-flowers-final-01</small><br>金花石蒜<br><small>/taiwan-spirit-blog/assets/images/plants/golden-spider-lily-forest-real.jpg?v=20260810-rare-flowers-final-01</small><br>臺灣一葉蘭<br><small>/taiwan-spirit-blog/assets/images/plants/pleione-formosana-single-leaf-orchid-real.jpg?v=20260810-rare-flowers-final-01</small><br>臺灣喜普鞋蘭<br><small>/taiwan-spirit-blog/assets/images/plants/taiwan-slipper-orchid-real.jpg?v=20260810-rare-flowers-final-01</small><br>綬草<br><small>/taiwan-spirit-blog/assets/images/plants/spiranthes-spiral-orchid-real.jpg?v=20260810-rare-flowers-final-01</small><br>臺灣油點草<br><small>/taiwan-spirit-blog/assets/images/plants/taiwan-toad-lily-spotted-real.jpg?v=20260810-rare-flowers-final-01</small> | — |
 | 蛙／田野水澤型 | 1 | 0 | 澤蛙<br><small>/taiwan-spirit-blog/assets/images/fuzhe/paddy-frog-real.png?v=20260728-fuzhe-real</small> | — |
 | 蟾蜍／全台普遍型 | 1 | 0 | 盤古蟾蜍<br><small>/taiwan-spirit-blog/assets/images/fuzhe/bankorensis-toad-real.png?v=20260728-fuzhe-real</small> | — |
 | 請靈儀式／女性靈體 | 1 | 0 | 椅仔姑<br><small>/taiwan-spirit-blog/assets/images/temples/chair-spirit.png</small> | — |

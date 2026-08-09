@@ -1,6 +1,7 @@
 ---
 title: "欖仁"
 category: "海岸濕地"
+image: "/taiwan-spirit-blog/assets/images/plants/terminalia-catappa-coastal-shade-real.jpg?v=20260809-coastal-wetland-01"
 date: 2026-07-14
 regions: ["南部平原・地下祖靈城","東部縱谷・玉石祖靈","島嶼／海域外篇"]
 cities: ["閩南／台灣漢人民俗"]

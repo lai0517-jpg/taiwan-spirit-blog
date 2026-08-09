@@ -5,8 +5,8 @@
 ## 統計摘要｜Summary
 
 - 文章總數｜Total posts：307
-- 有圖片｜With image：270
-- 沒圖片｜Without image：37
+- 有圖片｜With image：281
+- 沒圖片｜Without image：26
 - 類別總數｜Categories：83
 
 ## 依類別總表｜By Category
@@ -58,7 +58,7 @@
 | 水域亡魂／抓交替 | 1 | 0 | 水鬼<br><small>/taiwan-spirit-blog/assets/images/temples/water-ghost.png?v=20260727-complete-temples</small> | — |
 | 水邊魚靈系 | 5 | 0 | 溪谷深潭禁忌<br><small>/taiwan-spirit-blog/assets/images/monsters/deep-pool.png?v=20260728-monsters</small><br>人面魚<br><small>/taiwan-spirit-blog/assets/images/monsters/human-face-fish.png?v=20260728-monsters</small><br>水鬼<br><small>/taiwan-spirit-blog/assets/images/monsters/water-ghost.png?v=20260728-monsters</small><br>抓交替<br><small>/taiwan-spirit-blog/assets/images/monsters/water-substitute.png?v=20260728-monsters</small><br>水鬼變城隍<br><small>/taiwan-spirit-blog/assets/images/monsters/waterghost-citygod.png?v=20260728-monsters</small> | — |
 | 法令擋災／地方傳說 | 1 | 0 | 城隍聖旨擋炸彈<br><small>/taiwan-spirit-blog/assets/images/temples/citygod-decree.png</small> | — |
-| 海岸濕地 | 0 | 11 | — | 海茄苳<br>棋盤腳<br>黃槿<br>水筆仔<br>馬鞍藤<br>草海桐<br>林投樹<br>水黃皮<br>蘆葦<br>海檬果<br>欖仁 |
+| 海岸濕地 | 11 | 0 | 海茄苳<br><small>/taiwan-spirit-blog/assets/images/plants/mangrove-avicennia-lagoon-real.jpg?v=20260809-coastal-wetland-01</small><br>棋盤腳<br><small>/taiwan-spirit-blog/assets/images/plants/barringtonia-night-flower-fruit-real.jpg?v=20260809-coastal-wetland-01</small><br>黃槿<br><small>/taiwan-spirit-blog/assets/images/plants/coastal-hibiscus-windbreak-real.jpg?v=20260809-coastal-wetland-01</small><br>水筆仔<br><small>/taiwan-spirit-blog/assets/images/plants/kandelia-mangrove-propagules-real.jpg?v=20260809-coastal-wetland-01</small><br>馬鞍藤<br><small>/taiwan-spirit-blog/assets/images/plants/beach-morning-glory-dune-real.jpg?v=20260809-coastal-wetland-01</small><br>草海桐<br><small>/taiwan-spirit-blog/assets/images/plants/scaevola-coastal-shrub-real.jpg?v=20260809-coastal-wetland-01</small><br>林投樹<br><small>/taiwan-spirit-blog/assets/images/plants/pandanus-coastal-prop-roots-real.jpg?v=20260809-coastal-wetland-01</small><br>水黃皮<br><small>/taiwan-spirit-blog/assets/images/plants/pongamia-creek-mouth-real.jpg?v=20260809-coastal-wetland-01</small><br>蘆葦<br><small>/taiwan-spirit-blog/assets/images/plants/reed-wetland-plumes-real.jpg?v=20260809-coastal-wetland-01</small><br>海檬果<br><small>/taiwan-spirit-blog/assets/images/plants/sea-mango-poisonous-coast-real.jpg?v=20260809-coastal-wetland-01</small><br>欖仁<br><small>/taiwan-spirit-blog/assets/images/plants/terminalia-catappa-coastal-shade-real.jpg?v=20260809-coastal-wetland-01</small> | — |
 | 海路／港口／移民守護神 | 1 | 0 | 媽祖<br><small>/taiwan-spirit-blog/assets/images/temples/mazu.png</small> | — |
 | 海難救助／引航傳說 | 1 | 0 | 媽祖救船避風浪<br><small>/taiwan-spirit-blog/assets/images/temples/mazu-sea.png</small> | — |
 | 犧牲者成神／客庄守護 | 1 | 0 | 義民守土成神<br><small>/taiwan-spirit-blog/assets/images/temples/yimin-hero.png?v=20260727-complete-temples</small> | — |

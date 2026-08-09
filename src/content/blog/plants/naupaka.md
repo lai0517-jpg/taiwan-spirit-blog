@@ -1,6 +1,7 @@
 ---
 title: "草海桐"
 category: "海岸濕地"
+image: "/taiwan-spirit-blog/assets/images/plants/scaevola-coastal-shrub-real.jpg?v=20260809-coastal-wetland-01"
 date: 2026-07-14
 regions: ["南部平原・地下祖靈城","島嶼／海域外篇","北部盆地・河口","東部縱谷・玉石祖靈"]
 cities: ["閩南／台灣漢人民俗"]

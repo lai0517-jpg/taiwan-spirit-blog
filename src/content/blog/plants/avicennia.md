@@ -1,6 +1,7 @@
 ---
 title: "海茄苳"
 category: "海岸濕地"
+image: "/taiwan-spirit-blog/assets/images/plants/mangrove-avicennia-lagoon-real.jpg?v=20260809-coastal-wetland-01"
 date: 2026-07-14
 regions: ["南部平原・地下祖靈城","北部盆地・河口"]
 cities: ["閩南／台灣漢人民俗"]

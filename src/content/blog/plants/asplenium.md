@@ -1,6 +1,7 @@
 ---
 title: "鳥巢蕨"
 category: "蕨類雨林"
+image: "/taiwan-spirit-blog/assets/images/plants/birds-nest-fern-epiphyte-real.jpg?v=20260809-fern-rainforest-01"
 date: 2026-07-14
 regions: ["東部縱谷・玉石祖靈","南部平原・地下祖靈城","山林內陸・霧石","島嶼／海域外篇"]
 cities: ["原住民族總論"]

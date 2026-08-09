@@ -5,8 +5,8 @@
 ## 統計摘要｜Summary
 
 - 文章總數｜Total posts：307
-- 有圖片｜With image：291
-- 沒圖片｜Without image：16
+- 有圖片｜With image：299
+- 沒圖片｜Without image：8
 - 類別總數｜Categories：83
 
 ## 依類別總表｜By Category
@@ -74,7 +74,7 @@
 | 聚落老樹 | 9 | 0 | 相思樹<br><small>/taiwan-spirit-blog/assets/images/plants/acacia-confusa-charcoal-hill-real.jpg?v=20260809-village-old-trees-01</small><br>榕樹<br><small>/taiwan-spirit-blog/assets/images/plants/banyan-village-aerial-roots-real.jpg?v=20260809-village-old-trees-01</small><br>茄苳<br><small>/taiwan-spirit-blog/assets/images/plants/bischofia-javanica-village-old-tree-real.jpg?v=20260809-village-old-trees-01</small><br>臺灣肖楠<br><small>/taiwan-spirit-blog/assets/images/plants/taiwan-incense-cedar-scale-leaves-real.jpg?v=20260809-village-old-trees-01</small><br>樟樹<br><small>/taiwan-spirit-blog/assets/images/plants/camphor-tree-village-real.jpg?v=20260809-village-old-trees-01</small><br>苦楝<br><small>/taiwan-spirit-blog/assets/images/plants/chinaberry-purple-flowers-real.jpg?v=20260809-village-old-trees-01</small><br>臺灣欒樹<br><small>/taiwan-spirit-blog/assets/images/plants/taiwan-golden-rain-tree-real.jpg?v=20260809-village-old-trees-01</small><br>無患子<br><small>/taiwan-spirit-blog/assets/images/plants/soapberry-fruit-village-real.jpg?v=20260809-village-old-trees-01</small><br>楓香<br><small>/taiwan-spirit-blog/assets/images/plants/formosan-sweetgum-autumn-real.jpg?v=20260809-village-old-trees-01</small> | — |
 | 聚落防衛／五方兵陣 | 1 | 0 | 五營兵將<br><small>/taiwan-spirit-blog/assets/images/temples/wuying.png?v=20260727-complete-temples</small> | — |
 | 聲音召請法器系 | 6 | 0 | 木魚<br><small>/taiwan-spirit-blog/assets/images/talismans/wooden-fish-real.png?v=20260728-talismans-real-03</small><br>法螺／牛角號<br><small>/taiwan-spirit-blog/assets/images/talismans/conch-ox-horn-real.png?v=20260728-talismans-real-04</small><br>法鈴／帝鐘<br><small>/taiwan-spirit-blog/assets/images/talismans/ritual-hand-bell-real.png?v=20260728-talismans-real-03</small><br>磬<br><small>/taiwan-spirit-blog/assets/images/talismans/qing-bowl-real.png?v=20260728-talismans-real-04</small><br>鐘鼓<br><small>/taiwan-spirit-blog/assets/images/talismans/temple-bell-drum-real.png?v=20260728-talismans-real-05</small><br>鑼鼓鈸鐃<br><small>/taiwan-spirit-blog/assets/images/talismans/gong-drum-cymbals-real.png?v=20260728-talismans-real-05</small> |  |
-| 蕨類雨林 | 0 | 8 | — | 鳥巢蕨<br>山蘇<br>金狗毛蕨<br>臺灣桫欏<br>鐵線蕨<br>臺灣觀音座蓮<br>卷柏<br>筆筒樹 |
+| 蕨類雨林 | 8 | 0 | 鳥巢蕨<br><small>/taiwan-spirit-blog/assets/images/plants/birds-nest-fern-epiphyte-real.jpg?v=20260809-fern-rainforest-01</small><br>山蘇<br><small>/taiwan-spirit-blog/assets/images/plants/asplenium-antiquum-sori-real.jpg?v=20260809-fern-rainforest-01</small><br>金狗毛蕨<br><small>/taiwan-spirit-blog/assets/images/plants/golden-dog-fern-rhizome-real.jpg?v=20260809-fern-rainforest-01</small><br>臺灣桫欏<br><small>/taiwan-spirit-blog/assets/images/plants/taiwan-cyathea-frond-skirt-real.jpg?v=20260809-fern-rainforest-01</small><br>鐵線蕨<br><small>/taiwan-spirit-blog/assets/images/plants/maidenhair-fern-wet-cliff-real.jpg?v=20260809-fern-rainforest-01</small><br>臺灣觀音座蓮<br><small>/taiwan-spirit-blog/assets/images/plants/marattia-formosana-lotus-base-real.jpg?v=20260809-fern-rainforest-01</small><br>卷柏<br><small>/taiwan-spirit-blog/assets/images/plants/selaginella-resurrection-rock-real.jpg?v=20260809-fern-rainforest-01</small><br>筆筒樹<br><small>/taiwan-spirit-blog/assets/images/plants/taiwan-tree-fern-rainforest-real.jpg?v=20260809-fern-rainforest-01</small> | — |
 | 蘭科稀有花草 | 0 | 8 | — | 白及<br>玉山薄雪草<br>臺灣百合<br>金花石蒜<br>臺灣一葉蘭<br>臺灣喜普鞋蘭<br>綬草<br>臺灣油點草 |
 | 蛙／田野水澤型 | 1 | 0 | 澤蛙<br><small>/taiwan-spirit-blog/assets/images/fuzhe/paddy-frog-real.png?v=20260728-fuzhe-real</small> | — |
 | 蟾蜍／全台普遍型 | 1 | 0 | 盤古蟾蜍<br><small>/taiwan-spirit-blog/assets/images/fuzhe/bankorensis-toad-real.png?v=20260728-fuzhe-real</small> | — |

@@ -5,6 +5,14 @@ export type FieldNoteEntry = {
   status: FieldNoteStatus;
   statusLabel: string;
   summary: string;
+  image?: string;
+  imageAlt?: string;
+  imageStatus?: 'needed' | 'ready';
+  dataStatus?: 'structured' | 'needsCoordinates' | 'needsArticle';
+  lat?: number;
+  lng?: number;
+  relatedPostUrl?: string;
+  sourceRefs?: string[];
 };
 
 export type FieldNoteSection = {
@@ -22,6 +30,22 @@ export type FieldNotePlace = {
   summary: string;
   sections: FieldNoteSection[];
 };
+
+export function getFieldNoteEntryId(place: FieldNotePlace, sectionIndex: number, entryIndex: number) {
+  return `${place.slug}-${sectionIndex + 1}-${entryIndex + 1}`;
+}
+
+export function getFieldNoteEntryImagePath(place: FieldNotePlace, sectionIndex: number, entryIndex: number) {
+  return `/taiwan-spirit-blog/assets/images/field-notes/${place.slug}/${getFieldNoteEntryId(place, sectionIndex, entryIndex)}.jpg`;
+}
+
+export function getFieldNoteEntryImageStatus(entry: FieldNoteEntry) {
+  return entry.imageStatus ?? (entry.image ? 'ready' : 'needed');
+}
+
+export function getFieldNoteEntryDataStatus(entry: FieldNoteEntry) {
+  return entry.dataStatus ?? 'structured';
+}
 
 export const fieldNotePlaces: FieldNotePlace[] = [
   {

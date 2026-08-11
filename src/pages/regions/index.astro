@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import BlogLayout from '../../layouts/BlogLayout.astro';
+import { getFieldNotesByRegion } from '../../data/fieldNotes';
+import { referenceFolders } from '../../data/referenceLibrary';
 import { taiwanSpiritRegions, regionMatches } from '../../data/regions';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
@@ -19,6 +21,7 @@ const regionCards = taiwanSpiritRegions.map((region) => {
   return {
     ...region,
     count: posts.length,
+    fieldNotes: getFieldNotesByRegion(region.slug),
     themeCounts,
   };
 });
@@ -56,6 +59,13 @@ const themeNames: Record<string, string> = {
         <div class="county-list">
           {region.counties.slice(0, 6).map((county) => <span>{county}</span>)}
         </div>
+        {region.fieldNotes.length > 0 && (
+          <div class="field-note-list">
+            {region.fieldNotes.map((place) => (
+              <span>{place.title} {place.sections.reduce((count, section) => count + section.entries.length, 0)}</span>
+            ))}
+          </div>
+        )}
         <div class="theme-list" aria-label="目前資料類型統計">
           {Object.entries(region.themeCounts).map(([theme, count]) => (
             <span>{themeNames[theme] ?? theme} {count}</span>
@@ -63,6 +73,30 @@ const themeNames: Record<string, string> = {
         </div>
       </a>
     ))}
+  </section>
+
+  <section class="reference-section" aria-label="參考資料夾串連狀態">
+    <div class="reference-head">
+      <h3>參考資料夾｜Reference Folders</h3>
+      <p>這些資料夾已納入專案索引；後續新增資料會從這裡整理成地圖節點、文章資料與圖片清單。</p>
+    </div>
+    <div class="reference-grid">
+      {referenceFolders.map((folder) => (
+        <article class="reference-card">
+          <div>
+            <h4>{folder.title}</h4>
+            <p class="reference-english">{folder.englishTitle}</p>
+          </div>
+          <p>{folder.purpose}</p>
+          <code>{folder.path}</code>
+          {folder.connectedData && (
+            <div class="connected-list">
+              {folder.connectedData.map((item) => <span>{item}</span>)}
+            </div>
+          )}
+        </article>
+      ))}
+    </div>
   </section>
 </BlogLayout>
 
@@ -151,6 +185,7 @@ const themeNames: Record<string, string> = {
     line-height: 1.65;
   }
   .county-list,
+  .field-note-list,
   .theme-list {
     display: flex;
     flex-wrap: wrap;
@@ -159,11 +194,15 @@ const themeNames: Record<string, string> = {
   .county-list {
     margin-top: 1rem;
   }
+  .field-note-list {
+    margin-top: 0.75rem;
+  }
   .theme-list {
     margin-top: auto;
     padding-top: 1rem;
   }
   .county-list span,
+  .field-note-list span,
   .theme-list span {
     border: 1px solid rgba(216, 182, 109, 0.14);
     border-radius: 2px;
@@ -174,5 +213,68 @@ const themeNames: Record<string, string> = {
   }
   .theme-list span {
     color: var(--color-gold);
+  }
+  .field-note-list span {
+    color: var(--color-gold-bright);
+    background-color: rgba(216, 182, 109, 0.08);
+  }
+  .reference-section {
+    margin-top: 2rem;
+    border-top: 1px solid var(--color-border);
+    padding-top: 1.5rem;
+  }
+  .reference-head {
+    margin-bottom: 1rem;
+  }
+  .reference-head h3 {
+    color: var(--color-gold);
+    font-family: var(--font-serif);
+    font-size: 1.35rem;
+    margin-bottom: 0.35rem;
+  }
+  .reference-head p {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+  }
+  .reference-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 0.85rem;
+  }
+  .reference-card {
+    display: grid;
+    gap: 0.55rem;
+    border: 1px solid rgba(216, 182, 109, 0.14);
+    border-radius: 4px;
+    background-color: var(--color-surface);
+    padding: 0.95rem;
+  }
+  .reference-card h4 {
+    color: var(--color-text);
+    font-family: var(--font-serif);
+    font-size: 1rem;
+  }
+  .reference-english,
+  .reference-card p {
+    color: var(--color-text-muted);
+    font-size: 0.8rem;
+    line-height: 1.55;
+  }
+  .reference-card code {
+    color: var(--color-gold);
+    font-size: 0.7rem;
+    overflow-wrap: anywhere;
+  }
+  .connected-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+  .connected-list span {
+    border: 1px solid rgba(216, 182, 109, 0.14);
+    border-radius: 2px;
+    color: var(--color-text-muted);
+    padding: 0.1rem 0.35rem;
+    font-size: 0.68rem;
   }
 </style>

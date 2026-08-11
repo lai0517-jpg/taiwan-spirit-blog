@@ -2,7 +2,13 @@
 import { getCollection } from 'astro:content';
 import BlogLayout from '../../layouts/BlogLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import { getFieldNotesByRegion } from '../../data/fieldNotes';
+import {
+  getFieldNoteEntryDataStatus,
+  getFieldNoteEntryId,
+  getFieldNoteEntryImagePath,
+  getFieldNoteEntryImageStatus,
+  getFieldNotesByRegion,
+} from '../../data/fieldNotes';
 import { findRegionBySlug, regionMatches, taiwanSpiritRegions } from '../../data/regions';
 
 export function getStaticPaths() {
@@ -93,15 +99,57 @@ const orderedThemes = Object.keys(groupedPosts).sort((a, b) => {
                 <details class="field-note-group" id={`field-${place.slug}-${index}`}>
                   <summary>{section.title} <span>{section.entries.length}</span></summary>
                   <div class="field-note-entry-list">
-                    {section.entries.map((entry) => (
+                    {section.entries.map((entry, entryIndex) => {
+                      const entryId = getFieldNoteEntryId(place, index, entryIndex);
+                      const imagePath = entry.image ?? getFieldNoteEntryImagePath(place, index, entryIndex);
+                      const imageStatus = getFieldNoteEntryImageStatus(entry);
+                      const dataStatus = getFieldNoteEntryDataStatus(entry);
+                      return (
                       <div class="field-note-entry">
+                        <div class:list={['field-note-image-slot', imageStatus]}>
+                          {entry.image ? (
+                            <img src={entry.image} alt={entry.imageAlt ?? entry.title} loading="lazy" />
+                          ) : (
+                            <div>
+                              <span>待生成圖片</span>
+                              <code>{imagePath}</code>
+                            </div>
+                          )}
+                        </div>
                         <div class="field-note-entry-top">
                           <strong>{entry.title}</strong>
                           <span class:list={['field-note-badge', entry.status]}>{entry.statusLabel}</span>
                         </div>
                         <p>{entry.summary}</p>
+                        <dl class="field-note-meta">
+                          <div>
+                            <dt>資料 ID</dt>
+                            <dd>{entryId}</dd>
+                          </div>
+                          <div>
+                            <dt>圖片</dt>
+                            <dd>{imageStatus === 'ready' ? '已完成' : '待生成'}</dd>
+                          </div>
+                          <div>
+                            <dt>資料</dt>
+                            <dd>
+                              {dataStatus === 'structured' && '已結構化'}
+                              {dataStatus === 'needsCoordinates' && '待補座標'}
+                              {dataStatus === 'needsArticle' && '待補文章'}
+                            </dd>
+                          </div>
+                          <div>
+                            <dt>座標</dt>
+                            <dd>{entry.lat && entry.lng ? `${entry.lat}, ${entry.lng}` : '預留'}</dd>
+                          </div>
+                          <div>
+                            <dt>文章</dt>
+                            <dd>{entry.relatedPostUrl ? <a href={entry.relatedPostUrl}>已連結</a> : '預留'}</dd>
+                          </div>
+                        </dl>
                       </div>
-                    ))}
+                      );
+                    })}
                   </div>
                 </details>
               ))}
@@ -327,6 +375,41 @@ const orderedThemes = Object.keys(groupedPosts).sort((a, b) => {
     gap: 0.55rem;
     margin-bottom: 0.25rem;
   }
+  .field-note-image-slot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 128px;
+    border: 1px dashed rgba(216, 182, 109, 0.2);
+    border-radius: 4px;
+    background-color: rgba(13, 15, 18, 0.45);
+    margin-bottom: 0.65rem;
+    overflow: hidden;
+  }
+  .field-note-image-slot img {
+    width: 100%;
+    height: 100%;
+    min-height: 128px;
+    object-fit: cover;
+  }
+  .field-note-image-slot div {
+    display: grid;
+    gap: 0.25rem;
+    justify-items: center;
+    padding: 0.75rem;
+    text-align: center;
+  }
+  .field-note-image-slot span {
+    color: var(--color-gold);
+    font-size: 0.78rem;
+  }
+  .field-note-image-slot code {
+    color: var(--color-text-muted);
+    font-family: var(--font-cinzel);
+    font-size: 0.62rem;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
   .field-note-entry strong {
     color: var(--color-text);
     font-size: 0.86rem;
@@ -336,6 +419,29 @@ const orderedThemes = Object.keys(groupedPosts).sort((a, b) => {
     color: var(--color-text-muted);
     font-size: 0.8rem;
     line-height: 1.55;
+  }
+  .field-note-meta {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.35rem;
+    border-top: 1px dashed rgba(216, 182, 109, 0.1);
+    margin-top: 0.55rem;
+    padding-top: 0.55rem;
+  }
+  .field-note-meta div {
+    min-width: 0;
+  }
+  .field-note-meta dt {
+    color: var(--color-gold);
+    font-size: 0.66rem;
+  }
+  .field-note-meta dd {
+    color: var(--color-text-muted);
+    font-size: 0.7rem;
+    overflow-wrap: anywhere;
+  }
+  .field-note-meta a:hover {
+    color: var(--color-gold-bright);
   }
   .field-note-badge {
     flex: 0 0 auto;

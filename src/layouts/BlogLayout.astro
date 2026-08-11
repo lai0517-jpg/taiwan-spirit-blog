@@ -47,6 +47,39 @@ const { title } = Astro.props;
     <QuickNav variant="bottom" />
 
     <script is:inline>
+      function setupAnchorScrolling() {
+        const mainContent = document.querySelector('.main-content');
+        if (!mainContent) return;
+
+        function scrollToHash(hash) {
+          if (!hash || hash === '#') return;
+          const target = document.getElementById(decodeURIComponent(hash.slice(1)));
+          if (!target) return;
+
+          const mainRect = mainContent.getBoundingClientRect();
+          const targetRect = target.getBoundingClientRect();
+          const offset = 16;
+          mainContent.scrollTo({
+            top: mainContent.scrollTop + targetRect.top - mainRect.top - offset,
+            behavior: 'smooth',
+          });
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach((link) => {
+          link.addEventListener('click', (event) => {
+            const hash = link.getAttribute('href');
+            if (!hash) return;
+            event.preventDefault();
+            history.replaceState(null, '', hash);
+            scrollToHash(hash);
+          });
+        });
+
+        if (window.location.hash) {
+          window.setTimeout(() => scrollToHash(window.location.hash), 80);
+        }
+      }
+
       function setupMobileMenu() {
         const menuToggle = document.getElementById('menu-toggle');
         const sidebar = document.querySelector('.sidebar');
@@ -81,7 +114,9 @@ const { title } = Astro.props;
         setMenuOpen(false);
       }
       
+      setupAnchorScrolling();
       setupMobileMenu();
+      document.addEventListener('astro:page-load', setupAnchorScrolling);
       document.addEventListener('astro:page-load', setupMobileMenu);
     </script>
 

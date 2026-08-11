@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BlogLayout from '../../layouts/BlogLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
+import { getFieldNotesByRegion } from '../../data/fieldNotes';
 import { findRegionBySlug, regionMatches, taiwanSpiritRegions } from '../../data/regions';
 
 export function getStaticPaths() {
@@ -12,6 +13,7 @@ export function getStaticPaths() {
 
 const { region: regionSlug } = Astro.params;
 const region = findRegionBySlug(regionSlug as string)!;
+const fieldNotes = getFieldNotesByRegion(region.slug);
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 const posts = allPosts
@@ -57,10 +59,59 @@ const orderedThemes = Object.keys(groupedPosts).sort((a, b) => {
   </header>
 
   <nav class="theme-jump" aria-label="地區內類別快選">
+    {fieldNotes.length > 0 && <a href="#field-notes">田野資料 {fieldNotes.length}</a>}
+    {fieldNotes.flatMap((place) =>
+      place.sections.map((section, index) => (
+        <a href={`#field-${place.slug}-${index}`}>{place.title.replace(/^(苗栗|新北)/, '')}・{section.title}</a>
+      ))
+    )}
     {orderedThemes.map((theme) => (
       <a href={`#${theme}`}>{themeNames[theme] ?? theme} {groupedPosts[theme].length}</a>
     ))}
   </nav>
+
+  {fieldNotes.length > 0 && (
+    <section class="field-note-section" id="field-notes">
+      <div class="theme-section-head">
+        <h3>地方田野資料｜Field Notes</h3>
+        <span>{fieldNotes.length} 個地圖節點</span>
+      </div>
+      <div class="field-note-list">
+        {fieldNotes.map((place) => (
+          <article class="field-note-card">
+            <div class="field-note-head">
+              <div>
+                <p class="field-note-county">{place.county}</p>
+                <h4>{place.title}</h4>
+                <p class="field-note-english">{place.englishTitle}</p>
+              </div>
+              <span>{place.sections.reduce((count, section) => count + section.entries.length, 0)} 筆</span>
+            </div>
+            <p class="field-note-summary">{place.summary}</p>
+            <div class="field-note-groups">
+              {place.sections.map((section, index) => (
+                <details class="field-note-group" id={`field-${place.slug}-${index}`}>
+                  <summary>{section.title} <span>{section.entries.length}</span></summary>
+                  <div class="field-note-entry-list">
+                    {section.entries.map((entry) => (
+                      <div class="field-note-entry">
+                        <div class="field-note-entry-top">
+                          <strong>{entry.title}</strong>
+                          <span class:list={['field-note-badge', entry.status]}>{entry.statusLabel}</span>
+                        </div>
+                        <p>{entry.summary}</p>
+                      </div>
+                    ))}
+                  </div>
+                </details>
+              ))}
+            </div>
+            <p class="field-note-source">來源：{place.sourceFile}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
 
   {orderedThemes.map((theme) => (
     <section class="theme-section" id={theme}>
@@ -156,6 +207,10 @@ const orderedThemes = Object.keys(groupedPosts).sort((a, b) => {
     scroll-margin-top: 74px;
     margin-bottom: 2.5rem;
   }
+  .field-note-section {
+    scroll-margin-top: 74px;
+    margin-bottom: 2.5rem;
+  }
   .theme-section-head {
     display: flex;
     align-items: baseline;
@@ -178,6 +233,140 @@ const orderedThemes = Object.keys(groupedPosts).sort((a, b) => {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 1.5rem;
+  }
+  .field-note-list {
+    display: grid;
+    gap: 1rem;
+  }
+  .field-note-card {
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    background-color: var(--color-surface);
+    padding: 1.1rem;
+  }
+  .field-note-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+  }
+  .field-note-county {
+    color: var(--color-gold);
+    font-size: 0.82rem;
+    margin-bottom: 0.15rem;
+  }
+  .field-note-head h4 {
+    color: var(--color-text);
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+  }
+  .field-note-english {
+    color: var(--color-text-muted);
+    font-size: 0.78rem;
+  }
+  .field-note-head > span {
+    flex: 0 0 auto;
+    color: var(--color-gold-bright);
+    border: 1px solid rgba(216, 182, 109, 0.22);
+    border-radius: 99px;
+    background-color: rgba(216, 182, 109, 0.08);
+    padding: 0.18rem 0.55rem;
+    font-size: 0.78rem;
+  }
+  .field-note-summary {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    line-height: 1.65;
+    margin-bottom: 1rem;
+  }
+  .field-note-groups {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.7rem;
+  }
+  .field-note-group {
+    scroll-margin-top: 84px;
+    border: 1px solid rgba(216, 182, 109, 0.12);
+    border-radius: 4px;
+    background-color: rgba(216, 182, 109, 0.035);
+  }
+  .field-note-group summary {
+    cursor: pointer;
+    color: var(--color-gold);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.65rem 0.75rem;
+    font-size: 0.9rem;
+  }
+  .field-note-group summary span {
+    color: var(--color-text-muted);
+    font-family: var(--font-cinzel);
+    font-size: 0.76rem;
+  }
+  .field-note-entry-list {
+    display: grid;
+    gap: 0.55rem;
+    border-top: 1px dashed rgba(216, 182, 109, 0.12);
+    padding: 0.7rem 0.75rem 0.8rem;
+  }
+  .field-note-entry {
+    border-bottom: 1px dashed rgba(216, 182, 109, 0.1);
+    padding-bottom: 0.55rem;
+  }
+  .field-note-entry:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+  .field-note-entry-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.55rem;
+    margin-bottom: 0.25rem;
+  }
+  .field-note-entry strong {
+    color: var(--color-text);
+    font-size: 0.86rem;
+    line-height: 1.35;
+  }
+  .field-note-entry p {
+    color: var(--color-text-muted);
+    font-size: 0.8rem;
+    line-height: 1.55;
+  }
+  .field-note-badge {
+    flex: 0 0 auto;
+    border-radius: 99px;
+    padding: 0.12rem 0.38rem;
+    font-size: 0.68rem;
+    line-height: 1.25;
+  }
+  .field-note-badge.fact {
+    color: #bfe6c9;
+    background-color: rgba(65, 151, 96, 0.16);
+  }
+  .field-note-badge.documented {
+    color: #f1d280;
+    background-color: rgba(216, 182, 109, 0.13);
+  }
+  .field-note-badge.oral {
+    color: #f3b7a8;
+    background-color: rgba(196, 87, 65, 0.16);
+  }
+  .field-note-badge.rumor {
+    color: #c5cedb;
+    background-color: rgba(148, 163, 184, 0.14);
+  }
+  .field-note-source {
+    color: var(--color-text-muted);
+    border-top: 1px dashed rgba(216, 182, 109, 0.12);
+    margin-top: 1rem;
+    padding-top: 0.65rem;
+    font-size: 0.74rem;
+    overflow-wrap: anywhere;
   }
   .empty-state {
     text-align: center;

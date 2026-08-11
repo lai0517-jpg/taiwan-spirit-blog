@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import QuickNav from './QuickNav.astro';
+import { getFieldNotesByRegion } from '../data/fieldNotes';
 import { taiwanSpiritRegions, regionMatches } from '../data/regions';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
@@ -38,6 +39,10 @@ const regionCounts = taiwanSpiritRegions.map((region) => ({
     post.data.regions?.some((postRegion) => regionMatches(region, postRegion))
   ).length,
 }));
+
+const regionPathMatch = Astro.url.pathname.match(/\/regions\/([^/]+)/);
+const currentRegionSlug = regionPathMatch?.[1] ?? '';
+const currentFieldNotes = currentRegionSlug ? getFieldNotesByRegion(currentRegionSlug) : [];
 ---
 
 <aside class="sidebar" transition:persist>
@@ -62,6 +67,27 @@ const regionCounts = taiwanSpiritRegions.map((region) => ({
       ))}
     </div>
   </nav>
+
+  {currentFieldNotes.length > 0 && (
+    <nav class="field-category-nav" aria-label="田野資料分類快選">
+      <div class="region-nav-title">田野分類｜Field Categories</div>
+      {currentFieldNotes.map((place) => (
+        <details class="field-category-group" open>
+          <summary>{place.title}</summary>
+          <ul class="field-category-list">
+            {place.sections.map((section, index) => (
+              <li>
+                <a href={`#field-${place.slug}-${index}`} class="field-category-link">
+                  <span>{section.title}</span>
+                  <span>{section.entries.length}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </details>
+      ))}
+    </nav>
+  )}
   
   <nav class="nav-tree">
     {themes.map((theme) => (
@@ -172,6 +198,54 @@ const regionCounts = taiwanSpiritRegions.map((region) => ({
     color: var(--color-gold);
     font-family: var(--font-cinzel);
     font-size: 0.78rem;
+  }
+  .field-category-nav {
+    border-bottom: 1px dashed rgba(216, 182, 109, 0.14);
+    margin-bottom: 1.35rem;
+    padding-bottom: 1.15rem;
+  }
+  .field-category-group {
+    border: 1px solid rgba(216, 182, 109, 0.1);
+    border-radius: 3px;
+    background-color: rgba(216, 182, 109, 0.03);
+    margin-bottom: 0.45rem;
+  }
+  .field-category-group summary {
+    cursor: pointer;
+    list-style: none;
+    color: var(--color-gold);
+    font-size: 0.88rem;
+    padding: 0.45rem 0.5rem;
+  }
+  .field-category-group summary::-webkit-details-marker {
+    display: none;
+  }
+  .field-category-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    border-top: 1px dashed rgba(216, 182, 109, 0.1);
+    padding: 0.4rem 0.45rem 0.5rem;
+  }
+  .field-category-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.65rem;
+    color: var(--color-text-muted);
+    font-size: 0.8rem;
+    line-height: 1.35;
+    padding: 0.18rem 0;
+  }
+  .field-category-link:hover {
+    color: var(--color-gold-bright);
+  }
+  .field-category-link span:last-child {
+    flex: 0 0 auto;
+    color: var(--color-gold);
+    font-family: var(--font-cinzel);
+    font-size: 0.74rem;
   }
   .theme-group {
     border-bottom: 1px dashed rgba(216, 182, 109, 0.1);

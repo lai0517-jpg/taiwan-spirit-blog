@@ -1,8 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import QuickNav from './QuickNav.astro';
-import { getFieldNotesByRegion } from '../data/fieldNotes';
-import { taiwanSpiritRegions, regionMatches } from '../data/regions';
+import { fieldNotePlaces, getFieldNotesByRegion } from '../data/fieldNotes';
+import { taiwanSpiritRegions, regionMatches, findRegionBySlug } from '../data/regions';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 
@@ -43,9 +43,18 @@ const regionCounts = taiwanSpiritRegions.map((region) => ({
 const regionPathMatch = Astro.url.pathname.match(/\/regions\/([^/]+)/);
 const currentRegionSlug = regionPathMatch?.[1] ?? '';
 const currentFieldNotes = currentRegionSlug ? getFieldNotesByRegion(currentRegionSlug) : [];
+
+const fieldNoteLinks = fieldNotePlaces.map((place) => {
+  const primaryRegion = findRegionBySlug(place.regionSlugs[0]);
+  return {
+    ...place,
+    primaryRegion,
+    count: place.sections.reduce((total, section) => total + section.entries.length, 0),
+  };
+});
 ---
 
-<aside class="sidebar" transition:persist>
+<aside class="sidebar">
   <div class="brand">
     <a href="/taiwan-spirit-blog/">
       <div class="brand-title">台灣靈格</div>
@@ -55,17 +64,40 @@ const currentFieldNotes = currentRegionSlug ? getFieldNotesByRegion(currentRegio
 
   <QuickNav variant="sidebar" />
 
-  <nav class="region-nav" aria-label="地區快選">
+  <nav class="field-home-nav" aria-label="田野資料入口">
+    <a href="/taiwan-spirit-blog/field-notes/" class="field-home-link">
+      <span>地方田野資料</span>
+      <span>Field Notes</span>
+    </a>
+  </nav>
+
+  <nav class="region-nav" aria-label="地區快選與田野分類">
     <div class="region-nav-title">地區｜Regions</div>
     <a href="/taiwan-spirit-blog/regions/" class="region-all-link">全部地區索引</a>
-    <div class="region-link-list">
-      {regionCounts.map((region) => (
-        <a href={`/taiwan-spirit-blog/regions/${region.slug}`} class="region-link">
-          <span>{region.shortTitle}</span>
-          <span class="region-link-count">{region.count}</span>
-        </a>
-      ))}
-    </div>
+
+    <details class="region-subgroup" open>
+      <summary>田野地區分類</summary>
+      <div class="region-link-list">
+        {fieldNoteLinks.map((place) => (
+          <a href={`/taiwan-spirit-blog/regions/${place.primaryRegion?.slug}/#field-notes`} class="region-link field-place-link">
+            <span>{place.title}</span>
+            <span class="region-link-count">{place.count}</span>
+          </a>
+        ))}
+      </div>
+    </details>
+
+    <details class="region-subgroup" open>
+      <summary>靈格分區</summary>
+      <div class="region-link-list">
+        {regionCounts.map((region) => (
+          <a href={`/taiwan-spirit-blog/regions/${region.slug}`} class="region-link">
+            <span>{region.shortTitle}</span>
+            <span class="region-link-count">{region.count}</span>
+          </a>
+        ))}
+      </div>
+    </details>
   </nav>
 
   {currentFieldNotes.length > 0 && (
@@ -152,6 +184,29 @@ const currentFieldNotes = currentRegionSlug ? getFieldNotesByRegion(currentRegio
     flex-direction: column;
     gap: 1.5rem;
   }
+  .field-home-nav {
+    border-bottom: 1px dashed rgba(216, 182, 109, 0.14);
+    margin-bottom: 1.35rem;
+    padding-bottom: 1.15rem;
+  }
+  .field-home-link {
+    display: grid;
+    gap: 0.1rem;
+    border: 1px solid rgba(216, 182, 109, 0.2);
+    border-radius: 4px;
+    background-color: rgba(216, 182, 109, 0.08);
+    padding: 0.65rem 0.7rem;
+  }
+  .field-home-link span:first-child {
+    color: var(--color-gold-bright);
+    font-size: 0.92rem;
+  }
+  .field-home-link span:last-child {
+    color: var(--color-text-muted);
+    font-family: var(--font-cinzel);
+    font-size: 0.68rem;
+    letter-spacing: 1px;
+  }
   .region-nav {
     border-bottom: 1px dashed rgba(216, 182, 109, 0.14);
     margin-bottom: 1.35rem;
@@ -170,6 +225,23 @@ const currentFieldNotes = currentRegionSlug ? getFieldNotesByRegion(currentRegio
     color: var(--color-gold);
     font-size: 0.9rem;
     margin-bottom: 0.55rem;
+  }
+  .region-subgroup {
+    border: 1px solid rgba(216, 182, 109, 0.1);
+    border-radius: 3px;
+    background-color: rgba(216, 182, 109, 0.025);
+    margin-top: 0.55rem;
+    padding: 0.45rem;
+  }
+  .region-subgroup summary {
+    cursor: pointer;
+    list-style: none;
+    color: var(--color-gold);
+    font-size: 0.84rem;
+    margin-bottom: 0.4rem;
+  }
+  .region-subgroup summary::-webkit-details-marker {
+    display: none;
   }
   .region-link-list {
     display: flex;
@@ -192,6 +264,11 @@ const currentFieldNotes = currentRegionSlug ? getFieldNotesByRegion(currentRegio
   .region-link:hover {
     color: var(--color-gold-bright);
     border-color: rgba(216, 182, 109, 0.32);
+  }
+  .field-place-link {
+    background-color: rgba(216, 182, 109, 0.08);
+    border-color: rgba(216, 182, 109, 0.18);
+    color: var(--color-gold-bright);
   }
   .region-link-count {
     flex: 0 0 auto;

@@ -63,6 +63,15 @@
 | miaoli-sanyi-7-7 | 猛禽與遷徙鳥 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-7.jpg` | 地區頁 | 以火炎山稜線、猛禽停棲與盤旋呈現遷徙觀察，不做鳥類排排站。 |
 | miaoli-sanyi-7-8 | 林地與草灌鳥類 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-8.jpg` | 地區頁 | 以林地與草灌交界棲地為主，少量鳥類自然融入環境。 |
 
+## 苗栗三義 Miaoli Sanyi：第五批圖片
+
+| 資料 ID | 條目 | 類別 | 圖片狀態 | 網頁圖片路徑 | 串聯狀態 | 核對備註 |
+|---|---|---|---|---|---|---|
+| miaoli-sanyi-7-9 | 兩棲、爬蟲與溪谷魚類 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-9.jpg` | 地區頁 | 以溪谷積水、蛙類、蜥蜴、石龍子與小型溪魚呈現微棲地調查，不把火炎山畫成大型濕地。 |
+| miaoli-sanyi-7-10 | 蝴蝶 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-10.jpg` | 地區頁 | 以草灌棲地、蜜源植物與少量蝴蝶呈現調查情境，不做標本板或精確鑑定圖。 |
+| miaoli-sanyi-7-11 | 其他昆蟲與蜘蛛 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-11.jpg` | 地區頁 | 以紅土林緣單一場景呈現虎甲蟲、蝗蟲、蜻蜓、椿象與蜘蛛網等調查線索。 |
+| miaoli-sanyi-7-12 | 谷地濕潤微棲地 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-12.jpg` | 地區頁 | 以陰濕谷地、滲流、苔蘚、石塊與小型水生邊緣生物呈現棲地性質。 |
+
 ## 已串聯文章 Linked Existing Posts
 
 | 田野條目 | 既有文章 | 串聯性質 | 備註 |
@@ -78,7 +87,7 @@
 
 | 區域 | 待辦 | 備註 |
 |---|---|---|
-| 苗栗三義 | 剩餘田野圖片 | 已完成 40 張，剩餘生態植物動物 4 張可接續補齊。 |
+| 苗栗三義 | 田野圖片 | 已完成 44 張，苗栗三義目前全部田野條目皆已配置圖片。 |
 | 苗栗三義 | 座標欄位 | 已預留 `lat`、`lng`，仍需逐筆定位。 |
 | 新北鶯歌 | 圖片批次 | 尚未開始田野圖片第一批；已有圖片預留資料夾。 |
 | 三義／鶯歌 | 專文擴寫 | 多數口傳故事目前仍在地區資料頁，需要逐步拆成可引用文章。 |

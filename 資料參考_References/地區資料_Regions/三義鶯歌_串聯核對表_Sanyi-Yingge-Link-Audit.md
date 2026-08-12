@@ -48,6 +48,21 @@
 | miaoli-sanyi-6-2 | 巨人王爺 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-6-2.jpg` | 主題串聯：王爺信仰 | 用尺度桿、王爺壇與兩層樓民居表現口述尺度，不畫巨人。 |
 | miaoli-sanyi-6-3 | 石母護童與認契 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-6-3.jpg` | 高可信主題串聯：石靈／石頭公 | 以紅線、童鞋與供品呈現認契護童，不使用人物肖像。 |
 
+## 苗栗三義 Miaoli Sanyi：第四批圖片
+
+| 資料 ID | 條目 | 類別 | 圖片狀態 | 網頁圖片路徑 | 串聯狀態 | 核對備註 |
+|---|---|---|---|---|---|---|
+| miaoli-sanyi-6-4 | 伯公與山林無形眾生 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-6-4.jpg` | 高可信主題串聯：土地公／伯公 | 以山林入口伯公祠、入山工具與香案呈現敬畏信仰，不畫無形眾生實體。 |
+| miaoli-sanyi-6-5 | 火炎山火龍、山妖 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-6-5.jpg` | 地方傳聞／待訪 | 以火炎山紅土惡地、訪談筆記與錄音筆呈現待訪狀態，不把火龍山妖畫成確定存在。 |
+| miaoli-sanyi-7-1 | 火炎山植物調查規模 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-1.jpg` | 地區頁 | 以樣區、標本盤與惡地植群呈現正式調查規模。 |
+| miaoli-sanyi-7-2 | 代表喬灌木與蕨類 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-2.jpg` | 地區頁 | 以混生喬灌木、蕨類與紅土坡呈現植群樣貌，不作單一物種鑑定照。 |
+| miaoli-sanyi-7-3 | 馬尾松天然族群與林相變化 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-3.jpg` | 地區頁 | 以馬尾松幼苗、相思林冠與紅土峭壁呈現林相變化。 |
+| miaoli-sanyi-7-4 | 魚藤 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-4.jpg` | 概念串聯：藤本植物 | 以溪邊藤本、葉片與根段呈現魚藤利用脈絡，不畫死魚或怪物。 |
+| miaoli-sanyi-7-5 | 哺乳類：保留區直接紀錄 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-5.jpg` | 地區頁 | 以自動相機、足跡、松鼠與獼猴呈現調查紀錄，避免把訪談線索畫成確定目擊。 |
+| miaoli-sanyi-7-6 | 哺乳類：三義周邊丘陵紀錄 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-6.jpg` | 地區頁 | 以周邊淺山夜間自動相機與足跡呈現資料性質，不等同保留區核心現勘。 |
+| miaoli-sanyi-7-7 | 猛禽與遷徙鳥 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-7.jpg` | 地區頁 | 以火炎山稜線、猛禽停棲與盤旋呈現遷徙觀察，不做鳥類排排站。 |
+| miaoli-sanyi-7-8 | 林地與草灌鳥類 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-8.jpg` | 地區頁 | 以林地與草灌交界棲地為主，少量鳥類自然融入環境。 |
+
 ## 已串聯文章 Linked Existing Posts
 
 | 田野條目 | 既有文章 | 串聯性質 | 備註 |
@@ -63,7 +78,7 @@
 
 | 區域 | 待辦 | 備註 |
 |---|---|---|
-| 苗栗三義 | 剩餘田野圖片 | 已完成 30 張，後續可接著補山林精怪與怪談剩餘 2 張與生態植物動物。 |
+| 苗栗三義 | 剩餘田野圖片 | 已完成 40 張，剩餘生態植物動物 4 張可接續補齊。 |
 | 苗栗三義 | 座標欄位 | 已預留 `lat`、`lng`，仍需逐筆定位。 |
 | 新北鶯歌 | 圖片批次 | 尚未開始田野圖片第一批；已有圖片預留資料夾。 |
 | 三義／鶯歌 | 專文擴寫 | 多數口傳故事目前仍在地區資料頁，需要逐步拆成可引用文章。 |

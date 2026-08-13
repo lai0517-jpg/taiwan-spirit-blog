@@ -281,7 +281,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             statusLabel: "民間傳說／口耳相傳",
             summary: "深潭巨鯉修煉成精擾亂居民；風水師教人在魚藤坪種魚藤，借關刀山之形斬藤，使毒汁入潭制服鯉魚精。",
             image: "/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-1.jpg",
-            imageAlt: "苗栗三義鯉魚潭與魚藤坪鯉魚精傳說地景參考圖",
+            imageAlt: "苗栗三義鯉魚潭巨鯉魚精與魚藤傳說顯化參考圖",
             imageStatus: "ready",
             relatedPostUrl: "/taiwan-spirit-blog/posts/monsters/mountain-water/",
           },
@@ -291,7 +291,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             statusLabel: "民間傳說／口耳相傳",
             summary: "相傳清光緒年間女子等待離去或遇海難的丈夫，最終投義潭橋下深潭；後衍生墓前祈求與賭徒還願故事。",
             image: "/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-2.jpg",
-            imageAlt: "苗栗三義義潭橋與深潭口傳記憶地景參考圖",
+            imageAlt: "苗栗三義劉錫姑娘水邊魂影與義潭橋口傳記憶參考圖",
             imageStatus: "ready",
           },
           {
@@ -300,7 +300,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             statusLabel: "民間傳說／口耳相傳",
             summary: "車站周圍山勢被說成九虎；梁柱米字、屋簷箭形與鋸齒裝飾被附會為八卦鎮煞與虎口。",
             image: "/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-3.jpg",
-            imageAlt: "苗栗三義勝興車站木造建築與九虎穴風水傳說參考圖",
+            imageAlt: "苗栗三義勝興九虎穴山勢虎形顯化參考圖",
             imageStatus: "ready",
           },
           {
@@ -309,7 +309,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             statusLabel: "民間傳說／口耳相傳",
             summary: "拓墾口述稱以竹筒製作巨大糞便，使對方誤認營中有巨人；另一版本連結吳王爺巨人顯形。",
             image: "/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-4.jpg",
-            imageAlt: "苗栗三義黃南球拓墾口述研究靜物參考圖",
+            imageAlt: "苗栗三義黃南球拓墾口述巨人錯覺與竹筒道具參考圖",
             imageStatus: "ready",
           },
           {
@@ -381,7 +381,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             statusLabel: "地方傳聞／待訪",
             summary: "目前未找到具名耆老或地方志支持固定火龍、山妖版本；若現場訪談取得，可列入口傳待訪紀錄。",
             image: "/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-6-5.jpg",
-            imageAlt: "苗栗三義火炎山火龍山妖待訪傳聞田野調查參考圖",
+            imageAlt: "苗栗三義火炎山火龍雲影與山妖待訪傳聞參考圖",
             imageStatus: "ready",
           }
         ],

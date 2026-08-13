@@ -38,10 +38,10 @@
 | 資料 ID | 條目 | 類別 | 圖片狀態 | 網頁圖片路徑 | 串聯狀態 | 核對備註 |
 |---|---|---|---|---|---|---|
 | miaoli-sanyi-4-5 | 劉錫姑娘 | 民間神明 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-4-5.jpg` | 地區頁 | 以古墓、義潭橋與潭邊供品表現孤魂與地方祈願記憶，不畫鬼影。 |
-| miaoli-sanyi-5-1 | 鯉魚潭鯉魚精 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-1.jpg` | 概念串聯：山水靈格 | 用深潭、魚藤與山形表現傳說地景，不畫成怪物實照。 |
-| miaoli-sanyi-5-2 | 劉錫姑娘投潭 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-2.jpg` | 地區頁 | 以義潭橋與深潭作記憶地景，不重演投潭場面。 |
-| miaoli-sanyi-5-3 | 勝興九虎穴 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-3.jpg` | 地區頁 | 以勝興車站木構、山勢與建築符號呈現風水附會，不畫九虎實體。 |
-| miaoli-sanyi-5-4 | 黃南球「痾屎嚇番」 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-4.jpg` | 地區頁 | 敏感拓墾口述以竹筒、空白文獻與山邊研究靜物呈現，不畫族群衝突或侮辱性畫面。 |
+| miaoli-sanyi-5-1 | 鯉魚潭鯉魚精 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-1.jpg` | 概念串聯：山水靈格 | 已修正為巨鯉魚精從潭水中顯化，並以魚藤岸邊植物串起制服水怪傳說。 |
+| miaoli-sanyi-5-2 | 劉錫姑娘投潭 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-2.jpg` | 地區頁 | 已修正為義潭橋、古墓供品與水邊魂影；不重演投潭場面，保留紀念性。 |
+| miaoli-sanyi-5-3 | 勝興九虎穴 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-3.jpg` | 地區頁 | 已修正為勝興車站後方九虎山勢顯化，呈現風水口述核心。 |
+| miaoli-sanyi-5-4 | 黃南球「痾屎嚇番」 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-4.jpg` | 地區頁 | 已修正為竹筒道具、山邊營地與巨人錯覺；避開族群衝突、侮辱性畫面與露骨內容。 |
 | miaoli-sanyi-5-5 | 五穀宮神牌藏閣樓 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-5.jpg` | 地區頁 | 以廟內閣樓、包裹神牌、令旗與保存物件呈現皇民化期間保存故事。 |
 | miaoli-sanyi-5-6 | 大旱與神農降責 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-6.jpg` | 地區頁 | 以乾旱田地與祭拜供品呈現信眾解釋；不寫成氣象因果。 |
 | miaoli-sanyi-6-1 | 王爺潭水中顯形 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-6-1.jpg` | 主題串聯：王爺信仰 | 已修正為潭水中半透明王爺顯形與水面倒影，清楚呈現口述神蹟。 |
@@ -53,7 +53,7 @@
 | 資料 ID | 條目 | 類別 | 圖片狀態 | 網頁圖片路徑 | 串聯狀態 | 核對備註 |
 |---|---|---|---|---|---|---|
 | miaoli-sanyi-6-4 | 伯公與山林無形眾生 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-6-4.jpg` | 高可信主題串聯：土地公／伯公 | 以山林入口伯公祠、入山工具與香案呈現敬畏信仰，不畫無形眾生實體。 |
-| miaoli-sanyi-6-5 | 火炎山火龍、山妖 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-6-5.jpg` | 地方傳聞／待訪 | 以火炎山紅土惡地、訪談筆記與錄音筆呈現待訪狀態，不把火龍山妖畫成確定存在。 |
+| miaoli-sanyi-6-5 | 火炎山火龍、山妖 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-6-5.jpg` | 地方傳聞／待訪 | 已修正為火龍雲影與山妖崖影，但保留筆記與錄音筆，標示待訪傳聞邊界。 |
 | miaoli-sanyi-7-1 | 火炎山植物調查規模 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-1.jpg` | 地區頁 | 以樣區、標本盤與惡地植群呈現正式調查規模。 |
 | miaoli-sanyi-7-2 | 代表喬灌木與蕨類 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-2.jpg` | 地區頁 | 以混生喬灌木、蕨類與紅土坡呈現植群樣貌，不作單一物種鑑定照。 |
 | miaoli-sanyi-7-3 | 馬尾松天然族群與林相變化 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-3.jpg` | 地區頁 | 以馬尾松幼苗、相思林冠與紅土峭壁呈現林相變化。 |

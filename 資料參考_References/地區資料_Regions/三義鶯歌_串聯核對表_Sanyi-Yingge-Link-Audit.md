@@ -88,6 +88,21 @@
 | new-taipei-yingge-2-5 | 古窯、煙囪與煤礦 | 歷史與族群 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-2-5.jpg` | 地區頁 | 以蛇窯、煙囪、煤塊與陶片呈現產業遺構，不畫成營運中的污染場景。 |
 | new-taipei-yingge-2-6 | 鄭成功北上問題 | 歷史與族群 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-2-6.jpg` | 地方傳說核對 | 以文獻、羅盤、鐵球象徵與山景呈現傳說核對，不畫炮擊鶯歌石成史實。 |
 
+## 新北鶯歌 New Taipei Yingge：第二批圖片
+
+| 資料 ID | 條目 | 類別 | 圖片狀態 | 網頁圖片路徑 | 串聯狀態 | 核對備註 |
+|---|---|---|---|---|---|---|
+| new-taipei-yingge-3-1 | 碧龍宮／龜公廟 | 宗教與民間信仰 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-3-1.jpg` | 高可信主題串聯：石靈／石頭公 | 以龜形自然石、香案與山坡廟宇呈現信仰場域，不畫成活體神獸。 |
+| new-taipei-yingge-3-2 | 宏德宮 | 宗教與民間信仰 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-3-2.jpg` | 地區頁 | 以孫臏真人 altar、無字棋盤與陶器供品呈現兵法祖師信仰，不畫鬥法奇蹟。 |
+| new-taipei-yingge-3-3 | 鶯歌福德宮 | 宗教與民間信仰 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-3-3.jpg` | 高可信主題串聯：土地公／伯公 | 以土地公廟、乞龜供品與看戲空間呈現地方祭典。 |
+| new-taipei-yingge-3-4 | 迎尪公 | 宗教與民間信仰 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-3-4.jpg` | 地區頁 | 以神轎、涼傘、鼓與空戲台呈現迎神看戲準備，不畫人群或神蹟。 |
+| new-taipei-yingge-3-5 | 八股媽祭典 | 宗教與民間信仰 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-3-5.jpg` | 地區頁 | 以觀音 altar、八組素色供品與爐主輪值意象呈現祭祀圈。 |
+| new-taipei-yingge-3-6 | 大墓公祭典 | 宗教與民間信仰 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-3-6.jpg` | 地區頁 | 以陰祠、無字石碑、供品與舊鐵路地景呈現萬善同歸信仰，不恐怖化。 |
+| new-taipei-yingge-4-1 | 龜公／八卦祖師 | 民間神明 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-4-1.jpg` | 高可信主題串聯：石靈／石頭公 | 以龜形靈石與自然裂紋呈現八卦附會，不畫可讀符號或神獸。 |
+| new-taipei-yingge-4-2 | 孫臏真人 | 民間神明 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-4-2.jpg` | 地區頁 | 以神像、無字棋盤與供品呈現兵法祖師身份，不畫撒豆成兵等演義場景。 |
+| new-taipei-yingge-4-3 | 八股媽 | 民間神明 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-4-3.jpg` | 地區頁 | 以觀音佛祖 altar 與八盞燈呈現八股信仰圈結構。 |
+| new-taipei-yingge-4-4 | 尪公 | 民間神明 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-4-4.jpg` | 地區頁 | 以神轎、涼傘、香爐與空戲台呈現迎神看戲脈絡。 |
+
 ## 已串聯文章 Linked Existing Posts
 
 | 田野條目 | 既有文章 | 串聯性質 | 備註 |
@@ -105,5 +120,5 @@
 |---|---|---|
 | 苗栗三義 | 田野圖片 | 已完成 44 張，苗栗三義目前全部田野條目皆已配置圖片。 |
 | 苗栗三義 | 座標欄位 | 已預留 `lat`、`lng`，仍需逐筆定位。 |
-| 新北鶯歌 | 剩餘田野圖片 | 已完成 11 張，剩餘 36 張可接續分批補齊。 |
+| 新北鶯歌 | 剩餘田野圖片 | 已完成 21 張，剩餘 26 張可接續分批補齊。 |
 | 三義／鶯歌 | 專文擴寫 | 多數口傳故事目前仍在地區資料頁，需要逐步拆成可引用文章。 |

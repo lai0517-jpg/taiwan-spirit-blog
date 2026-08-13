@@ -31,7 +31,7 @@
 | miaoli-sanyi-4-1 | 神農大帝／五穀爺 | 民間神明 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-4-1.jpg` | 地區頁 | 以神農神像與五穀、藥草供品呈現主神信仰。 |
 | miaoli-sanyi-4-2 | 伯公 | 民間神明 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-4-2.jpg` | 高可信主題串聯：土地公／伯公 | 呈現田邊、道路與橋頭守護功能，與伯公信仰文章相連。 |
 | miaoli-sanyi-4-3 | 石母娘 | 民間神明 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-4-3.jpg` | 高可信主題串聯：石靈／石頭公 | 依口傳性質，用石母祠與認契護童供品呈現，不作人物肖像。 |
-| miaoli-sanyi-4-4 | 吳王爺 | 民間神明 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-4-4.jpg` | 主題串聯：王爺信仰 | 以潭邊王爺壇位呈現地方口述信仰，不畫巨人顯形或水中神蹟。 |
+| miaoli-sanyi-4-4 | 吳王爺 | 民間神明 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-4-4.jpg` | 主題串聯：王爺信仰 | 已修正為潭邊王爺壇與半透明王爺顯化，標示為口述信仰視覺化，不作史實照片。 |
 
 ## 苗栗三義 Miaoli Sanyi：第三批圖片
 
@@ -44,8 +44,8 @@
 | miaoli-sanyi-5-4 | 黃南球「痾屎嚇番」 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-4.jpg` | 地區頁 | 敏感拓墾口述以竹筒、空白文獻與山邊研究靜物呈現，不畫族群衝突或侮辱性畫面。 |
 | miaoli-sanyi-5-5 | 五穀宮神牌藏閣樓 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-5.jpg` | 地區頁 | 以廟內閣樓、包裹神牌、令旗與保存物件呈現皇民化期間保存故事。 |
 | miaoli-sanyi-5-6 | 大旱與神農降責 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-5-6.jpg` | 地區頁 | 以乾旱田地與祭拜供品呈現信眾解釋；不寫成氣象因果。 |
-| miaoli-sanyi-6-1 | 王爺潭水中顯形 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-6-1.jpg` | 主題串聯：王爺信仰 | 以潭邊王爺壇、水面倒影與香煙呈現口述，不畫神明顯形。 |
-| miaoli-sanyi-6-2 | 巨人王爺 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-6-2.jpg` | 主題串聯：王爺信仰 | 用尺度桿、王爺壇與兩層樓民居表現口述尺度，不畫巨人。 |
+| miaoli-sanyi-6-1 | 王爺潭水中顯形 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-6-1.jpg` | 主題串聯：王爺信仰 | 已修正為潭水中半透明王爺顯形與水面倒影，清楚呈現口述神蹟。 |
+| miaoli-sanyi-6-2 | 巨人王爺 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-6-2.jpg` | 主題串聯：王爺信仰 | 已修正為約兩層樓高王爺顯化，並以民居、王爺壇與潭邊地景呈現尺度。 |
 | miaoli-sanyi-6-3 | 石母護童與認契 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-6-3.jpg` | 高可信主題串聯：石靈／石頭公 | 以紅線、童鞋與供品呈現認契護童，不使用人物肖像。 |
 
 ## 苗栗三義 Miaoli Sanyi：第四批圖片

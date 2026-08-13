@@ -105,6 +105,21 @@
 
 ## 已串聯文章 Linked Existing Posts
 
+## 新北鶯歌 New Taipei Yingge：第三批圖片
+
+| 資料 ID | 條目 | 類別 | 圖片狀態 | 網頁圖片路徑 | 串聯狀態 | 核對備註 |
+|---|---|---|---|---|---|---|
+| new-taipei-yingge-4-5 | 龜媽石 | 民間神明 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-4-5.jpg` | 地方傳聞／待訪 | 以龜形自然石、尋物物件與供品呈現待訪傳聞，不畫成活體神獸。 |
+| new-taipei-yingge-4-6 | 大墓公／萬善同歸 | 民間神明 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-4-6.jpg` | 地區頁 | 以陰祠、無字石碑與集體香煙呈現萬善同歸祭祀，不恐怖化。 |
+| new-taipei-yingge-5-1 | 鶯歌石吐霧／食人 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-5-1.jpg` | 高可信主題串聯：石靈／石頭公 | 以鳥形怪石吐霧呈現口傳核心；食人版本只以迷路物件暗示，不畫傷害場面。 |
+| new-taipei-yingge-5-2 | 巨鳥遭炮擊或射殺 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-5-2.jpg` | 高可信主題串聯：石靈／石頭公 | 以巨鳥化石與遠方光束呈現傳說，不畫軍隊、武器或史實戰鬥。 |
+| new-taipei-yingge-5-3 | 尖山草鞋泥成山 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-5-3.jpg` | 地區頁 | 以草鞋、泥團與尖山形土堆表現地方解釋，並保留口傳性質。 |
+| new-taipei-yingge-5-4 | 尖山白馬與水銀 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-5-4.jpg` | 地區頁 | 以兩匹白馬遁入山體與銀色痕跡呈現傳說，不畫追捕或傷害。 |
+| new-taipei-yingge-5-5 | 龜公石搬不動 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-5-5.jpg` | 高可信主題串聯：石靈／石頭公 | 以龜形石、農具、繩索與微光呈現搬不動與靈石顯化。 |
+| new-taipei-yingge-5-6 | 大墓公由來版本 | 地方傳說 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-5-6.jpg` | 地區頁 | 以陰祠、鐵路、遷葬與燈火分層呈現多版本來源，不混成單一事件。 |
+| new-taipei-yingge-6-1 | 巨鳥與靈石系統 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-6-1.jpg` | 高可信主題串聯：石靈／石頭公 | 以鳥形怪石、龜形靈石與霧氣串聯鶯歌核心怪異敘事。 |
+| new-taipei-yingge-6-2 | 鶯歌石孔洞與小神像 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-6-2.jpg` | 文獻／地方信仰紀錄 | 以自然孔洞、小型神像與供品呈現後設奉祀，地質與信仰分列。 |
+
 | 田野條目 | 既有文章 | 串聯性質 | 備註 |
 |---|---|---|---|
 | 打哪叭社與巴宰族 | `/posts/monsters/mountain-ancestor/` | 概念串聯 | 串到山林祖靈／地景祖靈脈絡，不等於同一地方案例。 |
@@ -120,5 +135,5 @@
 |---|---|---|
 | 苗栗三義 | 田野圖片 | 已完成 44 張，苗栗三義目前全部田野條目皆已配置圖片。 |
 | 苗栗三義 | 座標欄位 | 已預留 `lat`、`lng`，仍需逐筆定位。 |
-| 新北鶯歌 | 剩餘田野圖片 | 已完成 21 張，剩餘 26 張可接續分批補齊。 |
+| 新北鶯歌 | 剩餘田野圖片 | 已完成 31 張，剩餘 16 張可接續分批補齊。 |
 | 三義／鶯歌 | 專文擴寫 | 多數口傳故事目前仍在地區資料頁，需要逐步拆成可引用文章。 |

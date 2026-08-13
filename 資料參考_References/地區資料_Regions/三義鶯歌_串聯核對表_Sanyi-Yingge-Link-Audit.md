@@ -120,6 +120,27 @@
 | new-taipei-yingge-6-1 | 巨鳥與靈石系統 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-6-1.jpg` | 高可信主題串聯：石靈／石頭公 | 以鳥形怪石、龜形靈石與霧氣串聯鶯歌核心怪異敘事。 |
 | new-taipei-yingge-6-2 | 鶯歌石孔洞與小神像 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-6-2.jpg` | 文獻／地方信仰紀錄 | 以自然孔洞、小型神像與供品呈現後設奉祀，地質與信仰分列。 |
 
+## 新北鶯歌 New Taipei Yingge：第四批圖片
+
+| 資料 ID | 條目 | 類別 | 圖片狀態 | 網頁圖片路徑 | 串聯狀態 | 核對備註 |
+|---|---|---|---|---|---|---|
+| new-taipei-yingge-6-3 | 尖山白馬消失 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-6-3.jpg` | 地方傳說核對 | 以白馬遁入尖山與銀色痕跡呈現口傳核心，不畫追捕或傷害場面。 |
+| new-taipei-yingge-6-4 | 龜媽尋物靈驗 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-6-4.jpg` | 高可信主題串聯：石靈／石頭公 | 以龜形自然石、供品與失物線索呈現待訪傳聞，不畫成活體神獸。 |
+| new-taipei-yingge-6-5 | 窯鬼、水鬼與山妖匿名說法 | 山林精怪與怪談 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-6-5.jpg` | 地方傳聞／待訪 | 以窯、溪與山路調查物件呈現匿名說法邊界，不寫成既定地方傳統。 |
+| new-taipei-yingge-7-1 | 都市、山區與河岸分區 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-1.jpg` | 地區頁 | 以都市溪段、淺山與河岸三種環境呈現分區，避免混列物種。 |
+| new-taipei-yingge-7-2 | 山區步道林相 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-2.jpg` | 地區頁 | 以低海拔次生林、藤本、蕨類與步道調查物件呈現林相。 |
+| new-taipei-yingge-7-3 | 先驅樹木與灌叢植物 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-3.jpg` | 地區頁 | 以五節芒、灌叢與開花草本呈現先驅植物環境，不作精確單種圖鑑。 |
+| new-taipei-yingge-7-4 | 竹、藤與蕨類細項 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-4.jpg` | 地區頁 | 以竹叢、藤本與岩壁蕨類呈現步道植物細項。 |
+| new-taipei-yingge-7-5 | 榕類與果實樹木 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-5.jpg` | 地區頁 | 以榕樹氣根、果實與林下落葉呈現榕類及果實樹木脈絡。 |
+| new-taipei-yingge-7-6 | 東門溪現勘鳥類 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-6.jpg` | 地區頁 | 以東門溪河道與自然停棲鳥類呈現現勘名錄，不作物種排排站。 |
+| new-taipei-yingge-7-7 | 鶯歌水邊可確認的水鳥 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-7.jpg` | 地區頁 | 以水池、白鷺鷥與環頸鴴式水鳥呈現可確認點位紀錄。 |
+| new-taipei-yingge-7-8 | 周邊鳥類與猛禽文獻盤點 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-8.jpg` | 地區頁 | 以稜線、河廊與觀察器材呈現周邊文獻盤點，與同次現勘分開。 |
+| new-taipei-yingge-7-9 | 哺乳類 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-9.jpg` | 地區頁 | 以自動相機、足跡、蝙蝠與小型哺乳類線索呈現調查性質。 |
+| new-taipei-yingge-7-10 | 兩棲與爬蟲 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-10.jpg` | 地區頁 | 以溪溝、蛙類、蜥蜴、蝎虎與紅耳龜式個體呈現微棲地調查。 |
+| new-taipei-yingge-7-11 | 蝴蝶與蜻蛉 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-11.jpg` | 地區頁 | 以河岸草灌、蜜源植物、蝴蝶與蜻蛉呈現自然調查情境。 |
+| new-taipei-yingge-7-12 | 水域與底棲生物的資料邊界 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-12.jpg` | 地區頁 | 以溪流水域、手網與底棲樣盤呈現資料邊界，不混成單次現勘名錄。 |
+| new-taipei-yingge-7-13 | 百年榕樹群 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-13.jpg` | 地方傳聞／待訪 | 以山區老榕樹群與田野測量物件呈現待訪狀態，不宣稱已核定樹齡。 |
+
 | 田野條目 | 既有文章 | 串聯性質 | 備註 |
 |---|---|---|---|
 | 打哪叭社與巴宰族 | `/posts/monsters/mountain-ancestor/` | 概念串聯 | 串到山林祖靈／地景祖靈脈絡，不等於同一地方案例。 |
@@ -135,5 +156,5 @@
 |---|---|---|
 | 苗栗三義 | 田野圖片 | 已完成 44 張，苗栗三義目前全部田野條目皆已配置圖片。 |
 | 苗栗三義 | 座標欄位 | 已預留 `lat`、`lng`，仍需逐筆定位。 |
-| 新北鶯歌 | 剩餘田野圖片 | 已完成 31 張，剩餘 16 張可接續分批補齊。 |
+| 新北鶯歌 | 田野圖片 | 已完成 47 張，新北鶯歌目前全部田野條目皆已配置圖片。 |
 | 三義／鶯歌 | 專文擴寫 | 多數口傳故事目前仍在地區資料頁，需要逐步拆成可引用文章。 |

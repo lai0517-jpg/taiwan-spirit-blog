@@ -72,6 +72,22 @@
 | miaoli-sanyi-7-11 | 其他昆蟲與蜘蛛 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-11.jpg` | 地區頁 | 以紅土林緣單一場景呈現虎甲蟲、蝗蟲、蜻蜓、椿象與蜘蛛網等調查線索。 |
 | miaoli-sanyi-7-12 | 谷地濕潤微棲地 | 生態植物動物 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-12.jpg` | 地區頁 | 以陰濕谷地、滲流、苔蘚、石塊與小型水生邊緣生物呈現棲地性質。 |
 
+## 新北鶯歌 New Taipei Yingge：第一批圖片
+
+| 資料 ID | 條目 | 類別 | 圖片狀態 | 網頁圖片路徑 | 串聯狀態 | 核對備註 |
+|---|---|---|---|---|---|---|
+| new-taipei-yingge-1-1 | 鶯歌／鶯歌石 | 地名地景 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-1-1.jpg` | 高可信主題串聯：石靈／石頭公 | 以形似巨鳥的岩石與大漢溪盆地呈現地名核心，不把岩石畫成神怪實體。 |
+| new-taipei-yingge-1-2 | 尖山／尖山堆 | 地名地景 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-1-2.jpg` | 地區頁 | 以尖山山形、砂土黏土與陶片呈現地形與陶業資源關係。 |
+| new-taipei-yingge-1-3 | 碧龍山／石灰坑 | 地名地景 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-1-3.jpg` | 地區頁 | 以山坡白色岩體、廟宇屋頂與大漢溪眺望呈現地景與信仰場域。 |
+| new-taipei-yingge-1-4 | 大漢溪與鶯歌溪 | 地名地景 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-1-4.jpg` | 地區頁 | 以大漢溪主流、都市邊緣與渠道化支流呈現水系關係。 |
+| new-taipei-yingge-1-5 | 土牛溝遺跡 | 地名地景 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-1-5.jpg` | 概念串聯：山林祖靈／地景祖靈 | 以土溝、土丘、排水與測量工具呈現遺跡線索，不畫族群衝突場面。 |
+| new-taipei-yingge-2-1 | 龜崙社活動範圍 | 歷史與族群 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-2-1.jpg` | 概念串聯：山林祖靈／地景祖靈 | 以文獻地圖、陶片與河谷地景呈現活動範圍研究，不臆造人物服飾。 |
+| new-taipei-yingge-2-2 | 土牛溝與漢番界線 | 歷史與族群 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-2-2.jpg` | 概念串聯：山林祖靈／地景祖靈 | 以地表溝線、測量桿與空白圖紙呈現界線核對，不重演歷史衝突。 |
+| new-taipei-yingge-2-3 | 行政沿革 | 歷史與族群 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-2-3.jpg` | 地區頁 | 以舊街、地圖與無字時間軸呈現行政變遷，不複製官方印章或可讀文字。 |
+| new-taipei-yingge-2-4 | 陶業兩百年 | 歷史與族群 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-2-4.jpg` | 地區頁 | 以陶土、轉盤、窯壁與未上釉陶器呈現陶業長期發展。 |
+| new-taipei-yingge-2-5 | 古窯、煙囪與煤礦 | 歷史與族群 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-2-5.jpg` | 地區頁 | 以蛇窯、煙囪、煤塊與陶片呈現產業遺構，不畫成營運中的污染場景。 |
+| new-taipei-yingge-2-6 | 鄭成功北上問題 | 歷史與族群 | 已完成 | `/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-2-6.jpg` | 地方傳說核對 | 以文獻、羅盤、鐵球象徵與山景呈現傳說核對，不畫炮擊鶯歌石成史實。 |
+
 ## 已串聯文章 Linked Existing Posts
 
 | 田野條目 | 既有文章 | 串聯性質 | 備註 |
@@ -89,5 +105,5 @@
 |---|---|---|
 | 苗栗三義 | 田野圖片 | 已完成 44 張，苗栗三義目前全部田野條目皆已配置圖片。 |
 | 苗栗三義 | 座標欄位 | 已預留 `lat`、`lng`，仍需逐筆定位。 |
-| 新北鶯歌 | 圖片批次 | 尚未開始田野圖片第一批；已有圖片預留資料夾。 |
+| 新北鶯歌 | 剩餘田野圖片 | 已完成 11 張，剩餘 36 張可接續分批補齊。 |
 | 三義／鶯歌 | 專文擴寫 | 多數口傳故事目前仍在地區資料頁，需要逐步拆成可引用文章。 |

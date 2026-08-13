@@ -86,6 +86,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             image: "/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-1-3.jpg",
             imageAlt: "苗栗三義魚藤坪與龍騰山谷藤本植物地景參考圖",
             imageStatus: "ready",
+            relatedPostUrl: "/taiwan-spirit-blog/posts/plants/rattan/",
           },
           {
             title: "舊山線與龍騰斷橋",
@@ -383,6 +384,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             image: "/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-6-5.jpg",
             imageAlt: "苗栗三義火炎山火龍雲影與山妖待訪傳聞參考圖",
             imageStatus: "ready",
+            relatedPostUrl: "/taiwan-spirit-blog/posts/monsters/mountain-water/",
           }
         ],
       },
@@ -406,6 +408,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             image: "/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-2.jpg",
             imageAlt: "苗栗三義火炎山代表喬灌木與蕨類植群參考圖",
             imageStatus: "ready",
+            relatedPostUrl: "/taiwan-spirit-blog/posts/plants/treefern/",
           },
           {
             title: "馬尾松天然族群與林相變化",
@@ -415,6 +418,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             image: "/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-3.jpg",
             imageAlt: "苗栗三義火炎山馬尾松更新與林相變化參考圖",
             imageStatus: "ready",
+            relatedPostUrl: "/taiwan-spirit-blog/posts/plants/acacia/",
           },
           {
             title: "魚藤",
@@ -443,6 +447,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             image: "/taiwan-spirit-blog/assets/images/field-notes/miaoli-sanyi/miaoli-sanyi-7-6.jpg",
             imageAlt: "苗栗三義周邊丘陵哺乳類自動相機與足跡調查參考圖",
             imageStatus: "ready",
+            relatedPostUrl: "/taiwan-spirit-blog/posts/monsters/leopard-cat/",
           },
           {
             title: "猛禽與遷徙鳥",
@@ -541,6 +546,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             image: "/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-1-3.jpg",
             imageAlt: "新北鶯歌碧龍山石灰坑與大漢溪眺望地景參考圖",
             imageStatus: "ready",
+            relatedPostUrl: "/taiwan-spirit-blog/posts/monsters/stone-uncle/",
           },
           {
             title: "大漢溪與鶯歌溪",
@@ -786,6 +792,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             image: "/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-5-4.jpg",
             imageAlt: "新北鶯歌尖山白馬消失與水銀痕跡傳說參考圖",
             imageStatus: "ready",
+            relatedPostUrl: "/taiwan-spirit-blog/posts/monsters/mountain-beast/",
           },
           {
             title: "龜公石搬不動",
@@ -839,6 +846,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             image: "/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-6-3.jpg",
             imageAlt: "新北鶯歌尖山白馬消失與水銀痕跡傳說參考圖",
             imageStatus: "ready",
+            relatedPostUrl: "/taiwan-spirit-blog/posts/monsters/mountain-beast/",
           },
           {
             title: "龜媽尋物靈驗",
@@ -882,6 +890,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             image: "/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-2.jpg",
             imageAlt: "新北鶯歌山區步道低海拔次生林相參考圖",
             imageStatus: "ready",
+            relatedPostUrl: "/taiwan-spirit-blog/posts/plants/camphor/",
           },
           {
             title: "先驅樹木與灌叢植物",
@@ -891,6 +900,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             image: "/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-3.jpg",
             imageAlt: "新北鶯歌先驅樹木與灌叢植物調查參考圖",
             imageStatus: "ready",
+            relatedPostUrl: "/taiwan-spirit-blog/posts/plants/silvergrass/",
           },
           {
             title: "竹、藤與蕨類細項",
@@ -900,6 +910,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             image: "/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-4.jpg",
             imageAlt: "新北鶯歌竹藤與蕨類植物細項調查參考圖",
             imageStatus: "ready",
+            relatedPostUrl: "/taiwan-spirit-blog/posts/plants/bamboo/",
           },
           {
             title: "榕類與果實樹木",
@@ -909,6 +920,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             image: "/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-5.jpg",
             imageAlt: "新北鶯歌榕類與果實樹木調查參考圖",
             imageStatus: "ready",
+            relatedPostUrl: "/taiwan-spirit-blog/posts/plants/banyan/",
           },
           {
             title: "東門溪現勘鳥類",
@@ -972,6 +984,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             image: "/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-12.jpg",
             imageAlt: "新北鶯歌水域與底棲生物資料邊界調查參考圖",
             imageStatus: "ready",
+            relatedPostUrl: "/taiwan-spirit-blog/posts/monsters/deep-pool/",
           },
           {
             title: "百年榕樹群",
@@ -981,6 +994,7 @@ export const fieldNotePlaces: FieldNotePlace[] = [
             image: "/taiwan-spirit-blog/assets/images/field-notes/new-taipei-yingge/new-taipei-yingge-7-13.jpg",
             imageAlt: "新北鶯歌山區百年榕樹群待訪參考圖",
             imageStatus: "ready",
+            relatedPostUrl: "/taiwan-spirit-blog/posts/monsters/old-banyan/",
           }
         ],
       }

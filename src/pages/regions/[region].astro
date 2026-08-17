@@ -65,6 +65,7 @@ const orderedThemes = Object.keys(groupedPosts).sort((a, b) => {
   </header>
 
   <nav class="theme-jump" aria-label="地區內類別快選">
+    <a href="#regional-stories">故事資料</a>
     {fieldNotes.length > 0 && <a href="#field-notes">田野資料 {fieldNotes.length}</a>}
     {fieldNotes.flatMap((place) =>
       place.sections.map((section, index) => (
@@ -75,6 +76,17 @@ const orderedThemes = Object.keys(groupedPosts).sort((a, b) => {
       <a href={`#${theme}`}>{themeNames[theme] ?? theme} {groupedPosts[theme].length}</a>
     ))}
   </nav>
+
+  <section class="region-story-section" id="regional-stories" aria-label="地區故事資料">
+    <div class="theme-section-head">
+      <h3>地區故事資料｜Regional Stories</h3>
+      <span>{region.storyFocus.length} 個重點</span>
+    </div>
+    <p>{region.storySummary}</p>
+    <div class="story-focus-list">
+      {region.storyFocus.map((focus) => <span>{focus}</span>)}
+    </div>
+  </section>
 
   {fieldNotes.length > 0 && (
     <section class="field-note-section" id="field-notes">
@@ -254,6 +266,33 @@ const orderedThemes = Object.keys(groupedPosts).sort((a, b) => {
   .theme-section {
     scroll-margin-top: 74px;
     margin-bottom: 2.5rem;
+  }
+  .region-story-section {
+    scroll-margin-top: 74px;
+    border: 1px solid rgba(216, 182, 109, 0.16);
+    border-radius: 4px;
+    background-color: rgba(216, 182, 109, 0.035);
+    margin-bottom: 2rem;
+    padding: 1.1rem;
+  }
+  .region-story-section p {
+    color: var(--color-text);
+    font-size: 0.92rem;
+    line-height: 1.75;
+  }
+  .story-focus-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.9rem;
+  }
+  .story-focus-list span {
+    border: 1px solid rgba(216, 182, 109, 0.16);
+    border-radius: 2px;
+    color: var(--color-gold-bright);
+    background-color: rgba(216, 182, 109, 0.06);
+    padding: 0.14rem 0.45rem;
+    font-size: 0.78rem;
   }
   .field-note-section {
     scroll-margin-top: 74px;

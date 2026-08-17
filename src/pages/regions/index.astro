@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import BlogLayout from '../../layouts/BlogLayout.astro';
 import { getFieldNotesByRegion } from '../../data/fieldNotes';
 import { referenceFolders } from '../../data/referenceLibrary';
-import { taiwanSpiritRegions, regionMatches } from '../../data/regions';
+import { taiwanRegionGroups, taiwanSpiritRegions, regionMatches } from '../../data/regions';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 
@@ -33,6 +33,15 @@ const themeNames: Record<string, string> = {
   talismans: '符物',
   temples: '廟宇',
 };
+
+const regionCardMap = new Map(regionCards.map((region) => [region.slug, region]));
+
+const groupedRegionCards = taiwanRegionGroups.map((group) => ({
+  ...group,
+  regions: group.regionSlugs
+    .map((slug) => regionCardMap.get(slug))
+    .filter((region): region is (typeof regionCards)[number] => Boolean(region)),
+}));
 ---
 
 <BlogLayout title="地區索引">
@@ -44,34 +53,52 @@ const themeNames: Record<string, string> = {
     <p class="section-desc">先用地區串連現有資料；之後台灣地圖與分類篩選都可以接到這一層。</p>
   </header>
 
-  <section class="region-grid" aria-label="台灣靈格地區">
-    {regionCards.map((region) => (
-      <a class="region-card" href={`/taiwan-spirit-blog/regions/${region.slug}`}>
-        <div class="region-card-head">
+  <section class="region-group-list" aria-label="台灣靈格地區">
+    {groupedRegionCards.map((group) => (
+      <section class="region-group-section" id={`group-${group.id}`}>
+        <div class="region-group-head">
           <div>
-            <p class="region-area">{region.area}</p>
-            <h3>{region.title}</h3>
-            <p class="region-english">{region.englishTitle}</p>
+            <h3>{group.title}</h3>
+            <p>{group.englishTitle}</p>
           </div>
-          <span class="region-count">{region.count}</span>
+          <span>{group.regions.length} 區</span>
         </div>
-        <p class="region-description">{region.description}</p>
-        <div class="county-list">
-          {region.counties.slice(0, 6).map((county) => <span>{county}</span>)}
-        </div>
-        {region.fieldNotes.length > 0 && (
-          <div class="field-note-list">
-            {region.fieldNotes.map((place) => (
-              <span>{place.title} {place.sections.reduce((count, section) => count + section.entries.length, 0)}</span>
-            ))}
-          </div>
-        )}
-        <div class="theme-list" aria-label="目前資料類型統計">
-          {Object.entries(region.themeCounts).map(([theme, count]) => (
-            <span>{themeNames[theme] ?? theme} {count}</span>
+        <p class="region-group-summary">{group.summary}</p>
+        <div class="region-grid">
+          {group.regions.map((region) => (
+            <a class="region-card" href={`/taiwan-spirit-blog/regions/${region.slug}`}>
+              <div class="region-card-head">
+                <div>
+                  <p class="region-area">{region.area}</p>
+                  <h3>{region.title}</h3>
+                  <p class="region-english">{region.englishTitle}</p>
+                </div>
+                <span class="region-count">{region.count}</span>
+              </div>
+              <p class="region-description">{region.description}</p>
+              <p class="region-story">{region.storySummary}</p>
+              <div class="story-focus-list" aria-label="故事資料重點">
+                {region.storyFocus.slice(0, 5).map((focus) => <span>{focus}</span>)}
+              </div>
+              <div class="county-list">
+                {region.counties.slice(0, 6).map((county) => <span>{county}</span>)}
+              </div>
+              {region.fieldNotes.length > 0 && (
+                <div class="field-note-list">
+                  {region.fieldNotes.map((place) => (
+                    <span>{place.title} {place.sections.reduce((count, section) => count + section.entries.length, 0)}</span>
+                  ))}
+                </div>
+              )}
+              <div class="theme-list" aria-label="目前資料類型統計">
+                {Object.entries(region.themeCounts).map(([theme, count]) => (
+                  <span>{themeNames[theme] ?? theme} {count}</span>
+                ))}
+              </div>
+            </a>
           ))}
         </div>
-      </a>
+      </section>
     ))}
   </section>
 
@@ -122,6 +149,42 @@ const themeNames: Record<string, string> = {
   }
   .section-desc {
     color: var(--color-text-muted);
+  }
+  .region-group-list {
+    display: grid;
+    gap: 1.4rem;
+  }
+  .region-group-section {
+    scroll-margin-top: 76px;
+    border-top: 1px solid rgba(216, 182, 109, 0.14);
+    padding-top: 1rem;
+  }
+  .region-group-section:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+  .region-group-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.45rem;
+  }
+  .region-group-head h3 {
+    color: var(--color-gold);
+    font-family: var(--font-serif);
+    font-size: 1.35rem;
+  }
+  .region-group-head p,
+  .region-group-head span,
+  .region-group-summary {
+    color: var(--color-text-muted);
+    font-size: 0.86rem;
+  }
+  .region-group-summary {
+    margin-bottom: 0.85rem;
+    max-width: 920px;
+    line-height: 1.6;
   }
   .region-grid {
     display: grid;
@@ -184,12 +247,24 @@ const themeNames: Record<string, string> = {
     font-size: 0.88rem;
     line-height: 1.65;
   }
+  .region-story {
+    border-left: 2px solid rgba(216, 182, 109, 0.32);
+    color: var(--color-text);
+    font-size: 0.84rem;
+    line-height: 1.65;
+    margin-top: 0.85rem;
+    padding-left: 0.65rem;
+  }
   .county-list,
   .field-note-list,
-  .theme-list {
+  .theme-list,
+  .story-focus-list {
     display: flex;
     flex-wrap: wrap;
     gap: 0.35rem;
+  }
+  .story-focus-list {
+    margin-top: 0.75rem;
   }
   .county-list {
     margin-top: 1rem;
@@ -203,7 +278,8 @@ const themeNames: Record<string, string> = {
   }
   .county-list span,
   .field-note-list span,
-  .theme-list span {
+  .theme-list span,
+  .story-focus-list span {
     border: 1px solid rgba(216, 182, 109, 0.14);
     border-radius: 2px;
     color: var(--color-text-muted);
@@ -217,6 +293,10 @@ const themeNames: Record<string, string> = {
   .field-note-list span {
     color: var(--color-gold-bright);
     background-color: rgba(216, 182, 109, 0.08);
+  }
+  .story-focus-list span {
+    color: var(--color-text);
+    background-color: rgba(216, 182, 109, 0.06);
   }
   .reference-section {
     margin-top: 2rem;

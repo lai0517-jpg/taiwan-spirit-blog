@@ -2,7 +2,13 @@
 import { getCollection } from 'astro:content';
 import QuickNav from './QuickNav.astro';
 import { fieldNotePlaces, getFieldNotesByRegion } from '../data/fieldNotes';
-import { taiwanSpiritRegions, regionMatches, findRegionBySlug } from '../data/regions';
+import {
+  taiwanRegionGroups,
+  taiwanSpiritRegions,
+  regionMatches,
+  findRegionBySlug,
+  getRegionsByGroup,
+} from '../data/regions';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 
@@ -40,6 +46,15 @@ const regionCounts = taiwanSpiritRegions.map((region) => ({
   ).length,
 }));
 
+const regionCountMap = new Map(regionCounts.map((region) => [region.slug, region]));
+
+const groupedRegionLinks = taiwanRegionGroups.map((group) => ({
+  ...group,
+  regions: getRegionsByGroup(group)
+    .map((region) => regionCountMap.get(region.slug))
+    .filter((region): region is (typeof regionCounts)[number] => Boolean(region)),
+}));
+
 const regionPathMatch = Astro.url.pathname.match(/\/regions\/([^/]+)/);
 const currentRegionSlug = regionPathMatch?.[1] ?? '';
 const currentFieldNotes = currentRegionSlug ? getFieldNotesByRegion(currentRegionSlug) : [];
@@ -72,28 +87,45 @@ const fieldNoteLinks = fieldNotePlaces.map((place) => {
   </nav>
 
   <nav class="region-nav" aria-label="地區快選與田野分類">
-    <div class="region-nav-title">地區｜Regions</div>
+    <div class="region-nav-title">地區快選｜Regions</div>
     <a href="/taiwan-spirit-blog/regions/" class="region-all-link">全部地區索引</a>
 
+    {groupedRegionLinks.map((group) => (
+      <details class="region-subgroup" open>
+        <summary>
+          <span>{group.title}</span>
+          <small>{group.englishTitle}</small>
+        </summary>
+        <div class="region-link-list">
+          {group.regions.map((region) => (
+            <a
+              href={`/taiwan-spirit-blog/regions/${region.slug}`}
+              class:list={['region-link', { active: currentRegionSlug === region.slug }]}
+            >
+              <span>{region.shortTitle}</span>
+              <span class="region-link-count">{region.count}</span>
+            </a>
+          ))}
+        </div>
+      </details>
+    ))}
+  </nav>
+
+  <nav class="region-nav field-place-nav" aria-label="田野地點快選">
+    <div class="region-nav-title">田野地點｜Field Places</div>
     <details class="region-subgroup" open>
-      <summary>田野地區分類</summary>
+      <summary>
+        <span>已整理地點</span>
+        <small>Field Nodes</small>
+      </summary>
       <div class="region-link-list">
         {fieldNoteLinks.map((place) => (
-          <a href={`/taiwan-spirit-blog/regions/${place.primaryRegion?.slug}/#field-notes`} class="region-link field-place-link">
+          <a
+            href={`/taiwan-spirit-blog/regions/${place.primaryRegion?.slug}/#field-notes`}
+            class:list={['region-link', 'field-place-link', { active: currentRegionSlug === place.primaryRegion?.slug }]}
+          >
             <span>{place.title}</span>
             <span class="region-link-count">{place.count}</span>
-          </a>
-        ))}
-      </div>
-    </details>
-
-    <details class="region-subgroup" open>
-      <summary>靈格分區</summary>
-      <div class="region-link-list">
-        {regionCounts.map((region) => (
-          <a href={`/taiwan-spirit-blog/regions/${region.slug}`} class="region-link">
-            <span>{region.shortTitle}</span>
-            <span class="region-link-count">{region.count}</span>
           </a>
         ))}
       </div>
@@ -240,6 +272,18 @@ const fieldNoteLinks = fieldNotePlaces.map((place) => {
     font-size: 0.84rem;
     margin-bottom: 0.4rem;
   }
+  .region-subgroup summary span,
+  .region-subgroup summary small {
+    display: block;
+  }
+  .region-subgroup summary small {
+    color: var(--color-text-muted);
+    font-family: var(--font-cinzel);
+    font-size: 0.62rem;
+    letter-spacing: 1px;
+    margin-top: 0.05rem;
+    text-transform: uppercase;
+  }
   .region-subgroup summary::-webkit-details-marker {
     display: none;
   }
@@ -264,6 +308,11 @@ const fieldNoteLinks = fieldNotePlaces.map((place) => {
   .region-link:hover {
     color: var(--color-gold-bright);
     border-color: rgba(216, 182, 109, 0.32);
+  }
+  .region-link.active {
+    color: var(--color-gold-bright);
+    border-color: rgba(216, 182, 109, 0.42);
+    background-color: rgba(216, 182, 109, 0.12);
   }
   .field-place-link {
     background-color: rgba(216, 182, 109, 0.08);

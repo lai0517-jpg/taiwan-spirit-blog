@@ -62,6 +62,12 @@ const orderedThemes = Object.keys(groupedPosts).sort((a, b) => {
     <div class="county-list">
       {region.counties.map((county) => <span>{county}</span>)}
     </div>
+    <div class="place-label-block" aria-label="縣市與地方標示">
+      <strong>地名標示｜Places</strong>
+      <div class="place-label-list">
+        {region.placeLabels.map((place) => <span>{place}</span>)}
+      </div>
+    </div>
   </header>
 
   <nav class="theme-jump" aria-label="地區內類別快選">
@@ -234,6 +240,29 @@ const orderedThemes = Object.keys(groupedPosts).sort((a, b) => {
     border-radius: 2px;
     color: var(--color-text-muted);
     background-color: rgba(216, 182, 109, 0.04);
+    padding: 0.12rem 0.45rem;
+    font-size: 0.78rem;
+  }
+  .place-label-block {
+    margin-top: 1rem;
+  }
+  .place-label-block strong {
+    color: var(--color-gold);
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+  }
+  .place-label-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+  .place-label-list span {
+    border: 1px solid rgba(120, 158, 145, 0.24);
+    border-radius: 2px;
+    color: var(--color-text);
+    background-color: rgba(120, 158, 145, 0.08);
     padding: 0.12rem 0.45rem;
     font-size: 0.78rem;
   }

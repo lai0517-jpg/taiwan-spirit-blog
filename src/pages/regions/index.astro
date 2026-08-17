@@ -83,6 +83,12 @@ const groupedRegionCards = taiwanRegionGroups.map((group) => ({
               <div class="county-list">
                 {region.counties.slice(0, 6).map((county) => <span>{county}</span>)}
               </div>
+              <div class="place-label-block" aria-label="縣市與地方標示">
+                <strong>地名標示｜Places</strong>
+                <div class="place-label-list">
+                  {region.placeLabels.map((place) => <span>{place}</span>)}
+                </div>
+              </div>
               {region.fieldNotes.length > 0 && (
                 <div class="field-note-list">
                   {region.fieldNotes.map((place) => (
@@ -269,6 +275,21 @@ const groupedRegionCards = taiwanRegionGroups.map((group) => ({
   .county-list {
     margin-top: 1rem;
   }
+  .place-label-block {
+    margin-top: 0.85rem;
+  }
+  .place-label-block strong {
+    color: var(--color-gold);
+    display: block;
+    font-size: 0.76rem;
+    font-weight: 500;
+    margin-bottom: 0.35rem;
+  }
+  .place-label-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.32rem;
+  }
   .field-note-list {
     margin-top: 0.75rem;
   }
@@ -297,6 +318,14 @@ const groupedRegionCards = taiwanRegionGroups.map((group) => ({
   .story-focus-list span {
     color: var(--color-text);
     background-color: rgba(216, 182, 109, 0.06);
+  }
+  .place-label-list span {
+    border: 1px solid rgba(120, 158, 145, 0.24);
+    border-radius: 2px;
+    color: var(--color-text);
+    background-color: rgba(120, 158, 145, 0.08);
+    padding: 0.12rem 0.4rem;
+    font-size: 0.74rem;
   }
   .reference-section {
     margin-top: 2rem;

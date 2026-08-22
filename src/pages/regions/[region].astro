@@ -47,6 +47,13 @@ const orderedThemes = Object.keys(groupedPosts).sort((a, b) => {
   const order = ['temples', 'monsters', 'fuzhe', 'plants', 'talismans'];
   return order.indexOf(a) - order.indexOf(b);
 });
+
+const getFieldPlaceShortTitle = (title: string) => {
+  if (title.endsWith('市') || title.endsWith('縣') || title.endsWith('縣市')) {
+    return title;
+  }
+  return title.replace(/^(苗栗|新北)/, '');
+};
 ---
 
 <BlogLayout title={region.title}>
@@ -75,7 +82,7 @@ const orderedThemes = Object.keys(groupedPosts).sort((a, b) => {
     {fieldNotes.length > 0 && <a href="#field-notes">田野資料 {fieldNotes.length}</a>}
     {fieldNotes.flatMap((place) =>
       place.sections.map((section, index) => (
-        <a href={`#field-${place.slug}-${index}`}>{place.title.replace(/^(苗栗|新北)/, '')}・{section.title}</a>
+        <a href={`#field-${place.slug}-${index}`}>{getFieldPlaceShortTitle(place.title)}・{section.title}</a>
       ))
     )}
     {orderedThemes.map((theme) => (
